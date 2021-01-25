@@ -1,4 +1,5 @@
 import React from 'react';
+import Banner from './Components/Banner/Banner';
 import NavBar from './Components/NavBar/NavBar';
 import TopHeader from './Components/TopHeader/TopHeader';
 
@@ -9,6 +10,7 @@ class App extends React.Component{
             <div>
                 <TopHeader />
                 <NavBar />
+                <Banner />
             </div>
         )
     }
