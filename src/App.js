@@ -1,10 +1,13 @@
 import React from 'react';
+import TopHeader from './Components/TopHeader/TopHeader';
 
 
 class App extends React.Component{
     render(){
         return(
-            <h1>Scuudu Website</h1>
+            <div>
+                <TopHeader />
+            </div>
         )
     }
 }
