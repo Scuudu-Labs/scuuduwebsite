@@ -12,6 +12,23 @@
     padding: 20px;
     margin: 3px;
 }
+#servicesCard:hover{
+    background-color: #00AF32;
+    color: #ffffff !important;
+    cursor: pointer;
+}
+
+#servicesCard:hover h1{
+    color: #ffffff;
+}
+
+#servicesCard:hover p{
+    color: #ffffff;
+}
+
+#servicesCard:hover span{
+    color: #ffffff;
+}
 
 #servicesCard h1{
     font-size: 20px;

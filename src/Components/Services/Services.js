@@ -6,9 +6,9 @@ import software from "../../assets/icons/software.svg";
 import contentCreation from "../../assets/icons/content-creation.svg";
 import productDesign from "../../assets/icons/product-design.svg";
 import research from "../../assets/icons/research.svg";
-import game from '../../assets/icons/game.svg';
-import webdev from '../../assets/icons/webdev.svg';
-import branding from '../../assets/icons/branding.svg';
+import game from "../../assets/icons/game.svg";
+import webdev from "../../assets/icons/webdev.svg";
+import branding from "../../assets/icons/branding.svg";
 import "./Services.css";
 
 class Services extends React.Component {
