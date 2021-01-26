@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Montserrat&display=swap');
+
+#subscribe-container{
+    height: 45vh;
+    width: 100%;
+    background-color: #333333;
+    display:flex;
+    align-items: center;
+}
+
+#subscribe-bold-text{
+    color: #ffffff;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#subscribe-bold-text > h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    
+}
+
+.subscribe-text{
+    width: 50%;
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    height: 70%;
+}
+
+.subscribe-text > p{
+    font-size: 14px;
+    color: #ffffff;
+    font-family: 'Comfortaa', cursive;
+    /* border: 1px solid green; */
+    width: 70%;
+    line-height: 150%;
+    padding: 20px 0px;
+}
+
+.subscribe-text > form{
+    padding: 20px 0px   ;
+    margin: 20px 0px;
+    width: 70%;
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.subscribe-text > form > #email{
+    padding: 10px 5px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid #C3C1C1 !important;
+    color: #C3C1C1;
+    width: 300px;
+}
+
+.subscribe-text > form > #email::placeholder{
+    font-size: 14px;
+}
+
+.subscribe-text > form > #email:focus{
+    outline: none;
+}
+
+.subscribe-text > form > #submit{
+    color: #ffffff;
+    border: none;
+    background-color: #00AF32;
+    border-radius: 2px;
+    font-family: 'Comfortaa', cursive;
+    width: 150px;
+}
+
