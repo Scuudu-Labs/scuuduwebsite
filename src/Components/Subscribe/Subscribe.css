@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Montserrat&display=swap');
 
 #subscribe-container{
     height: 45vh;
-    width: 100%;
+    width: 100vw;
     background-color: #333333;
     display:flex;
     align-items: center;

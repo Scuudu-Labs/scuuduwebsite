@@ -2,6 +2,7 @@ import React from 'react';
 import Banner from './Components/Banner/Banner';
 import ClientAndPatners from './Components/ClientsAndPatners/ClientAndPatners';
 import ContactUs from './Components/ContactUs/ContactUs';
+import Footer from './Components/Footer/Footer';
 import NavBar from './Components/NavBar/NavBar';
 import Services from './Components/Services/Services';
 import Subscribe from './Components/Subscribe/Subcribe';
@@ -11,7 +12,7 @@ import TopHeader from './Components/TopHeader/TopHeader';
 class App extends React.Component{
     render(){
         return(
-            <div>
+            <div style={{ width: '100vw' }}>
                 <TopHeader />
                 <NavBar />
                 <Banner />
@@ -19,6 +20,7 @@ class App extends React.Component{
                 <ContactUs />
                 <ClientAndPatners />
                 <Subscribe />
+                <Footer />
             </div>
         )
     }
