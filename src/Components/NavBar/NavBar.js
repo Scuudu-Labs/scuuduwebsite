@@ -11,6 +11,7 @@ class NavBar extends React.Component{
                     <img src={Logo} alt='scuudu logo' />
                 </div>
                 <div id="navigation-container">
+                <i class="fas fa-bars"></i>
                     <a href='/'>Products</a>
                     <a href='/'>Services</a>
                     <a href='/'>About Us</a>

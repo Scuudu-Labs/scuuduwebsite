@@ -2,20 +2,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Montserrat&display=swap');
 
 #subscribe-container{
-    height: 45vh;
-    width: 100vw;
+    /* height: 45vh; */
     background-color: #333333;
     display:flex;
+    flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
+    padding: 30px;
 }
 
 #subscribe-bold-text{
-    color: #ffffff;
-    width: 50%;
     height: 50%;
+    width: 500px;
     display: flex;
+    color: #ffffff;
     align-items: center;
     justify-content: center;
+    /* border: 1px solid green; */
+    text-align: center;
 }
 
 #subscribe-bold-text > h1{
@@ -25,12 +29,12 @@
 }
 
 .subscribe-text{
-    width: 50%;
+    width: 500px;
     /* border: 1px solid green; */
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* align-items: center; */
+    align-items: center;
     height: 70%;
 }
 
