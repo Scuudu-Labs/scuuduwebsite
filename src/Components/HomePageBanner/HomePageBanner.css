@@ -1,0 +1,42 @@
+.home-banner-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.home-banner-container > #hashtag{
+    color: #00AF32;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.home-banner-container > #activity{
+    font-size: 72px;
+    font-weight: bold;
+    color: #111111;
+    width: 65%;
+    text-align: center;
+    /* border: 1px solid green; */
+    font-family: 'Montserrat', sans-serif;
+}
+
+.home-banner-container > p{
+    font-family: 'Comfortaa', cursive;
+    width: 597px;
+    font-size: 16px;
+    margin: 30px 0px;
+    line-height: 150%;
+}
+
+.home-banner-container > span{
+    font-family: 'Comfortaa', cursive;
+    background-color: rgba(0, 175, 50, 0.1);
+    width: 425px;
+    font-weight: regular;
+    color: #111111;
+    padding: 10px
+}

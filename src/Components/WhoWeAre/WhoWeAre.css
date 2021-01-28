@@ -1,0 +1,40 @@
+#who-we-are{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* width: 100vw; */
+    /* padding: 50px 0px; */
+}
+
+#who-we-are > h1{
+    color: #333333;
+    font-size: 48px;
+}
+
+#who-we-are  > p{
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+    width: 600px;
+    color: #111111;
+    line-height: 150%;
+}
+
+#who-we-are-image-container{
+    /* border: 1px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 50px 90px 50px;
+}
+
+#who-we-are-image-container > div{
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    justify-content: space-between;
+}
+
+#who-we-are-image-container > #center{
+    margin: 100px 50px 0px 50px 
+}

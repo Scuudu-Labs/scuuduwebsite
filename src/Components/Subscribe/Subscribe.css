@@ -9,6 +9,7 @@
     align-items: center;
     justify-content: center;
     padding: 30px;
+    width: 100vw;
 }
 
 #subscribe-bold-text{
@@ -43,7 +44,7 @@
     color: #ffffff;
     font-family: 'Comfortaa', cursive;
     /* border: 1px solid green; */
-    width: 70%;
+    width: 100%;
     line-height: 150%;
     padding: 20px 0px;
 }
@@ -51,7 +52,7 @@
 .subscribe-text > form{
     padding: 20px 0px   ;
     margin: 20px 0px;
-    width: 70%;
+    width: 100%;
     /* border: 1px solid green; */
     display: flex;
     justify-content: space-between;
@@ -83,3 +84,19 @@
     width: 150px;
 }
 
+@media only screen and (max-width: 600px){
+    #subscribe-container{
+        padding: 60px 30px;
+    }
+    .subscribe-text > form{
+        padding: 0px   ;
+        margin: 0px;
+        width: 100%;
+    }
+    .subscribe-text > form > #email{
+        width: 50%;
+    }
+    .subscribe-text > form > #submit{
+        width: 40%;
+    }
+}

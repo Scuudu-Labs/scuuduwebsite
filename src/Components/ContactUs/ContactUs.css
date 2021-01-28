@@ -1,106 +1,115 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
-.contact-us-header{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
+.contact-us-header {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  /* width: 100%; */
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #555555;
+}
+
+.form-container {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid green; */
+  margin-bottom: 20px;
+}
+
+.form-container form {
+  height: 100%;
+  width: 600px;
+  /* border: 1px solid green; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container form input,
+textarea {
+  width: 90%;
+  height: 5%;
+  padding: 15px;
+  margin: 15px;
+  border: none;
+  color: #111111;
+  font-weight: bold;
+  background-color: #00af3269;
+}
+
+.form-container form input:focus,
+textarea:focus {
+  outline: none;
+  /* border: 1px solid #ffffff; */
+  box-shadow: 0 0 10px #00af32;
+}
+
+.form-container form input::placeholder,
+textarea::placeholder {
+  color: rgb(17, 17, 17, 0.5);
+  font-family: "Montserrat", sans-serif;
+}
+
+#contact-us-text-area {
+  height: 50% !important;
+}
+
+#contact-us-form-button {
+  background-color: #00af32;
+  color: white;
+  height: 10%;
+  width: 30%;
+  border: none;
+  border-radius: 2px;
+  align-self: flex-end;
+  /* margin-right: 40px; */
+  font-family: "Montserrat", sans-serif;
+}
+
+#contact-us-form-button:hover {
+  cursor: pointer;
+  color: #00af32;
+  background-color: #ffffff;
+  border: 1px solid #00af32;
+}
+
+@media only screen and (max-width: 600px) {
+  .contact-us-header {
+    height: 20vh;
+  }
+  .contact-us-header {
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
     font-weight: bold;
-    /* width: 100%; */
-    height: 30vh;
+    width: 100%;
+    height: 20vh;
     display: flex;
     align-items: center;
     justify-content: center;
     color: #555555;
-}
-
-.form-container{
-    height: 80vh;
-    /* width: 100%; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
     /* border: 1px solid green; */
+    text-align: center;
+  }
 
-}
+  .form-container {
+    margin-bottom: 15px;
+  }
 
-#inner-div{
-    border: 1px solid green;
-
-}
-
-.form-container form{
-    height: 100%;
-    width: 700px;
-    /* border: 1px solid green; */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.form-container form input, textarea{
+  .form-container form input,
+  textarea {
     width: 80%;
-    height: 5%;
-    padding: 15px;
-    margin: 15px;
-    border: none;
-    color: #111111;
-    font-weight: bold;
-    background-color: #00af3269;
-}
+  }
 
-.form-container form input:focus, textarea:focus{
-    outline: none;
-    /* border: 1px solid #ffffff; */
-    box-shadow: 0 0 10px #00AF32;
-}
-
-.form-container form input::placeholder, textarea::placeholder{
-    color: rgb(17, 17, 17, 0.5);
-    font-family: 'Montserrat', sans-serif;
-}
-
-#contact-us-text-area{
-    height: 50% !important;
-}
-
-#contact-us-form-button{
-    background-color: #00AF32;
-    color: white;
-    height: 10%;
-    width: 30%;
-    border: none;
-    border-radius: 2px;
-    align-self: flex-end;
-    margin-right: 40px;
-    font-family: 'Montserrat', sans-serif;
-}
-
-#contact-us-form-button:hover{
-    cursor: pointer;
-    color: #00AF32;
-    background-color: #ffffff;
-    border: 1px solid #00AF32;
-}
-
-@media only screen and (max-width: 600px){
-    .contact-us-header{
-        font-family: 'Montserrat', sans-serif;
-        font-size: 15px;
-        font-weight: bold;
-        width: 100%;
-        height: 20vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: #555555;
-        /* border: 1px solid green; */
-        text-align: center;
-    }
-
-    #contact-us-form-button{
-        width: 50%;
-        border-radius: 5px;
-        align-self: center;
-        margin-right: 0px;
-    }
+  #contact-us-form-button {
+    width: 50%;
+    border-radius: 5px;
+    align-self: center;
+    margin-right: 0px;
+  }
 }

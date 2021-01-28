@@ -1,19 +1,22 @@
 import React from 'react';
+import logo from './assets/logo.svg'
 import Banner from './Components/Banner/Banner';
-import ContactUs from './Components/ContactUs/ContactUs';
 import Footer from './Components/Footer/Footer';
 import NavBar from './Components/NavBar/NavBar';
 import Services from './Components/Services/Services';
 import Subscribe from './Components/Subscribe/Subcribe';
 import TopHeader from './Components/TopHeader/TopHeader';
+import ContactUs from './Components/ContactUs/ContactUs';
 
 
-class HomePage extends React.Component{
+class ServicesPage extends React.Component{
     render(){
+        
         return(
             <div id='homepage-container'>
+                
                 <TopHeader />
-                <NavBar />
+                <NavBar  logo={logo} />
                 <Banner />
                 <Services />
                 <ContactUs />
@@ -24,4 +27,4 @@ class HomePage extends React.Component{
     }
 }
 
-export default HomePage
+export default ServicesPage

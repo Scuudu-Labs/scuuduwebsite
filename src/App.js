@@ -1,5 +1,6 @@
 import React from 'react';
-import HomePage from './Homepage';
+import HomePage from './HomePage';
+// import ServicesPage from './ServicesPage';
 
 
 
@@ -8,6 +9,7 @@ class App extends React.Component{
         return(
             <div id='app-container'>
                 <HomePage />
+                {/* <ServicesPage /> */}
             </div>
         )
     }

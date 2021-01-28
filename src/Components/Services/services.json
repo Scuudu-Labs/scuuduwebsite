@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name": "Hardware Development",
+        "blackIcon": "/hardware-icon.svg",
+        "whiteIcon": "/public/hardware-white-icon.svg",
+        "description": "The startup which kicked off operations in 2019, dreams to change the Nigerian tech story for good through avant garde technologies.",
+        "tags": ["Embedded Systems ", "IoT ", "3D Printing ", "Robotics"]
+    },
+    {
+        "id": 2,
+        "name": "Deep Technology",
+        "blackIcon": "/deeptechnology-icon.svg",
+        "whiteIcon": "/deeptechnology-icon-white.svg",
+        "description": "The startup which kicked off operations in 2019, dreams to change the Nigerian tech story for good through avant garde technologies.",
+        "tags": ["Artificial Intelligence", "Machine Learning"]
+    },
+    {
+        "id": 3,
+        "name": "Software Development",
+        "blackIcon": "/content-creation-icon.svg",
+        "whiteIcon": "/content-creation-icon-white.svg",
+        "description": "The startup which kicked off operations in 2019, dreams to change the Nigerian tech story for good through avant garde technologies.",
+        "tags": ["Desktop", "Mobile", "Android", "iOS", "Windows", "Mac OS", "Linux"]
+    },
+    {
+        "id": 4,
+        "name": "Content Creation",
+        "blackIcon": "/software-icon.svg",
+        "whiteIcon": "/software-icon-white.svg",
+        "description": "The startup which kicked off operations in 2019, dreams to change the Nigerian tech story for good through avant garde technologies.",
+        "tags": ["Creatives", "Copywriting", "Visual Effects", "3D & 2D  Animation", "Augmented Reality", "Virtual Reality", "Infographics/Illustrations"]
+    },
+    {
+        "id": 5,
+        "name": "Product Design",
+        "blackIcon": "/product-design-icon.svg",
+        "whiteIcon": "/product-design-icon-white.svg",
+        "description": "The startup which kicked off operations in 2019, dreams to change the Nigerian tech story for good through avant garde technologies.",
+        "tags": ["UI Design", "UX Design", "Product Packaging", "Brochures/Slides", "Mockups/Renders", "Circuit Desgin"]
+    },
+    {
+        "id": 6,
+        "name": "Data Analysis, Research & Consultancy",
+        "blackIcon": "/product-research-icon.svg",
+        "whiteIcon": "/product-research-icon-white.svg",
+        "description": "The startup which kicked off operations in 2019, dreams to change the Nigerian tech story for good through avant garde technologies.",
+        "tags": ["Data Analysis", "Tech Research", "Digital Incorporation", "Market Survey"]
+    },
+    {
+        "id": 7,
+        "name": "Game Development",
+        "blackIcon": "/game-icon.svg",
+        "whiteIcon": "/game-icon-white.svg",
+        "description": "The startup which kicked off operations in 2019, dreams to change the Nigerian tech story for good through avant garde technologies.",
+        "tags": ["PC Games", "Mobile Games", "Console Games", "AR & VR Games"]
+    },
+    {
+        "id": 8,
+        "name": "Web Development",
+        "blackIcon": "/webdev-icon.svg",
+        "whiteIcon": "../../assets/icons/webdev-icon-white.svg",
+        "description": "The startup which kicked off operations in 2019, dreams to change the Nigerian tech story for good through avant garde technologies.",
+        "tags": ["Websites", "Web Applications", "APIs"]
+    },
+    {
+        "id": 9,
+        "name": "Branding",
+        "blackIcon": "/branding-icon.svg",
+        "whiteIcon": "/branding-icon-white.svg",
+        "description": "The startup which kicked off operations in 2019, dreams to change the Nigerian tech story for good through avant garde technologies.",
+        "tags": ["Branding", "Logo Design", "Iconography", "Brand Strategy", "Product Naming"]
+    }
+]

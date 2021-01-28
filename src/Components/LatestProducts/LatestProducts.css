@@ -1,0 +1,31 @@
+#latest-home-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+#latest-home-container > h1{
+    font-size: 48px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    color: #333333;
+}
+
+#latest-home-container > p{
+    font-family: 'Comfortaa', cursive;
+    font-size: 16px;
+    font-weight: regular;
+    width: 600px;
+    text-align: center;
+    margin: 30px 0px;
+    line-height: 150%;
+    
+}
+
+#home-cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: center;
+}

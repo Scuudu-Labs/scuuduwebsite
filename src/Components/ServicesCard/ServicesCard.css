@@ -10,12 +10,15 @@
     background-color: white;
     /* border: 1px solid green; */
     padding: 20px;
-    margin: 3px;
+    margin: 10px;
+    box-shadow: rgba(85, 85, 85, 0.5) 5px 5px 5px;
+    border-radius: 4px;
 }
 #servicesCard:hover{
     background-color: #00AF32;
     color: #ffffff !important;
     cursor: pointer;
+    box-shadow: rgba(255, 255, 255, 1) 7px 7px 5px;
 }
 
 #servicesCard:hover h1{
@@ -55,4 +58,14 @@
     font-weight: bolder;
     padding-right: 20px;
     font-family: 'Montserrat', sans-serif;
+}
+
+@media only screen and (max-width: 600px){
+#servicesCard{
+    margin: 10px 0px;
+}
+}
+
+#servicesCard svg{
+    fill: "#fff"
 }
