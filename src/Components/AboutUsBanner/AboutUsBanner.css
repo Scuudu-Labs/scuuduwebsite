@@ -1,0 +1,31 @@
+#aboutUsBanner{
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0px 0px 70px 0px ;
+    /* border: 1px solid green; */
+}
+
+#aboutUsBanner > #greenLogo{
+    height: 73px;
+}
+
+#aboutUsBanner > h1{
+    font-size: 48px;
+    color: #AAAAAA;
+    font-weight: bold;
+    padding: 30px 0px 0px 0px ;
+}
+
+#aboutUsBanner > p{
+    font-family: 'Comfortaa', cursive;
+    font-size: 16px;
+    line-height: 150%;
+    width: 420px;
+    text-align: center;
+    padding: 30px 0px 0px 0px;
+}
