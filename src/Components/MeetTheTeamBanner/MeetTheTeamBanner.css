@@ -1,0 +1,37 @@
+#meet-the-team-banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+}
+
+#meet-the-team-banner > #inner-container{
+    color: #111111;
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* border: 1px solid green; */
+
+}
+
+#meet-the-team-banner > #inner-container > #meet-the-team-text{
+    /* border: 1px solid green; */
+    width: 50%;
+}
+
+#meet-the-team-banner > #inner-container > #meet-the-team-text > h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 72px;
+    font-weight: bold;
+}
+
+#meet-the-team-banner > #inner-container > #meet-the-team-text > h1 > #green{
+    color: #00AF32;
+}
+
+#meet-the-team-banner > #inner-container > #meet-the-team-text > p{
+    font-size: 16px;
+    font-family: 'Comfortaa', cursive;
+}

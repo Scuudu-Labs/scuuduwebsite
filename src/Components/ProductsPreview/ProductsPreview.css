@@ -1,0 +1,18 @@
+#products-card-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid rgb(128, 109, 0); */
+    padding: 50px 0px;
+}
+
+#products-card-inner-container{
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax( 300px, 1fr));
+    /* justify-content: center; */
+    /* align-items: center; */
+    column-gap: 60px;
+    row-gap: 30px;
+    /* border: 1px solid rgb(128, 109, 0); */
+}

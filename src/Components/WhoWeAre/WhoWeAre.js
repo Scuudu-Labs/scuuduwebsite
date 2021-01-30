@@ -1,6 +1,6 @@
 import React from "react";
 import "./WhoWeAre.css";
-import Kaosy from "../../assets/kaosy.png";
+import Kaosy from "../../assets/kaosyWorking.png";
 import Franky from "../../assets/franky-working.png";
 import FrankyWorking from "../../assets/franky-oculus.png";
 import FrankyHand from "../../assets/franky-hand.png";
