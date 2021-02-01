@@ -7,9 +7,18 @@
     font-size: 14px;
     font-family: 'Comfortaa', cursive;
     background-color: white;
+    align-items: center;
+    justify-content: center;
 }
 
-#navbar-container > div{
+#navbar-inner-container {
+    /* border: 1px solid green; */
+    width: 100%;
+    max-width: 1400px;
+    display: flex;
+}
+
+#navbar-container > #navbar-inner-container > div{
     width: 50%;
     /* height: 100%; */
     /* border: 1px solid yellow; */
@@ -44,16 +53,22 @@
     background-color: transparent;
 }
 
+#mobile-nav{
+    height: 90vh;
+    background-color: #ffffff;
+    width: 100%;
+}
+
 /* Responsive */
 
 @media only screen and (max-width: 600px){
 
     #navigation-container > a, button{
-        display: none !important;
+        display: none !important; 
     }
     #logo-container{
         height: 100%;
-        padding-left: 10px !important;
+        padding-left: 30px !important;
     }
     #navigation-container > i{
         color: #555555;

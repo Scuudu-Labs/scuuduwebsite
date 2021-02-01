@@ -17,6 +17,16 @@ i{
     font-size: 20px;
 }
 
+#top-nav-inner-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid green; */
+    width: 100%;
+    height: 100%;
+    max-width: 1400px;
+}
+
 #contact-container, #social-media-container{
     width: 50%;
     height: 100%;
@@ -68,6 +78,7 @@ i{
         font-weight: medium;
         font-size: 0.8750em;
         flex-wrap: wrap;
+        display: none;
     }
     #contact-container, #social-media-container{
         width: 100%;
@@ -96,3 +107,4 @@ i{
         padding: 20px;
     }
   }
+

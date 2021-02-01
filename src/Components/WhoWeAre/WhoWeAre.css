@@ -38,3 +38,31 @@
 #who-we-are-image-container > #center{
     margin: 100px 50px 0px 50px 
 }
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+    #who-we-are-image-container > div{
+        display: flex;
+        flex-direction: column;
+        height: max-content;
+        justify-content: space-evenly;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    #who-we-are-image-container > div > img{
+        padding: 10px;
+    }
+    #who-we-are  > p{
+        width: 90%;
+    }
+
+    #who-we-are-image-container{
+        padding: 0px;
+    }
+
+    #who-we-are-image-container > #center{
+        margin: 0px 0px 0px 0px 
+    }
+    
+}

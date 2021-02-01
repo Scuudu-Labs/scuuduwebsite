@@ -5,6 +5,7 @@ class HomePageBanner extends React.Component {
   render() {
     return (
       <div className="home-banner-container">
+        <div id='inner-container'>
         <h1 id="hashtag">#weAreScuudu</h1>
         <h1 id="activity">
           Scuudu designs & builds awesome digital experiences
@@ -14,6 +15,7 @@ class HomePageBanner extends React.Component {
           Nigerian tech story for good through avant garde technologies.
         </p>
         <span id='trend'>Prevent the spread of Coronavirus. #StayHome.</span>
+        </div>
       </div>
     );
   }

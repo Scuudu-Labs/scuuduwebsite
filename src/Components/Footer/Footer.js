@@ -72,9 +72,11 @@ class Footer extends React.Component{
                     </div>
                 </div>
                 <div id='privacy-policy-container'>
+                    <div id='privacy-polict-wrapper'>
                     <a href='/'>Terms of Service</a>
                     <a href='/'>Privacy Policy</a>
                     <a href='/'>Site Map</a>
+                    </div>
                     <select>
                         <option>English</option>
                         <option>French</option>

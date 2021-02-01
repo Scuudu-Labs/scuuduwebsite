@@ -18,7 +18,7 @@
     {
         "id": 3,
         "name": "Software Development",
-        "blackIcon": "/content-creation-icon.svg",
+        "blackIcon": "/software-icon.svg",
         "whiteIcon": "/content-creation-white-icon.svg",
         "description": "The startup which kicked off operations in 2019, dreams to change the Nigerian tech story for good through avant garde technologies.",
         "tags": ["Desktop", "Mobile", "Android", "iOS", "Windows", "Mac OS", "Linux"]

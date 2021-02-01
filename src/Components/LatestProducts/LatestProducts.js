@@ -6,11 +6,11 @@ import ashCard from '../../assets/ash-rec.png';
 import yelloward from '../../assets/yellow-rec.png';
 import tickAsh from '../../assets/tick-ash-rec.png';
 
-
 class LatestProducts extends React.Component {
   render() {
     return (
       <div id="latest-home-container">
+        <div id='inner-container'>
         <h1>Latest Products</h1>
         <p>
           We are designers, developers, writers, thinkers, and problem solvers.
@@ -22,6 +22,7 @@ class LatestProducts extends React.Component {
         <ProductCard homeImage={ashCard} homeName='Project 2' homeDescription='A short description about the project 1' />
         <ProductCard homeImage={yelloward} homeName='Project 3' homeDescription='A short description about the project 1' />
         <ProductCard homeImage={tickAsh} homeName='Project 4' homeDescription='A short description about the project 1' />
+        </div>
         </div>
       </div>
     );

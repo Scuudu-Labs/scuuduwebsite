@@ -2,17 +2,30 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 50px;
+    justify-content: center;
+    padding: 50px 0px;
+    /* border: 1px solid green; */
 }
 
-#latest-home-container > h1{
+
+#latest-home-container > #inner-container{
+    /* border: 1px solid green; */
+    max-width: 1400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+#latest-home-container > #inner-container > h1{
     font-size: 48px;
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
     color: #333333;
 }
 
-#latest-home-container > p{
+#latest-home-container > #inner-container > p{
     font-family: 'Comfortaa', cursive;
     font-size: 16px;
     font-weight: regular;
@@ -20,12 +33,27 @@
     text-align: center;
     margin: 30px 0px;
     line-height: 150%;
-    
+    /* border: 1px solid green; */
 }
 
-#home-cards-container{
+#latest-home-container > #inner-container > #home-cards-container{
     display: flex;
     flex-wrap: wrap;
     width: 80%;
     justify-content: center;
 }
+
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 600px) {
+    #latest-home-container > #inner-container > p{
+        width: 90%;
+    }
+
+    #latest-home-container > #inner-container > h1{
+        width: 100%;
+        font-size: 40px;
+        /* border: 1px solid green; */
+        text-align: center;
+    }
+  }

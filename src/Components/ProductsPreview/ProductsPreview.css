@@ -7,7 +7,7 @@
 }
 
 #products-card-inner-container{
-    width: 70%;
+    max-width: 1100px;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax( 300px, 1fr));
     /* justify-content: center; */

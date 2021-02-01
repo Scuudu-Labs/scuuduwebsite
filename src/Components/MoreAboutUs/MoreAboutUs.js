@@ -5,6 +5,7 @@ class MoreAboutUs extends React.Component {
   render() {
     return (
       <div id='more-about-us-container'>
+        <div id='inner-container'>
         <div>
           <h1>Who We Are</h1>
           <p>
@@ -37,6 +38,7 @@ class MoreAboutUs extends React.Component {
             role models for our community. We want African children to believe
             that their dreams are valid.{" "}
           </p>
+        </div>
         </div>
       </div>
     );

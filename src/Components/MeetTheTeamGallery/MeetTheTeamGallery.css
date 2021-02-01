@@ -9,12 +9,13 @@
 
 #meet-the-team-gallery-inner-container{
     /* border: 1px solid green; */
-    width: 70%;
+    width: 100%;
     height: max-content;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    max-width: 1100px;
 }
 
 #team-member-card{
