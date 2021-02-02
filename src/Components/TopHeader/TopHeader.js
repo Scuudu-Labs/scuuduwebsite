@@ -8,8 +8,10 @@ class TopHeader extends React.Component {
         <div id="top-nav-inner-container">
           <div id="contact-container">
             <div id="top-header-email">
+              <a href='mailto:hello@scuudu.com'>
               <i className="fas fa-envelope"></i>
               {"hello@scuudu.com"}
+              </a>
             </div>
             <div id="top-header-phone">
               <i className="fas fa-phone-alt"></i>

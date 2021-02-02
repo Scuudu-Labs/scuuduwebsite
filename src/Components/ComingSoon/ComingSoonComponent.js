@@ -10,7 +10,9 @@ class ComingSoon extends React.Component {
       <div className="coming-soon-container">
         <div className="bigWrapper">
           <div className="logoContainer">
-            <img src={transparentLogo} />
+          <Link to="/">
+          <img src={transparentLogo} />
+            </Link>
           </div>
           <div className="coming-soon-inner-container">
             <h1>Swift!</h1>

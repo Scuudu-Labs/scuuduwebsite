@@ -10,7 +10,9 @@ class PageNotFound extends React.Component {
       <div className="page-not-found-container">
         <div className='bigWrapper'>
         <div className='logoContainer'>
+        <Link to="/">
           <img src={transparentLogo} />
+            </Link>
         </div>
         <div className='page-not-found-inner-container'>
           <h1>oops!</h1>

@@ -81,7 +81,7 @@
 .foooter{
     justify-self: flex-end;
     position: absolute;
-    bottom: 0px;
+    bottom: -20px;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -91,4 +91,5 @@
     color: #FFFFFF;
     /* width: 20rem; */
     /* padding: 20px; */
+    margin: 0px;
 }
