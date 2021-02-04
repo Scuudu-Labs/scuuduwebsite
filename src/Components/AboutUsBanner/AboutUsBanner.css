@@ -42,3 +42,9 @@
     text-align: center;
     padding: 30px 0px 0px 0px;
 }
+
+@media only screen and (max-width: 600px){
+    #aboutUsBanner > #inner-container > p{
+        width: 80%;
+    }
+}

@@ -3,7 +3,7 @@
 
 .patners-container{
     width: 100vw;
-    height: 45vh;
+    /* height: 45vh; */
     background-color: #ffffff;
     font-family: 'Montserrat', sans-serif;
     color: #555555;
@@ -17,6 +17,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 20px 0px;
 }
 
 .patners-header h1{
@@ -31,8 +32,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 #patners-logo-container img{
     margin: 0px 60px;
+    padding: 30px 0px;
 }

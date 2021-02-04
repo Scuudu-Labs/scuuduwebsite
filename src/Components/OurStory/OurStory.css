@@ -40,3 +40,16 @@
 #our-story-image-galley > #center{
     margin: 100px 50px 0px 50px 
 }
+
+@media only screen and (max-width: 600px){
+    #our-story-container >p{
+        width: 85%;
+        padding: 10px;
+    }
+    #our-story-image-galley{
+        padding: 20px;
+    }
+    #our-story-image-galley > div{
+        height: 600px;
+    }
+}

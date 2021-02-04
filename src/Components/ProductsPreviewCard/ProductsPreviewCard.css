@@ -1,6 +1,7 @@
 #product-preview-card-container{
     width: min-content;
     height: min-content;
+    justify-self: center;
     /* border: 1px solid green;     */
     
 }
