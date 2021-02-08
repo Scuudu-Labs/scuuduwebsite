@@ -25,6 +25,7 @@ class NavBar extends React.Component {
   openMobileNav = () => {
     this.setState({
       barDisplay: "none",
+      navbar: "none",
       timesDisplay: "block",
       mobileNavDisplay: "flex",
     });
@@ -34,13 +35,14 @@ class NavBar extends React.Component {
     this.setState({
       barDisplay: "block",
       timesDisplay: "none",
+      navbar: "flex",
       mobileNavDisplay: "none",
     });
   };
   render() {
     return (
       <Fragment>
-              <div id="navbar-container">
+        <div id="navbar-container" style={{ display: this.state.navbar }}>
           <div id="navbar-inner-container">
             <div id="logo-container">
               <Link onClick={() => this.changeLogo("/logo.svg")} to="/">
@@ -93,28 +95,70 @@ class NavBar extends React.Component {
         <div style={{ display: this.state.mobileNavDisplay }} id="mobile-nav">
           <div id="mobile-navigation-container">
             <div id="mobile-nav-inner-container">
-              <Link to="/Products" onClick={() => this.changeLogo("/logo.svg")}>
+                <div style={{
+                  width: "100%",
+                  fontSize: "30px",
+                  display: "flex",
+                  alignItems: "center",
+                  padding: "0px 0px 30px 0px",
+                  justifyContent: "space-between"
+                }}>
+                <div id="logo-container" style={{
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  padding: "0px 10px 0px 0px"
+                }}>
+              <Link onClick={() => this.changeLogo("/logo.svg")} to="/" style={{
+                display: "flex"
+              }}>
+                <img src={this.props.logo ? textLogo : logo} alt="scuudu logo" />
+              </Link>
+            </div>
+                <div id="logo-container" style={{
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  padding: "0px 20px 0px 0px"
+                }}>
+                <i
+                style={{ display: this.state.barDisplay}}
+                className="fas fa-bars"
+                onClick={() => {
+                  this.openMobileNav();
+                }}
+              ></i>
+              <i
+                style={{ display: this.state.timesDisplay, fontSize: "40px", color: "#555555" }}
+                className="fas fa-times"
+                onClick={() => {
+                  this.closeMobileNav();
+                }}
+              ></i>
+                </div>
+                </div>
+              <Link to="/Products" onClick={() => {this.changeLogo("/logo.svg"); this.closeMobileNav()}}>
                 Products
               </Link>
               <Link
                 to="/ServicePage"
-                onClick={() => this.changeLogo("/logo.svg")}
+                onClick={() => {this.changeLogo("/logo.svg"); this.closeMobileNav()}}
               >
                 Services
               </Link>
               <Link
                 to="/AboutUs"
-                onClick={() => this.changeLogo("/text-logo.svg")}
+                onClick={() => {this.changeLogo("/text-logo.svg"); this.closeMobileNav()}}
               >
                 About Us
               </Link>
               <Link
                 to="/MeetTheTeam"
-                onClick={() => this.changeLogo("/text-logo.svg")}
+                onClick={() => {this.changeLogo("/text-logo.svg"); this.closeMobileNav()}}
               >
                 Meet The Team
               </Link>
-              <Link to="/Store" onClick={() => this.changeLogo("/logo.svg")}>
+              <Link to="/Store" onClick={() => {this.changeLogo("/logo.svg"); this.closeMobileNav()}}>
                 Store
               </Link>
               <Link to='/Services/ContactUs' id='button'>Start a Project</Link>

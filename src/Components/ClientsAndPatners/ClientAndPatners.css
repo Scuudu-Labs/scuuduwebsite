@@ -17,12 +17,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px 0px;
+    padding: 40px 0px 0px;
+    text-align: center;
 }
 
 .patners-header h1{
     font-size: 24px;
     font-weight: 900;
+    margin: 10px;
 }
 
 #patners-logo-container{
@@ -36,6 +38,6 @@
 }
 
 #patners-logo-container img{
-    margin: 0px 60px;
-    padding: 30px 0px;
+    margin: 15px 60px;
+    padding: 20px 0px;
 }

@@ -27,10 +27,12 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 48px;
     font-weight: bold;
+    margin: 70px 0px 0px;
 }
 
 #more-about-us-container > #inner-container > div > p{
     font-family: 'Comfortaa', cursive;
     font-size: 16px;
     line-height: 150%;
+    margin: 10px 0px;
 }

@@ -3,6 +3,7 @@
     align-items: center;
     justify-content: center;
     background-color: #ffffff;
+    /* padding-top: 100px; */
 }
 
 #meet-the-team-banner > #inner-container{
@@ -40,6 +41,9 @@
 
 
 @media only screen and (max-width: 760px){
+    #meet-the-team-banner{
+        margin-top: 100px;
+    }
     #meet-the-team-banner > #inner-container > #meet-the-team-text{
         /* border: 1px solid green; */
         width: 90%;

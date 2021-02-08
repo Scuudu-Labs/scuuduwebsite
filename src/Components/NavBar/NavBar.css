@@ -9,6 +9,8 @@
     background-color: white;
     align-items: center;
     justify-content: center;
+    position: fixed;
+    top: 40px;
 }
 
 #navbar-inner-container {
@@ -25,7 +27,7 @@
     /* border: 1px solid yellow; */
     display: flex;
     align-items: center;
-    padding-right: 50px;
+    padding-right: 10px;
 }
 
 #navigation-container{
@@ -55,12 +57,15 @@
 }
 
 #mobile-nav{
-    height: 80vh;
     background-color: #ffffff;
     width: 100%;
     display: flex;
     /* align-items: center; */
     justify-content: center;
+    padding-top: 20px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
 }
 
 #mobile-navigation-container{
@@ -106,13 +111,16 @@
 /* Responsive */
 
 @media only screen and (max-width: 830px){
+    #navbar-container{
+        top: 0px;
+    }
 
     #navigation-container > a, #button{
         display: none; 
     }
     #logo-container{
         height: 100%;
-        padding-left: 30px !important;
+        padding-left: 0px !important;
     }
     #navigation-container > i{
         color: #555555;

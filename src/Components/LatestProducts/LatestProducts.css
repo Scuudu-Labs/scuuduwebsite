@@ -39,7 +39,7 @@
 #latest-home-container > #inner-container > #home-cards-container{
     display: flex;
     flex-wrap: wrap;
-    width: 80%;
+    width: 90%;
     justify-content: center;
 }
 
