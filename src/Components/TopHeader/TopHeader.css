@@ -9,13 +9,13 @@
     justify-content: center;
     color: #555555;
     font-weight: medium;
-    font-size: 1vw;
+    font-size: 13px;
     position: fixed;
     height: 40px;
 }
 
 i{
-    font-size: 1.2vw;
+    font-size: 16.13px;
 }
 
 #top-nav-inner-container{
@@ -77,14 +77,18 @@ i{
 
 /* Responsive */
 
+@media only screen and (min-width: 600px){
+
+}
+
 @media only screen and (max-width: 600px) {
     #top-nav-inner-container{
         width: 100%;
+        display: none;
     }
     #top-header-container{
         font-size: 0.8750em;
         flex-wrap: wrap;
-        display: none;
     }
     i{
         font-size: 2vw;
