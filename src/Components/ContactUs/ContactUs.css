@@ -33,7 +33,7 @@
 
 .form-container form input,
 textarea {
-  width: 100%;
+  width: 400px;
   height: 3em;
   padding: 15px;
   margin: 15px 0px;
@@ -103,7 +103,7 @@ textarea::placeholder {
 
   .form-container form input,
   textarea {
-    width: 80%;
+    width: 300px;
   }
 
   #contact-us-form-button {

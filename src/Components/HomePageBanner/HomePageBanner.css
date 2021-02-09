@@ -6,7 +6,7 @@
     justify-content: center;
     text-align: center;
     /* border: 1px solid green; */
-
+    
 }
 
 .home-banner-container > #inner-container {
@@ -17,6 +17,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 200px;
 }
 
 .home-banner-container > #inner-container > #hashtag{

@@ -9,13 +9,13 @@
     {
         "id": 1,
         "name": "Origins: Tales of Eri",
-        "image": "/Product2.png",
+        "image": "/Product3.png",
         "description": "Game Development, UI/UX Design, Virtual Reality"
     },
     {
         "id": 1,
         "name": "Origins: Tales of Eri",
-        "image": "/Product3.png",
+        "image": "/Product2.png",
         "description": "Game Development, UI/UX Design, Virtual Reality"
     },
     {
@@ -33,7 +33,7 @@
     {
         "id": 1,
         "name": "Origins: Tales of Eri",
-        "image": "/Product6.png",
+        "image": "/Product3.png",
         "description": "Game Development, UI/UX Design, Virtual Reality"
     },
     {
@@ -52,12 +52,6 @@
         "id": 1,
         "name": "Origins: Tales of Eri",
         "image": "/Product9.png",
-        "description": "Game Development, UI/UX Design, Virtual Reality"
-    },
-    {
-        "id": 1,
-        "name": "Origins: Tales of Eri",
-        "image": "/Product5.png",
         "description": "Game Development, UI/UX Design, Virtual Reality"
     }
 ]

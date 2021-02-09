@@ -64,6 +64,12 @@ class NavBar extends React.Component {
                   this.closeMobileNav();
                 }}
               ></i>
+              <Link
+                to="/AboutUs"
+                onClick={() => this.changeLogo("/text-logo.svg")}
+              >
+                About Us
+              </Link>
               <Link to="/Products" onClick={() => this.changeLogo("/logo.svg")}>
                 Products
               </Link>
@@ -72,12 +78,6 @@ class NavBar extends React.Component {
                 onClick={() => this.changeLogo("/logo.svg")}
               >
                 Services
-              </Link>
-              <Link
-                to="/AboutUs"
-                onClick={() => this.changeLogo("/text-logo.svg")}
-              >
-                About Us
               </Link>
               <Link
                 to="/MeetTheTeam"
@@ -137,6 +137,12 @@ class NavBar extends React.Component {
               ></i>
                 </div>
                 </div>
+              <Link
+                to="/AboutUs"
+                onClick={() => {this.changeLogo("/text-logo.svg"); this.closeMobileNav()}}
+              >
+                About Us
+              </Link>
               <Link to="/Products" onClick={() => {this.changeLogo("/logo.svg"); this.closeMobileNav()}}>
                 Products
               </Link>
@@ -145,12 +151,6 @@ class NavBar extends React.Component {
                 onClick={() => {this.changeLogo("/logo.svg"); this.closeMobileNav()}}
               >
                 Services
-              </Link>
-              <Link
-                to="/AboutUs"
-                onClick={() => {this.changeLogo("/text-logo.svg"); this.closeMobileNav()}}
-              >
-                About Us
               </Link>
               <Link
                 to="/MeetTheTeam"

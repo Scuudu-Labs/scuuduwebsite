@@ -41,7 +41,12 @@ i{
     width: max-content;
 }
 
-#contact-container > div{
+#contact-container > a{
+    text-decoration: none;
+    color: #555555;
+}
+
+#contact-container > a div{
     /* width: 35%; */
     padding: 0px 10px 0px 50px;
 }
@@ -50,7 +55,7 @@ i{
     padding-left: 0px !important;
 }
 
-#contact-container > div > i{
+#contact-container > a div > i{
     padding: 0px 10px;
 }
 
@@ -61,7 +66,12 @@ i{
     padding-right: 25px;
 }
 
-#social-media-container > i{
+#social-media-container > a{
+    color: #555555;
+    text-decoration: none;
+}
+
+#social-media-container > a > i{
     padding: 10px 20px;
 }
 
