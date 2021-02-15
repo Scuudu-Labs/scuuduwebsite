@@ -6,6 +6,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  /* border: 1px solid green; */
 }
 .contact-us-header {
   font-family: "Montserrat", sans-serif;
@@ -17,18 +18,23 @@
   align-items: center;
   justify-content: center;
   color: #555555;
+  /* border: 1px solid green; */
 }
 
 .form-container {
+  /* border: 1px solid green; */
   height: max-content;
-  display: flex;
-  /* align-items: center; */
-  justify-content: center;
-  /* border: 1px solid rgb(0, 45, 128); */
   margin-bottom: 20px;
-  width: 40%;
+  width: max-content;
 }
 
+.form-container form{
+  /* border: 1px solid green; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: max-content;
+}
 
 
 .form-container form input,
@@ -47,7 +53,7 @@ textarea {
 textarea:focus {
   outline: none;
   /* border: 1px solid #ffffff; */
-  box-shadow: 0 0 10px #00af32;
+  /* box-shadow: 0 0 10px #00af32; */
 }
 
 .form-container form input::placeholder,
@@ -68,7 +74,7 @@ textarea::placeholder {
   border: none;
   border-radius: 2px;
   align-self: flex-end;
-  margin-right: 0px;
+  /* margin-right: 0px; */
   font-family: "Montserrat", sans-serif;
 }
 

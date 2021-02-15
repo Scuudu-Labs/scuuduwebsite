@@ -40,7 +40,7 @@ class App extends React.Component {
       <BrowserRouter>
         <Switch>
         <Route path='/' exact component={HomePage} />
-          <Route path='/ServicePage' component={ServicesPage} />
+          <Route path='/Services' component={ServicesPage} />
           <Route path='/AboutUs' component={AboutUs} />
           <Route path='/Products' component={Products} />
           <Route path='/MeetTheTeam' component={ MeetTheTeam } />

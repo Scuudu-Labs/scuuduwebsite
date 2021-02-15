@@ -6,7 +6,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-evenly;  
     background-color: white;
     /* border: 1px solid green; */
     padding: 20px;
@@ -17,7 +17,6 @@
 #servicesCard:hover{
     background-color: #00AF32;
     color: #ffffff !important;
-    cursor: pointer;
     box-shadow: rgba(255, 255, 255, 1) 7px 7px 5px;
 }
 

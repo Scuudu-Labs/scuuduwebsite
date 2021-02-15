@@ -11,16 +11,16 @@ class Footer extends React.Component{
                         <ul>
                             <li>Company</li>
                             <li>
-                                <a href='/'>Services</a>
+                                <a href='/Services'>Services</a>
                             </li>
                             <li>
-                                <a href='/'>Product</a>
+                                <a href='/Products'>Product</a>
                             </li>
                             <li>
-                                <a href='/'>News</a>
+                                <a href='/news'>News</a>
                             </li>
                             <li>
-                                <a href='/'>Career</a>
+                                <a href='/career'>Career</a>
                             </li>
                         </ul>
                     </div>
@@ -28,16 +28,16 @@ class Footer extends React.Component{
                         <ul>
                             <li>Support</li>
                             <li>
-                                <a href='/'>FAQs</a>
+                                <a href='/FAQ'>FAQs</a>
                             </li>
                             <li>
-                                <a href='/'>Downloads</a>
+                                <a href='/Download'>Downloads</a>
                             </li>
                             <li>
-                                <a href='/'>Resources</a>
+                                <a href='/Resources'>Resources</a>
                             </li>
                             <li>
-                                <a href='/'>Help</a>
+                                <a href='/Help'>Help</a>
                             </li>
                         </ul>
                     </div>
@@ -45,16 +45,13 @@ class Footer extends React.Component{
                         <ul>
                             <li>Follow</li>
                             <li>
-                                <a href='/'>Facebook</a>
-                            </li>
+                            <a href="https://www.facebook.com/scuudu">FaceBook</a>                            </li>
                             <li>
-                                <a href='/'>Instagram</a>
-                            </li>
+                            <a href="hhtps://www.twitter.com/scuudu1">Twitter</a>                            </li>
                             <li>
-                                <a href='/'>Twitter</a>
-                            </li>
+                            <a href="https://www.youtube.com/">Youtube</a>                            </li>
                             <li>
-                                <a href='/'>LinkeIn</a>
+                            <a href="https://www.instagram.com/scuudu">Instagram</a>
                             </li>
                         </ul>
                     </div>
@@ -63,10 +60,13 @@ class Footer extends React.Component{
                         <ul>
                             <li>Contact Us</li>
                             <li>
-                                <a href='/'>info@scuudu.com</a>
+                                <a href="mailt:hello@scuudu.com">info@scuudu.com</a>
                             </li>
                             <li>
-                                <a href='/'>+234 (0)812 345 6789</a>
+                                <a href="tel:+234 (0)812 3456 789">+234 (0)812 345 6789</a>
+                            </li>
+                            <li>
+                            <a href="https://www.instagram.com/scuudu">LinkedIn</a>
                             </li>
                         </ul>
                     </div>

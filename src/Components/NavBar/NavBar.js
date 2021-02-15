@@ -74,7 +74,7 @@ class NavBar extends React.Component {
                 Products
               </Link>
               <Link
-                to="/ServicePage"
+                to="/Services"
                 onClick={() => this.changeLogo("/logo.svg")}
               >
                 Services
