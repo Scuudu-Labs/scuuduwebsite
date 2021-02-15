@@ -63,7 +63,8 @@ i{
     display: flex;
     justify-content: flex-end;
     justify-self: flex-end;
-    padding-right: 25px;
+    /* padding-right: 25px; */
+    /* border: 1px solid green; */
 }
 
 #social-media-container > a{
