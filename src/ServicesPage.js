@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './assets/logo.svg'
 import Banner from './Components/Banner/Banner';
 import Services from './Components/Services/Services';
 import Subscribe from './Components/Subscribe/Subcribe';

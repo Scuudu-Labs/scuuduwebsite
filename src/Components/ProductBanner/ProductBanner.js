@@ -7,7 +7,7 @@ class ProductBanner extends React.Component {
     return (
       <div id="product-banner-container">
         <div id="inner-container">
-          <img src={productBox} />
+          <img src={productBox} alt="" />
           <h1>Featured Projects</h1>
           <p>
             We have been working on a variety of projects and across different

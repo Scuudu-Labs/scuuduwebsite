@@ -11,7 +11,7 @@ class ComingSoon extends React.Component {
         <div className="bigWrapper">
           <div className="logoContainer">
           <Link to="/">
-          <img src={transparentLogo} />
+          <img src={transparentLogo} alt="" />
             </Link>
           </div>
           <div className="coming-soon-inner-container">

@@ -15,16 +15,16 @@ class WhoWeAre extends React.Component {
         <p>{this.props.description}</p>
         <div id="who-we-are-image-container">
           <div>
-            <img src={Kaosy} />
-            <img src={Franky} />
+            <img src={Kaosy} alt="" />
+            <img src={Franky} alt="" />
           </div>
           <div id="center">
-            <img src={FrankyWorking} />
-            <img src={FrankyHand} />
+            <img src={FrankyWorking} alt="" />
+            <img src={FrankyHand} alt="" />
           </div>
           <div>
-            <img src={Emeka} />
-            <img src={WorkSpace} />
+            <img src={Emeka} alt="" />
+            <img src={WorkSpace} alt="" />
           </div>
         </div>
       </div>

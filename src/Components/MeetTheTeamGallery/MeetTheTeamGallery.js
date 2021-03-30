@@ -1,5 +1,4 @@
 import React from "react";
-import MeetTheTeam from "../../MeetTheTeam";
 import "./MeetTheTeamGallery.css";
 import frank from "../../assets/frank.png";
 import kaosy from "../../assets/kaosy.png";
@@ -16,7 +15,7 @@ class MeetTheTeamGallery extends React.Component {
 
 
           <div id="team-member-card">
-            <img src={frank} />
+            <img src={frank} alt="" />
             <h1 id="name">
               <span id="firstName">Franklin</span> Osondu
             </h1>
@@ -28,7 +27,7 @@ class MeetTheTeamGallery extends React.Component {
           </div>
 
           <div id="team-member-card">
-            <img src={kaosy} />
+            <img src={kaosy} alt="" />
             <h1 id="name">
               <span id="firstName">Kaosicho</span> Dim
             </h1>
@@ -40,7 +39,7 @@ class MeetTheTeamGallery extends React.Component {
           </div>
 
           <div id="team-member-card">
-            <img src={emeka} />
+            <img src={emeka} alt="" />
             <h1 id="name">
               <span id="firstName">Emeka</span> Onyebuchi
             </h1>
@@ -52,7 +51,7 @@ class MeetTheTeamGallery extends React.Component {
           </div>
 
           <div id="team-member-card">
-            <img src={chinedu} />
+            <img src={chinedu} alt="" />
             <h1 id="name">
               <span id="firstName">Chinedu</span> Achimalo
             </h1>
@@ -64,7 +63,7 @@ class MeetTheTeamGallery extends React.Component {
           </div>
 
           <div id="team-member-card">
-            <img src={joshua} />
+            <img src={joshua} alt="" />
             <h1 id="name">
               <span id="firstName">Joshua</span> Nwankwo
             </h1>
@@ -76,7 +75,7 @@ class MeetTheTeamGallery extends React.Component {
           </div>
 
           <div id="team-member-card">
-            <img src={tony} />
+            <img src={tony} alt="" />
             <h1 id="name">
               <span id="firstName">Anthony</span> Chiaka
             </h1>

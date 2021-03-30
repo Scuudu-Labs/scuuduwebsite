@@ -7,8 +7,6 @@ import ServicesPage from "./ServicesPage";
 import Products from "./Product";
 import MeetTheTeam from "./MeetTheTeam";
 import PageNotFOund from "./pageNotFound";
-import ComingSoon from "./Components/ComingSoon/ComingSoonComponent";
-import Layout from "./Components/Layout";
 import Store from "./Components/Store/Store";
 
 // const DefaultRoutes = () => {

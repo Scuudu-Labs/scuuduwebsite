@@ -1,7 +1,6 @@
 import React from "react";
 import ProductsPreviewCard from "../ProductsPreviewCard/ProductsPreviewCard";
 import "./ProductsPreview.css";
-import productImage from "../../assets/Product9.png";
 import products from './Products.json'
 
 class ProductsPreview extends React.Component {

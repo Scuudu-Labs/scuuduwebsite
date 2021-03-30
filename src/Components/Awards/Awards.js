@@ -17,11 +17,11 @@ class Awards extends React.Component {
           </p>
         <div id='award-image-con'>
         <div id='award-image'>
-            <img src={forbes} />
+            <img src={forbes} alt=""/>
             <p>2020. Forbes Nigeria Summit Finalist</p>
           </div>
           <div id='award-image'>
-            <img src={fsiFinals}/>
+            <img src={fsiFinals} alt=""/>
             <p>2020. FSI Hackathon 2nd Runner-up</p>
           </div>
         </div>

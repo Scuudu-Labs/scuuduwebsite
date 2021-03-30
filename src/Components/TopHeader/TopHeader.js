@@ -1,6 +1,5 @@
 import React from "react";
 import "./TopHeader.css";
-import { Link } from "react-router-dom";
 
 class TopHeader extends React.Component {
   render() {

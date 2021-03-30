@@ -32,7 +32,7 @@ class ProductsPreviewCard extends React.Component {
         id="product-preview-card-container"
         style={{ gridRow: `span ${this.state.spans}` }}
       >
-        <img ref={this.ImageRef} src={this.props.productImage} />
+        <img ref={this.ImageRef} src={this.props.productImage} alt="" />
         <h2>{this.props.productName}</h2>
         <p>{this.props.productDescription}</p>
       </div>
