@@ -1,0 +1,61 @@
+@media only screen and (max-width: 576px) {
+    #health-buzz-logo {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        margin: 40px auto 20px auto;
+    }
+    #health-buzz-text{
+        padding: 10px 0;
+    }
+    #healthbuzz-note {
+        max-width: 400px;
+    }
+    #heartbuzz-images {
+        justify-content: space-evenly;
+        margin-right: 20px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #health-buzz-logo {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 50px auto 30px auto;
+    }
+    #healthbuzz-note {
+        max-width: 600px;
+        margin-top: 20px;
+    }   
+    #heartbuzz-images {
+        justify-content: space-around;
+        margin-right: 20px;
+    }
+    /* #heartbuzz-images img{
+        width: 600px;
+        height: auto;
+        margin: 0 0 0 35px;
+    } */
+}
+
+@media only screen and (min-width: 992px){
+    #health-buzz-logo {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 50px auto 30px auto;
+    }
+    #healthbuzz-note {
+        max-width: 700px;
+        margin-top: 30px;
+    }  
+    #heartbuzz-images {
+        justify-content: space-between;
+        margin: 0 40px 0  40px;
+    }
+    #heartbuzz-images img {
+        height: 500px;
+    }
+}

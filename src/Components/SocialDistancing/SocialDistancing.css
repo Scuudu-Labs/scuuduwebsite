@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@400;500;700&display=swap');
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#social-distancing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: cente;
+    width: 90%;
+    height: 1400px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+#social-distancing-demo {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#social-distancing-demo img {
+    width: 65%;
+    height: auto;
+    margin: 0 auto;
+}
+
+#social-distancing-details {
+    width: 100%;
+    height: 300px;
+    background-color: #64AF18;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#social-distancing-details-header {
+    font-size: 30px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+#social-distancing-info {
+    font-size: 15px;
+    color: white;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    max-width: 450px;
+    text-align: center;
+}
+
+#mobile-social-distancing-demo {
+    width: 100%;
+    height: 100px;
+}
+
+#mobile-social-distancing-demo img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}

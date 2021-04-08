@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@400;500;700&display=swap');
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#health-buzz {
+    width: 90%;
+    height: 1050px;
+    margin: 30px auto 0 auto;
+    background-color: white;
+    margin: 30px auto;
+}
+
+#health-buzz-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#health-buzz-logo {
+    margin: 100px auto 70px auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#health-buzz-logo img {
+    height: 150px;
+    padding: 0 30px 0 0;
+}
+
+#health-buzz-text {
+    font-size: 40px;
+    padding: 0 0 0 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+#healthbuzz-note {
+    margin: 0 auto 80px auto;
+    max-width: 900px;
+    text-align: center;
+    line-height: 30px;
+}
+
+#heartbuzz-images img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}

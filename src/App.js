@@ -10,6 +10,7 @@ import PageNotFOund from "./pageNotFound";
 import ComingSoon from "./Components/ComingSoon/ComingSoonComponent";
 import Layout from "./Components/Layout";
 import Store from "./Components/Store/Store";
+import SafeSpace from "./SafeSpace";
 
 // const DefaultRoutes = () => {
 //   return (
@@ -47,7 +48,9 @@ class App extends React.Component {
             <Route path="/Products" component={Products} />
             <Route path="/MeetTheTeam" component={MeetTheTeam} />
             <Route path="/Store" component={Store} />
+            <Route path="/SafeSpace" component={SafeSpace}/>
             <Route component={PageNotFOund} />
+            <SafeSpace/>
           </Switch>
         </BrowserRouter>
       </div>

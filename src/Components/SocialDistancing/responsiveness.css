@@ -1,0 +1,84 @@
+@media only screen and (max-width: 576px) {
+    #social-distancing {
+        height: 950px;
+    }
+    #social-distancing-demo {
+        height: 400px;
+    }
+    #social-distancing-demo img {
+        width: 80%;
+        height: auto;
+    }
+    #mobile-social-distancing-demo img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (min-width: 576px) {
+    #social-distancing {
+        height: 1000px;
+    }
+    #social-distancing-demo {
+        height: 400px;
+    }
+    #social-distancing-demo img {
+        width: 80%;
+        height: auto;
+    }
+    #mobile-social-distancing-demo img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #social-distancing {
+        height: 1220px;
+    }
+    #social-distancing-demo {
+        height: 600px;
+    }
+    #social-distancing-demo img {
+        width: 80%;
+        height: auto;
+    }
+    #mobile-social-distancing-demo img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    #social-distancing {
+        height: 1300px;
+    }
+    #social-distancing-demo {
+        height: 600px;
+    }
+    #social-distancing-demo img {
+        width: 80%;
+        height: auto;
+    }
+    #mobile-social-distancing-demo img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #social-distancing {
+        height: 1400px;
+    }
+    #social-distancing-demo {
+        height: 600px;
+    }
+    #social-distancing-demo img {
+        width: 65%;
+        height: auto;
+    }
+    #mobile-social-distancing-demo img {
+        width: 100%;
+        height: auto;
+    }
+}

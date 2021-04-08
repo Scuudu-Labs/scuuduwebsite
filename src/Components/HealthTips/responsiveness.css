@@ -1,0 +1,352 @@
+@media only screen and (max-width: 576px) {
+    #health-tips {
+        width: 90%;
+        height: 1500px;
+    }
+    #health-tips-text {
+        margin: 30px auto 30px auto;
+        text-align: center;
+    }
+    #health-tips-demo {
+        display: grid;
+        justify-self: center;
+        grid-template-columns: repeat(2, 160px);
+        grid-template-rows: repeat(6, 150px);
+    }
+    #image img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+    #image:nth-child(2) {
+        width: 220px;
+        height: auto;
+        align-self: center;
+        margin-right: 3rem;
+        margin-top: 1.5rem;
+    }
+    #image:nth-child(3) {
+        width: 80%;
+        height: auto;
+        align-self: center;
+        margin-bottom: 2.2rem;
+    }
+    #image:nth-child(4) {
+        width: 170px;
+        height: auto;
+        align-self: center;
+        margin-bottom: 0.5rem;
+    }
+    #image:nth-child(5) {
+        width: 170px;
+        height: auto;
+        align-self: center;
+        margin-top: -2rem;
+    }
+    #image:nth-child(6) {
+        width: 75%;
+        height: auto;
+        align-self: center;
+        margin-top: -2rem;
+    }
+    #image:nth-child(7) {
+        width: 85%;
+        height: auto;
+        align-self: center;
+        margin-top: -3.5rem;
+        margin-left: 1.5rem;
+    }
+    #image:nth-child(8) {
+        width: 170px;
+        height: auto;
+        align-self: center;
+        margin-bottom: 4rem;
+    }
+    #image:nth-child(9) {
+        width: 80%;
+        height: auto;
+        align-self: center;
+        margin-top: -3.8rem;
+    }
+    #image:nth-child(10) {
+        width: 150px;
+        height: auto;
+        align-self: center;
+        margin-top: -2.8rem;
+    }
+    #stay-safe-text {
+        margin-left: 9rem;
+        margin-bottom: 6rem;
+    }
+}
+
+@media only screen and (min-width: 576px) {
+    #health-tips {
+        width: 90%;
+        height: 1500px;
+    }
+    #health-tips-text {
+        margin: 30px auto 30px auto;
+        text-align: center;
+    }
+    #health-tips-demo {
+        display: grid;
+        justify-self: center;
+        grid-template-columns: repeat(2, 160px);
+        grid-template-rows: repeat(6, 150px);
+    }
+    #image img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+    #image:nth-child(2) {
+        width: 220px;
+        height: auto;
+        align-self: center;
+        margin-right: 3rem;
+        margin-top: 1.5rem;
+    }
+    #image:nth-child(3) {
+        width: 80%;
+        height: auto;
+        align-self: center;
+        margin-bottom: 2.2rem;
+    }
+    #image:nth-child(4) {
+        width: 170px;
+        height: auto;
+        align-self: center;
+        margin-bottom: 0.5rem;
+    }
+    #image:nth-child(5) {
+        width: 170px;
+        height: auto;
+        align-self: center;
+        margin-top: -2rem;
+    }
+    #image:nth-child(6) {
+        width: 75%;
+        height: auto;
+        align-self: center;
+        margin-top: -2rem;
+    }
+    #image:nth-child(7) {
+        width: 85%;
+        height: auto;
+        align-self: center;
+        margin-top: -3.5rem;
+        margin-left: 1.5rem;
+    }
+    #image:nth-child(8) {
+        width: 170px;
+        height: auto;
+        align-self: center;
+        margin-bottom: 4rem;
+    }
+    #image:nth-child(9) {
+        width: 80%;
+        height: auto;
+        align-self: center;
+        margin-top: -3.8rem;
+    }
+    #image:nth-child(10) {
+        width: 150px;
+        height: auto;
+        align-self: center;
+        margin-top: -2.8rem;
+    }
+    #stay-safe-text {
+        margin-left:3rem;
+        margin-bottom: 6rem;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #health-tips {
+        width: 90%;
+        height: 1000px;
+    }
+    #health-tips-text {
+        margin: 30px auto 30px auto;
+        text-align: center;
+    }
+    #health-tips-demo {
+        display: grid;
+        justify-self: center;
+        grid-template-columns: repeat(3, 160px);
+        grid-template-rows: repeat(4, 150px);
+    }
+    #image {
+        align-self: center;
+    }
+    #image img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+    #image:nth-child(1) {
+        width: 100%;
+        margin: 2rem 0 0 3.5rem;
+    }
+    #image:nth-child(2) {
+        margin: 1.3rem 0 0 0.5rem;
+    }
+    #image:nth-child(3) {
+        width: 80%;
+        margin: 0 3rem 0 0;
+    }
+    #image:nth-child(4) {
+        /* width: 80%; */
+        margin-left: 4rem;
+        margin-bottom: 1rem;
+    }
+    #image:nth-child(6) {
+        /* width: 80%; */
+        margin-right: 4rem;
+    }
+    #image:nth-child(7) {
+        margin-left: 4rem;
+        margin-bottom: 0.1rem;
+    }
+    #image:nth-child(8) {
+        width: 170px;
+        margin-left: 1rem;
+    }
+    #image:nth-child(9) {
+        margin-right: 4rem;
+        margin-bottom: 1rem;
+    }
+    #image:nth-child(10) {
+        margin-left: 5rem;
+    }
+    #safe-safe-text{
+        margin-right: 3rem;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    #health-tips {
+        width: 90%;
+        height: 1000px;
+    }
+    #health-tips-text {
+        margin: 30px auto 30px auto;
+        text-align: center;
+    }
+    #health-tips-demo {
+        display: grid;
+        justify-self: center;
+        grid-template-columns: repeat(3, 160px);
+        grid-template-rows: repeat(4, 150px);
+    }
+    #image {
+        align-self: center;
+    }
+    #image img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+    #image:nth-child(1) {
+        width: 100%;
+        margin: 2rem 0 0 3.5rem;
+    }
+    #image:nth-child(2) {
+        margin: 1.3rem 0 0 0.5rem;
+    }
+    #image:nth-child(3) {
+        width: 80%;
+        margin: 0 3rem 0 0;
+    }
+    #image:nth-child(4) {
+        /* width: 80%; */
+        margin-left: 4rem;
+        margin-bottom: 1rem;
+    }
+    #image:nth-child(6) {
+        /* width: 80%; */
+        margin-right: 4rem;
+    }
+    #image:nth-child(7) {
+        margin-left: 4rem;
+        margin-bottom: 0.1rem;
+    }
+    #image:nth-child(8) {
+        width: 170px;
+        margin-left: 1rem;
+    }
+    #image:nth-child(9) {
+        margin-right: 4rem;
+        margin-bottom: 1rem;
+    }
+    #image:nth-child(10) {
+        margin-left: 5rem;
+    }
+    #safe-safe-text{
+        margin-right: 3rem;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #health-tips {
+        width: 90%;
+        height: 1000px;
+    }
+    #health-tips-text {
+        margin: 30px auto 30px auto;
+        text-align: center;
+    }
+    #health-tips-demo {
+        display: grid;
+        justify-self: center;
+        grid-template-columns: repeat(3, 160px);
+        grid-template-rows: repeat(4, 150px);
+    }
+    #image {
+        align-self: center;
+    }
+    #image img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+    #image:nth-child(1) {
+        width: 100%;
+        margin: 2rem 0 0 3.5rem;
+    }
+    #image:nth-child(2) {
+        margin: 1.3rem 0 0 0.5rem;
+    }
+    #image:nth-child(3) {
+        width: 80%;
+        margin: 0 3rem 0 0;
+    }
+    #image:nth-child(4) {
+        /* width: 80%; */
+        margin-left: 4rem;
+        margin-bottom: 1rem;
+    }
+    #image:nth-child(6) {
+        /* width: 80%; */
+        margin-right: 4rem;
+    }
+    #image:nth-child(7) {
+        margin-left: 4rem;
+        margin-bottom: 0.1rem;
+    }
+    #image:nth-child(8) {
+        width: 170px;
+        margin-left: 1rem;
+    }
+    #image:nth-child(9) {
+        margin-right: 4rem;
+        margin-bottom: 1rem;
+    }
+    #image:nth-child(10) {
+        margin-left: 5rem;
+    }
+    #safe-safe-text{
+        margin-right: 3rem;
+    }
+}
