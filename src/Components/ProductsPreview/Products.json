@@ -3,55 +3,39 @@
     {
         "id": 1,
         "name": "Origins: Tales of Eri",
-        "image": "/Product1.png",
+        "image": "/Origins.png",
         "description": "Game Development, UI/UX Design, Virtual Reality"
     },
     {
         "id": 1,
-        "name": "Origins: Tales of Eri",
-        "image": "/Product3.png",
+        "name": "BuildAR",
+        "image": "/BuildAR.png",
+        "description": "Game Development, UI/UX Design, Virtual Reality"
+    },
+   
+    {
+        "id": 1,
+        "name": "Friday",
+        "image": "/Friday.png",
         "description": "Game Development, UI/UX Design, Virtual Reality"
     },
     {
         "id": 1,
-        "name": "Origins: Tales of Eri",
-        "image": "/Product2.png",
+        "name": "Wyrewolf",
+        "image": "/Wyrewolf.png",
         "description": "Game Development, UI/UX Design, Virtual Reality"
     },
     {
         "id": 1,
-        "name": "Origins: Tales of Eri",
-        "image": "/Product4.png",
+        "name": "Scoff",
+        "image": "/Scoff.png",
         "description": "Game Development, UI/UX Design, Virtual Reality"
     },
     {
         "id": 1,
-        "name": "Origins: Tales of Eri",
-        "image": "/Product5.png",
-        "description": "Game Development, UI/UX Design, Virtual Reality"
-    },
-    {
-        "id": 1,
-        "name": "Origins: Tales of Eri",
-        "image": "/Product3.png",
-        "description": "Game Development, UI/UX Design, Virtual Reality"
-    },
-    {
-        "id": 1,
-        "name": "Origins: Tales of Eri",
-        "image": "/Product7.png",
-        "description": "Game Development, UI/UX Design, Virtual Reality"
-    },
-    {
-        "id": 1,
-        "name": "Origins: Tales of Eri",
-        "image": "/Product8.png",
-        "description": "Game Development, UI/UX Design, Virtual Reality"
-    },
-    {
-        "id": 1,
-        "name": "Origins: Tales of Eri",
-        "image": "/Product9.png",
+        "name": "SafeSpace",
+        "image": "/SafeSpace.png",
         "description": "Game Development, UI/UX Design, Virtual Reality"
     }
+    
 ]

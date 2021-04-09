@@ -21,10 +21,10 @@ class LatestProducts extends React.Component {
         Take a look at some of our amazing products.
         </p>
         <div id='home-cards-container'>
-        <ProductCard homeImage={greenCard} homeName='Project 1' homeDescription='A short description about the project 1' />
-        <ProductCard homeImage={ashCard} homeName='Project 2' homeDescription='A short description about the project 1' />
-        <ProductCard homeImage={yelloward} homeName='Project 3' homeDescription='A short description about the project 1' />
-        <ProductCard homeImage={tickAsh} homeName='Project 4' homeDescription='A short description about the project 1' />
+        <ProductCard homeImage={greenCard} homeName='Friday' homeDescription='A short description about the project 1' />
+        <ProductCard homeImage={ashCard} homeName='Wyrewolf' homeDescription='A short description about the project 1' />
+        <ProductCard homeImage={yelloward} homeName='Origin - Tales of Eri' homeDescription='A short description about the project 1' />
+        <ProductCard homeImage={tickAsh} homeName='BuildAR' homeDescription='A short description about the project 1' />
         </div>
         </div>
       </div>
