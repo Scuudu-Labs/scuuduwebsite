@@ -13,9 +13,12 @@ class LatestProducts extends React.Component {
         <div id='inner-container'>
         <h1>Latest Products</h1>
         <p>
-          We are designers, developers, writers, thinkers, and problem solvers.
-          Small enough to be simple and fast, but big enough to deliver your
-          project scope at the pace you need.
+        In a year, we have been able to leverage Artificial Intelligence, 
+        Machine Learning, Augmented Reality and Virtual Reality to solve 
+        problems through our products and services. 
+        This year, we are looking to solve even more problems, 
+        and we would like for you to be a part of this journey. 
+        Take a look at some of our amazing products.
         </p>
         <div id='home-cards-container'>
         <ProductCard homeImage={greenCard} homeName='Project 1' homeDescription='A short description about the project 1' />
