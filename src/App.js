@@ -3,7 +3,7 @@ import AboutUs from "./AboutUs";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 import HomePage from "./HomePage";
-import ServicesPage from "./ServicesPage";
+import servicesPage from "./ServicesPage";
 import Products from "./Product";
 import MeetTheTeam from "./MeetTheTeam";
 import PageNotFOund from "./pageNotFound";
@@ -40,10 +40,10 @@ class App extends React.Component {
         <BrowserRouter>
           <Switch>
             <Route path="/" exact component={HomePage} />
-            <Route path="/Services" component={ServicesPage} />
-            <Route path="/AboutUs" component={AboutUs} />
-            <Route path="/Products" component={Products} />
-            <Route path="/MeetTheTeam" component={MeetTheTeam} />
+            <Route path="/services" component={servicesPage} />
+            <Route path="/aboutUs" component={AboutUs} />
+            <Route path="/products" component={Products} />
+            <Route path="/meetTheTeam" component={MeetTheTeam} />
             <Route path="/Store" component={Store} />
             <Route component={PageNotFOund} />
           </Switch>

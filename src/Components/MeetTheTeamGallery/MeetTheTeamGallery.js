@@ -5,7 +5,6 @@ import kaosy from "../../assets/kaosy.png";
 import emeka from "../../assets/emeka.png";
 import chinedu from "../../assets/chinedu.png";
 import joshua from "../../assets/joshua.png";
-import tony from "../../assets/tony.png";
 
 class MeetTheTeamGallery extends React.Component {
   render() {

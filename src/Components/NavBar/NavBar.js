@@ -138,30 +138,30 @@ class NavBar extends React.Component {
                 </div>
                 </div>
               <Link
-                to="/AboutUs"
+                to="/aboutUs"
                 onClick={() => {this.changeLogo("/text-logo.svg"); this.closeMobileNav()}}
               >
                 About Us
               </Link>
-              <Link to="/Products" onClick={() => {this.changeLogo("/logo.svg"); this.closeMobileNav()}}>
+              <Link to="/products" onClick={() => {this.changeLogo("/logo.svg"); this.closeMobileNav()}}>
                 Products
               </Link>
               <Link
-                to="/ServicePage"
+                to="/servicePage"
                 onClick={() => {this.changeLogo("/logo.svg"); this.closeMobileNav()}}
               >
                 Services
               </Link>
               <Link
-                to="/MeetTheTeam"
+                to="/meettheteam"
                 onClick={() => {this.changeLogo("/text-logo.svg"); this.closeMobileNav()}}
               >
                 Meet The Team
               </Link>
-              <Link to="/Store" onClick={() => {this.changeLogo("/logo.svg"); this.closeMobileNav()}}>
+              <Link to="/store" onClick={() => {this.changeLogo("/logo.svg"); this.closeMobileNav()}}>
                 Store
               </Link>
-              <Link to='/Services/ContactUs' id='button'>Start a Project</Link>
+              <Link to='/services/ContactUs' id='button'>Start a Project</Link>
             </div>
           </div>
         </div>
