@@ -1,0 +1,24 @@
+.sw-store-tabs {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  border-bottom: 1px solid #b4b4b4;
+}
+
+.store-tabs--tab-item {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  line-height: 22px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.is-active {
+  border-bottom: 4px solid #00af32;
+}
