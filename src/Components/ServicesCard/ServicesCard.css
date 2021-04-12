@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+#servicesCard{
+    width: 350px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;  
+    background-color: white;
+    /* border: 1px solid green; */
+    padding: 20px;
+    margin: 10px;
+    box-shadow: rgba(85, 85, 85, 0.3) 2px 2px 7px;
+    border-radius: 4px;
+}
+#servicesCard:hover{
+    background-color: #00AF32;
+    color: #ffffff !important;
+    box-shadow: rgba(255, 255, 255, 1) 7px 7px 5px;
+}
+
+#servicesCard:hover h1{
+    color: #ffffff;
+}
+
+#servicesCard:hover p{
+    color: #ffffff;
+}
+
+#servicesCard:hover span{
+    color: #ffffff;
+}
+
+#servicesCard h1{
+    font-size: 20px;
+    font-weight: bold;
+    color: #555555;
+    padding: 15px 10px 10px 10px;
+    font-family: 'Montserrat', sans-serif;
+    /* border: 1px solid green; */
+}
+
+#servicesCard p{
+    font-size: 12px;
+    color: #555555;
+    padding: 0px 10px 0px 10px;
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+    /* border: 1px solid green; */
+}
+
+#tags{
+    padding-top: 10px;
+    /* border: 1px solid green; */
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#tag{
+    padding-top: 5px;
+    color: #00AF32;
+    font-size: 14px;
+    font-weight: bolder;
+    padding-right: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+@media only screen and (max-width: 600px){
+#servicesCard{
+    margin: 10px 0px;
+}
+}
+
+#servicesCard svg{
+    fill: "#fff"
+}

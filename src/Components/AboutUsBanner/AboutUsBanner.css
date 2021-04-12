@@ -1,0 +1,51 @@
+#aboutUsBanner{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0px 0px 0px 0px ;
+    /* border: 1px solid green; */
+}
+
+#aboutUsBanner > #inner-container{
+    /* border: 1px solid green; */
+    height: 100%;
+    max-width: 1100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0px 0px 0px 0px ;
+    padding-top: 250px;
+    /* border: 1px solid green; */
+}
+
+#aboutUsBanner > #inner-container > #greenLogo{
+    height: 73px;
+}
+
+#aboutUsBanner > #inner-container > h1{
+    font-size: 48px;
+    color: #AAAAAA;
+    font-weight: bold;
+    padding: 30px 0px 0px 0px ;
+}
+
+#aboutUsBanner > #inner-container > p{
+    font-family: 'Comfortaa', cursive;
+    font-size: 16px;
+    line-height: 150%;
+    width: 420px;
+    text-align: center;
+    padding: 30px 0px 0px 0px;
+}
+
+@media only screen and (max-width: 600px){
+    #aboutUsBanner > #inner-container > p{
+        width: 80%;
+    }
+}

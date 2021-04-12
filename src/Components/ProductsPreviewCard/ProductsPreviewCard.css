@@ -1,0 +1,20 @@
+#product-preview-card-container{
+    width: min-content;
+    height: min-content;
+    justify-self: center;
+    /* border: 1px solid green;     */
+    
+}
+
+#product-preview-card-container > img{
+    height: min-content;
+}
+
+#product-preview-card-container > h2{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#product-preview-card-container > p{
+    width: 100%;
+    margin: 10px 0px;
+}

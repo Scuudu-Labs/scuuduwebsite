@@ -1,0 +1,67 @@
+#awards-container{
+background-color: #E5E5E5;
+display: flex;
+justify-content: center;
+align-items: center;
+/* height: 100vh; */
+width: 100vw;
+max-height: max-content;
+padding: 40px 10px;
+}
+
+#awards-inner-container{
+    height: 90%;
+    max-height: 1100px;
+    width: 90%;
+    max-width: 1100px;
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#awards-inner-container > h1{
+    font-size: 48px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+}
+
+
+#awards-inner-container > p{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    font-weight: medium;
+    width: 70%;
+    text-align: center;
+}
+
+#awards-inner-container #award-image-con{
+    display: flex;
+    /* border: 1px solid green; */
+    width: 60%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+#award-image > p{
+    font-size: 16px;
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+@media only screen and (max-width: 600px){
+    #awards-inner-container > p{
+        width: 100%;
+    }
+    #awards-inner-container #award-image-con{
+        width: 100%;
+        justify-content: center;
+    }
+} 

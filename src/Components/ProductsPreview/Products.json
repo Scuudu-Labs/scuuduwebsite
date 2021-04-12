@@ -1,0 +1,41 @@
+
+[
+    {
+        "id": 1,
+        "name": "Origins: Tales of Eri",
+        "image": "/Origins.png",
+        "description": "Game Development, Virtual Reality, UI/UX Design"
+    },
+    {
+        "id": 1,
+        "name": "BuildAR",
+        "image": "/BuildAR.png",
+        "description": "Software Development, Augumented Reality, UI/UX Design"
+    },
+   
+    {
+        "id": 1,
+        "name": "Friday",
+        "image": "/Friday.png",
+        "description": "Artificial Intelligence, Hardware Development, UI/UX Design"
+    },
+    {
+        "id": 1,
+        "name": "Wyrewolf",
+        "image": "/Wyrewolf.png",
+        "description": "Software Development, UI/UX Design"
+    },
+    {
+        "id": 1,
+        "name": "SafeSpace",
+        "image": "/SafeSpace.png",
+        "description": "Software Development, UI/UX Design"
+    },
+    {
+        "id": 1,
+        "name": "Scoff",
+        "image": "/Scoff.png",
+        "description": "Hardware Development, UI/UX Design"
+    }
+    
+]
