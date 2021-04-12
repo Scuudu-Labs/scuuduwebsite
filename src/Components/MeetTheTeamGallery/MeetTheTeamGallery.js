@@ -74,19 +74,6 @@ class MeetTheTeamGallery extends React.Component {
             </div>
           </div>
 
-          <div id="team-member-card">
-            <img src={tony} alt="" />
-            <h1 id="name">
-              <span id="firstName">Anthony</span> Chiaka
-            </h1>
-            <p id="role">Visual Designer</p>
-            <div id="social-media-links">
-              <i className="fab fa-linkedin"></i>
-              <i className="fab fa-twitter"></i>
-            </div>
-          </div>
-
-
         </div>
       </div>
     );
