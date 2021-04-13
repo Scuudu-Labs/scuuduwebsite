@@ -3,55 +3,39 @@
     {
         "id": 1,
         "name": "Origins: Tales of Eri",
-        "image": "/Product1.png",
-        "description": "Game Development, UI/UX Design, Virtual Reality"
+        "image": "/Origins.png",
+        "description": "Game Development, Virtual Reality, UI/UX Design"
     },
     {
         "id": 1,
-        "name": "Origins: Tales of Eri",
-        "image": "/Product3.png",
-        "description": "Game Development, UI/UX Design, Virtual Reality"
+        "name": "BuildAR",
+        "image": "/BuildAR.png",
+        "description": "Software Development, Augumented Reality, UI/UX Design"
+    },
+   
+    {
+        "id": 1,
+        "name": "Friday",
+        "image": "/Friday.png",
+        "description": "Artificial Intelligence, Hardware Development, UI/UX Design"
     },
     {
         "id": 1,
-        "name": "Origins: Tales of Eri",
-        "image": "/Product2.png",
-        "description": "Game Development, UI/UX Design, Virtual Reality"
+        "name": "Wyrewolf",
+        "image": "/Wyrewolf.png",
+        "description": "Software Development, UI/UX Design"
     },
     {
         "id": 1,
-        "name": "Origins: Tales of Eri",
-        "image": "/Product4.png",
-        "description": "Game Development, UI/UX Design, Virtual Reality"
+        "name": "SafeSpace",
+        "image": "/SafeSpace.png",
+        "description": "Software Development, UI/UX Design"
     },
     {
         "id": 1,
-        "name": "Origins: Tales of Eri",
-        "image": "/Product5.png",
-        "description": "Game Development, UI/UX Design, Virtual Reality"
-    },
-    {
-        "id": 1,
-        "name": "Origins: Tales of Eri",
-        "image": "/Product3.png",
-        "description": "Game Development, UI/UX Design, Virtual Reality"
-    },
-    {
-        "id": 1,
-        "name": "Origins: Tales of Eri",
-        "image": "/Product7.png",
-        "description": "Game Development, UI/UX Design, Virtual Reality"
-    },
-    {
-        "id": 1,
-        "name": "Origins: Tales of Eri",
-        "image": "/Product8.png",
-        "description": "Game Development, UI/UX Design, Virtual Reality"
-    },
-    {
-        "id": 1,
-        "name": "Origins: Tales of Eri",
-        "image": "/Product9.png",
-        "description": "Game Development, UI/UX Design, Virtual Reality"
+        "name": "Scoff",
+        "image": "/Scoff.png",
+        "description": "Hardware Development, UI/UX Design"
     }
+    
 ]

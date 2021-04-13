@@ -63,10 +63,10 @@ class Footer extends React.Component{
                                 <a href="mailt:hello@scuudu.com">info@scuudu.com</a>
                             </li>
                             <li>
-                                <a href="tel:+234 (0)812 3456 789">+234 (0)812 345 6789</a>
+                                <a href="tel:+234 (0)813 229 9063">+234 (0)813 229 9063</a>
                             </li>
                             <li>
-                            <a href="https://www.instagram.com/scuudu">LinkedIn</a>
+                            <a href="https://scuudu.com">LinkedIn</a>
                             </li>
                         </ul>
                     </div>

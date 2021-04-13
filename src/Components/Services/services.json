@@ -4,7 +4,7 @@
         "name": "Hardware Development",
         "blackIcon": "/hardware-icon.svg",
         "whiteIcon": "/hardware-white-icon.svg",
-        "description": "The startup which kicked off operations in 2019, dreams to change the Nigerian tech story for good through avant garde technologies.",
+        "description": "Yes! Our team has hands-on experience in building actual functional hardware from ideation to manufacturing. Our debut hardware project, Friday helps people with seamless house automation and management. Friday also helps industries measure their electricity consumption and proffers suggestions on how to curb inefficiencies.",
         "tags": ["Embedded Systems ", "IoT ", "3D Printing ", "Robotics"]
     },
     {
@@ -12,7 +12,7 @@
         "name": "Deep Technology",
         "blackIcon": "/deeptechnology-icon.svg",
         "whiteIcon": "/deeptechnology-white-icon.svg",
-        "description": "The startup which kicked off operations in 2019, dreams to change the Nigerian tech story for good through avant garde technologies.",
+        "description": "Our understanding of Deep Technology such as AI and ML gives an extra edge to solving problems and getting things done. We take the practical approach to Deep Technology. We not only understand cutting edge technology, but strive to understand how to apply this to local issues.",
         "tags": ["Artificial Intelligence", "Machine Learning"]
     },
     {
@@ -20,7 +20,7 @@
         "name": "Software Development",
         "blackIcon": "/software-icon.svg",
         "whiteIcon": "/software-white-icon.svg",
-        "description": "The startup which kicked off operations in 2019, dreams to change the Nigerian tech story for good through avant garde technologies.",
+        "description": "Software is the fuel on which most successful modern brands are run. At Scuudu, we combine the right blend of technical expertise, thorough planning, speed and flawless execution to build reliable and engaging software to meet your needs. ",
         "tags": ["Desktop", "Mobile", "Android", "iOS", "Windows", "Mac OS", "Linux"]
     },
     {
@@ -28,7 +28,7 @@
         "name": "Content Creation",
         "blackIcon": "/content-creation-icon.svg",
         "whiteIcon": "/content-creation-white-icon.svg",
-        "description": "The startup which kicked off operations in 2019, dreams to change the Nigerian tech story for good through avant garde technologies.",
+        "description": "The right content is everything, and the words we use shape our lives and businesses. Our team of seasoned content creators understand your business requirements and create a voice unique to your brand. This translates to closer connections and clear communication of your values to your target audience.",
         "tags": ["Creatives", "Copywriting", "Visual Effects", "3D & 2D  Animation", "Augmented Reality", "Virtual Reality", "Infographics/Illustrations"]
     },
     {
@@ -36,7 +36,7 @@
         "name": "Product Design",
         "blackIcon": "/product-design-icon.svg",
         "whiteIcon": "/product-design-white-icon.svg",
-        "description": "The startup which kicked off operations in 2019, dreams to change the Nigerian tech story for good through avant garde technologies.",
+        "description": "Design is at the heart of everything we do at Scuudu. We know just how to provide the perfect concept and package, showing attractive interfaces and telling the right story to give your brand a great competitive hedge.",
         "tags": ["UI Design", "UX Design", "Product Packaging", "Brochures/Slides", "Mockups/Renders", "Circuit Desgin"]
     },
     {
@@ -44,7 +44,7 @@
         "name": "Data Analysis, Research & Consultancy",
         "blackIcon": "/research-icon.svg",
         "whiteIcon": "/research-white-icon.svg",
-        "description": "The startup which kicked off operations in 2019, dreams to change the Nigerian tech story for good through avant garde technologies.",
+        "description": "At Scuudu, we are helping companies make quick and data-driven decisions in the ever-changing environment by rendering a full set of data analysis and top-tier business consulting. Our data scientists are attentive to the patterns in your data and how it can be taken advantage of, to drive productivity in your business.",
         "tags": ["Data Analysis", "Tech Research", "Digital Incorporation", "Market Survey"]
     },
     {
@@ -52,7 +52,7 @@
         "name": "Game Development",
         "blackIcon": "/game-icon.svg",
         "whiteIcon": "/game-white-icon.svg",
-        "description": "The startup which kicked off operations in 2019, dreams to change the Nigerian tech story for good through avant garde technologies.",
+        "description": "We absolutely love games, and we know how to make them. Our experienced game development team uses state of art technology to turn gaming narratives and visuals to engaging games for every market segment you target.",
         "tags": ["PC Games", "Mobile Games", "Console Games", "AR & VR Games"]
     },
     {
@@ -60,7 +60,7 @@
         "name": "Web Development",
         "blackIcon": "/webdev-icon.svg",
         "whiteIcon": "/webdev-white-icon.svg",
-        "description": "The startup which kicked off operations in 2019, dreams to change the Nigerian tech story for good through avant garde technologies.",
+        "description": "A good website boosts your credibility as a legitimate brand, while showcasing your expertise. The web is one of our favorite playgrounds. We understand your business requirements and translate this into amazing websites and applications. At Scuudu, we measure the impact of our websites and web applications and check against these metrics on deployment.",
         "tags": ["Websites", "Web Applications", "APIs"]
     },
     {
@@ -68,7 +68,8 @@
         "name": "Branding",
         "blackIcon": "/branding-icon.svg",
         "whiteIcon": "/branding-white-icon.svg",
-        "description": "The startup which kicked off operations in 2019, dreams to change the Nigerian tech story for good through avant garde technologies.",
+        "description": "Branding is everything! It communicates the very essence of your business; and sets a tone for interaction with clients and customers.. Our brand team is well-versed in creating a strong brand that tells your story and leaves a definable, long-lasting impression of your company in the consumer's mind.",
+
         "tags": ["Branding", "Logo Design", "Iconography", "Brand Strategy", "Product Naming"]
     }
 ]

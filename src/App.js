@@ -3,11 +3,11 @@ import AboutUs from "./AboutUs";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 import HomePage from "./HomePage";
-import ServicesPage from "./ServicesPage";
+import servicesPage from "./ServicesPage";
 import Products from "./Product";
 import MeetTheTeam from "./MeetTheTeam";
 import PageNotFOund from "./pageNotFound";
-import Store from "./Components/Store/Store";
+import ComingSoon from "./Components/ComingSoon/ComingSoonComponent";
 
 // const DefaultRoutes = () => {
 //   return (
@@ -40,11 +40,11 @@ class App extends React.Component {
         <BrowserRouter>
           <Switch>
             <Route path="/" exact component={HomePage} />
-            <Route path="/Services" component={ServicesPage} />
-            <Route path="/AboutUs" component={AboutUs} />
-            <Route path="/Products" component={Products} />
-            <Route path="/MeetTheTeam" component={MeetTheTeam} />
-            <Route path="/Store" component={Store} />
+            <Route path="/services" component={servicesPage} />
+            <Route path="/aboutUs" component={AboutUs} />
+            <Route path="/products" component={Products} />
+            <Route path="/meetTheTeam" component={MeetTheTeam} />
+            <Route path="/Store" component={ComingSoon} />
             <Route component={PageNotFOund} />
           </Switch>
         </BrowserRouter>

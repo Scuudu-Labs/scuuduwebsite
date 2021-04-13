@@ -12,10 +12,9 @@
 
 #homeCard > h1, p{
     width: 100%;
-    /* border: 1px solid green; */
     font-family: 'Montserrat', sans-serif;
     color: #333333;
-    margin: 40px 0px;
+    margin: 10px 0px;
 }
 
 /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */

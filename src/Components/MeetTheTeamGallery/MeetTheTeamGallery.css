@@ -44,6 +44,7 @@
     padding-top: 10px;
     font-weight: lighter;
     font-family: 'Montserrat', sans-serif;
+    width: 270px;
 }
 
 #team-member-card > #name > #firstName{

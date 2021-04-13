@@ -1,10 +1,10 @@
 import React from "react";
 import './LatestProducts.css'
 import ProductCard from "../ProductsCard/ProductCard";
-import greenCard from '../../assets/green-rec.png';
-import ashCard from '../../assets/ash-rec.png';
-import yelloward from '../../assets/yellow-rec.png';
-import tickAsh from '../../assets/tick-ash-rec.png';
+import Friday from '../../assets/Friday.png';
+import Wyrewolf from '../../assets/Wyrewolf.png';
+import Origin from '../../assets/Origins.png';
+import BuildAR from '../../assets/BuildAR.png';
 
 class LatestProducts extends React.Component {
   render() {
@@ -13,15 +13,18 @@ class LatestProducts extends React.Component {
         <div id='inner-container'>
         <h1>Latest Products</h1>
         <p>
-          We are designers, developers, writers, thinkers, and problem solvers.
-          Small enough to be simple and fast, but big enough to deliver your
-          project scope at the pace you need.
+        In a year, we have been able to leverage Artificial Intelligence, 
+        Machine Learning, Augmented Reality and Virtual Reality to solve 
+        problems through our products and services. 
+        This year, we are looking to solve even more problems, 
+        and we would like for you to be a part of this journey. 
+        Take a look at some of our amazing products.
         </p>
         <div id='home-cards-container'>
-        <ProductCard homeImage={greenCard} homeName='Project 1' homeDescription='A short description about the project 1' />
-        <ProductCard homeImage={ashCard} homeName='Project 2' homeDescription='A short description about the project 1' />
-        <ProductCard homeImage={yelloward} homeName='Project 3' homeDescription='A short description about the project 1' />
-        <ProductCard homeImage={tickAsh} homeName='Project 4' homeDescription='A short description about the project 1' />
+        <ProductCard homeImage={Friday} homeName='Friday' homeDescription='Automate your electronic appliances using the power of AI.' />
+        <ProductCard homeImage={Wyrewolf} homeName='Wyrewolf' homeDescription='Secure your transactions against fraud in real time.' />
+        <ProductCard homeImage={Origin} homeName='Origin - Tales of Eri' homeDescription='Experience different African stories in an interactive virtual environment.' />
+        <ProductCard homeImage={BuildAR} homeName='BuildAR' homeDescription='Explore different types of building in 3D on a plane surface.' />
         </div>
         </div>
       </div>

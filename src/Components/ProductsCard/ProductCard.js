@@ -8,7 +8,7 @@ class homeCard extends React.Component {
       <div id='homeCard'>
         <img src={this.props.homeImage} alt="" />
         <h1>{this.props.homeName}</h1>
-        <p>{this.props.homeDescription}</p>
+        <p style={{width: '400px'}}>{this.props.homeDescription}</p>
       </div>
     );
   }

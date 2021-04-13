@@ -13,10 +13,10 @@ class TopHeader extends React.Component {
               {"hello@scuudu.com"}
             </div>
             </a>
-            <a href="tel:+234 (0)812 3456 789">
+            <a href="tel:+234 (0)813 229 9063">
             <div id="top-header-phone">
               <i className="fas fa-phone-alt"></i>
-              {"+234 (0)812 3456 789 "}
+              {"+234 (0)813 229 9063"}
             </div>
             </a>
           </div>

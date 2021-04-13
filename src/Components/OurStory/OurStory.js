@@ -20,21 +20,11 @@ class OurStory extends React.Component {
         <h1>Our Story</h1>
         <p>
           The startup which kicked off operations in 2019, dreams to change the
-          Nigerian tech story for good through avant garde technologies. The
-          startup which kicked off operations in 2019, dreams to change the
-          Nigerian tech story for good through avant garde technologies. The
-          startup which kicked off operations in 2019, dreams to change the
-          Nigerian tech story for good through avant garde technologies. The
-          startup which kicked off operations in 2019, dreams to change the
-          Nigerian tech story for good through avant garde technologies. The
-          startup which kicked off operations in 2019, dreams to change the
-          Nigerian tech story for good through avant garde technologies. The
-          startup which kicked off operations in 2019, dreams to change the
-          Nigerian tech story for good through avant garde technologies. The
-          startup which kicked off operations in 2019, dreams to change the
-          Nigerian tech story for good through avant garde technologies. The
-          startup which kicked off operations in 2019, dreams to change the
           Nigerian tech story for good through avant garde technologies.
+          We started out in January 2020, with a mission to completely change the Nigerian tech space.
+          Leveraging on a host of technology concepts such as Artificial Intelligence (AI), Machine Learning (ML), 
+          Augmented Reality (AR), Virtual Reality (VR), Internet of Things (Iot), Game and Software Development, 
+          as well as 3D modelling, we set out to bring real solutions to many of the problems we face on a daily basis.
         </p>
         <div id='our-story-image-galley'>
         <div>

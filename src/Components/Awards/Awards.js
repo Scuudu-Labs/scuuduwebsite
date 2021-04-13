@@ -10,10 +10,7 @@ class Awards extends React.Component {
         <div id='awards-inner-container'>
           <h1>Awards & Recognitions</h1>
           <p>
-            We have been working on a variety of projects and across different
-            industries across disciplines, making our work an appropriate,
-            versatile and functional response to the unique needs of our
-            clients. Our capabilities cover the following areas;
+          Over a year of inception, Scuudu has been recognized and awarded by Forbes and Financial Services Innovator Association. We emerged Finalist in the Forbes First Nigerian Digital Accelerator Summit, 2020 and second runner-up for FSI hackathon, 2020.
           </p>
         <div id='award-image-con'>
         <div id='award-image'>
