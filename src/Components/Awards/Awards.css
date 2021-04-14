@@ -51,6 +51,7 @@ padding: 40px 10px;
 }
 #award-image{
     width: 301px;
+    margin-top: 30px;
 }
 
 #award-image > p{

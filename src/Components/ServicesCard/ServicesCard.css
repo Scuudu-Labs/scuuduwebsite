@@ -2,17 +2,17 @@
 
 #servicesCard{
     width: 350px;
-    height: 350px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;  
     background-color: white;
     /* border: 1px solid green; */
-    padding: 20px;
+    padding: 30px 20px;
     margin: 10px;
     box-shadow: rgba(85, 85, 85, 0.3) 2px 2px 7px;
     border-radius: 4px;
+    text-align: center;
 }
 #servicesCard:hover{
     background-color: #00AF32;
@@ -47,6 +47,7 @@
     padding: 0px 10px 0px 10px;
     margin: 0px;
     font-family: 'Montserrat', sans-serif;
+    text-align: justify;
     /* border: 1px solid green; */
 }
 

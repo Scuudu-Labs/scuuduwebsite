@@ -80,7 +80,7 @@ class NavBar extends React.Component {
                 Services
               </Link>
               <Link
-                to="/meettheteam"
+                to="meettheteam"
                 onClick={() => this.changeLogo("/text-logo.svg")}
               >
                 Meet The Team

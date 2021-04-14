@@ -49,7 +49,7 @@ class Footer extends React.Component{
                             <li>
                             <a href="hhtps://www.twitter.com/scuudu1">Twitter</a>                            </li>
                             <li>
-                            <a href="https://www.youtube.com/">Youtube</a>                            </li>
+                            <a href="https://www.youtube.com/channel/UCE7jVa4vScMfRPjnZlWrCkg">Youtube</a>                            </li>
                             <li>
                             <a href="https://www.instagram.com/scuudu">Instagram</a>
                             </li>

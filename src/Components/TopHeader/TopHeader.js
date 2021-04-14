@@ -23,7 +23,7 @@ class TopHeader extends React.Component {
           <div id="social-media-container">
             <a href="https://www.facebook.com/scuudu"><i className="fab  fa-facebook-f"></i></a>
             <a href="hhtps://www.twitter.com/scuudu1"><i className="fab fa-twitter"></i></a>
-            <a href="https://www.youtube.com/"><i className="fab fa-youtube"></i></a>
+            <a href="https://www.youtube.com/channel/UCE7jVa4vScMfRPjnZlWrCkg"><i className="fab fa-youtube"></i></a>
             <a href="https://www.instagram.com/scuudu"><i className="fab fa-instagram"></i></a>
           </div>
         </div>

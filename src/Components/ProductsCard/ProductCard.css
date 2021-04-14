@@ -22,11 +22,14 @@
     #homeCard >img{
         /* border: 1px solid black; */
         height: 330px;
+        width: 100%;
     }
     #homeCard > h1, p{
         margin:  10px 0px;
+        width: 100% !important;
     }
     #homeCard{
         margin: 30px 0px;
+        width: 100%;
     }
 }

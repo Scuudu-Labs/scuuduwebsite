@@ -3,7 +3,6 @@ import './ClientAndPatners.css';
 import tenece from "../../assets/tenece.png"
 import genesys from "../../assets/genesys.png"
 import fsi from "../../assets/fsi.svg"
-import sterling from "../../assets/sterling.png"
 
 class ClientAndPatners extends React.Component{
     render(){
@@ -15,9 +14,8 @@ class ClientAndPatners extends React.Component{
                 </div>
                 <div id='patners-logo-container'>
                     <img src={tenece} alt='' />
-                    <img src={genesys} alt='' />
                     <img src={fsi} alt='' />
-                    <img src={sterling} alt='' />
+                    <img src={genesys} alt='' />
                 </div>
             </div>
         )

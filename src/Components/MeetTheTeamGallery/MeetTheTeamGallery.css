@@ -61,4 +61,7 @@
 
 #team-member-card > #social-media-links > i{
     margin: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    
 }

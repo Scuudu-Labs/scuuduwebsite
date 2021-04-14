@@ -37,7 +37,7 @@ class App extends React.Component {
   render() {
     return (
       <div id="app-container">
-        <BrowserRouter>
+        <BrowserRouter  onUpdate={() => window.scrollTo(0, 0)} >
           <Switch>
             <Route path="/" exact component={HomePage} />
             <Route path="/services" component={servicesPage} />
