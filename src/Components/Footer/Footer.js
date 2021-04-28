@@ -20,7 +20,7 @@ class Footer extends React.Component{
                                 <a href='/news'>News</a>
                             </li>
                             <li>
-                                <a href='/career'>Career</a>
+                                <a href='/career'>Careers</a>
                             </li>
                         </ul>
                     </div>
@@ -45,11 +45,11 @@ class Footer extends React.Component{
                         <ul>
                             <li>Follow</li>
                             <li>
-                            <a href="https://www.facebook.com/scuudu">FaceBook</a>                            </li>
+                            <a href="https://www.facebook.com/Scuudu-Labs-102626038152628">Facebook</a>                            </li>
                             <li>
-                            <a href="hhtps://www.twitter.com/scuudu1">Twitter</a>                            </li>
+                            <a href="https://twitter.com/Scuudu1">Twitter</a>                            </li>
                             <li>
-                            <a href="https://www.youtube.com/">Youtube</a>                            </li>
+                            <a href="https://www.youtube.com/channel/UCE7jVa4vScMfRPjnZlWrCkg">Youtube</a>                            </li>
                             <li>
                             <a href="https://www.instagram.com/scuudu">Instagram</a>
                             </li>
@@ -64,9 +64,6 @@ class Footer extends React.Component{
                             </li>
                             <li>
                                 <a href="tel:+234 (0)812 3456 789">+234 (0)812 345 6789</a>
-                            </li>
-                            <li>
-                            <a href="https://www.instagram.com/scuudu">LinkedIn</a>
                             </li>
                         </ul>
                     </div>
