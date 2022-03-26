@@ -8,6 +8,7 @@ import Products from "./Product";
 import MeetTheTeam from "./MeetTheTeam";
 import PageNotFOund from "./pageNotFound";
 import Store from "./Components/Store/Store";
+import PrivacyPolicy from "./PrivacyPolicy";
 
 // const DefaultRoutes = () => {
 //   return (
@@ -45,6 +46,7 @@ class App extends React.Component {
             <Route path="/products" component={Products} />
             <Route path="/meetTheTeam" component={MeetTheTeam} />
             <Route path="/Store" component={Store} />
+            <Route path="/privacyPolicy" component={PrivacyPolicy} />
             <Route component={PageNotFOund} />
           </Switch>
         </BrowserRouter>
