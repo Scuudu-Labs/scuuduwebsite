@@ -76,7 +76,7 @@ class Footer extends React.Component {
           <div id="privacy-policy-container">
             <div id="privacy-polict-wrapper">
               <a href="/">Terms of Service</a>
-              <a href="/privacy-policy">Privacy Policy</a>
+              <a href="/privacy-policy/tranzakt">Privacy Policy</a>
               <a href="/">Site Map</a>
             </div>
             <select>

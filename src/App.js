@@ -46,7 +46,7 @@ class App extends React.Component {
             <Route path="/products" component={Products} />
             <Route path="/meetTheTeam" component={MeetTheTeam} />
             <Route path="/Store" component={Store} />
-            <Route path="/privacy-policy" component={PrivacyPolicy} />
+            <Route path="/privacy-policy/tranzakt" component={PrivacyPolicy} />
             <Route component={PageNotFOund} />
           </Switch>
         </BrowserRouter>
