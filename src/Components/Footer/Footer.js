@@ -11,10 +11,10 @@ class Footer extends React.Component {
               <ul>
                 <li>Company</li>
                 <li>
-                  <a href="/Services">Services</a>
+                  <a href="/services">Services</a>
                 </li>
                 <li>
-                  <a href="/Products">Product</a>
+                  <a href="/products">Product</a>
                 </li>
                 <li>
                   <a href="/news">News</a>

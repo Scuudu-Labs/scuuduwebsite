@@ -42,10 +42,10 @@ class App extends React.Component {
           <Switch>
             <Route path="/" exact component={HomePage} />
             <Route path="/services" component={servicesPage} />
-            <Route path="/aboutUs" component={AboutUs} />
+            <Route path="/about-us" component={AboutUs} />
             <Route path="/products" component={Products} />
-            <Route path="/meetTheTeam" component={MeetTheTeam} />
-            <Route path="/Store" component={Store} />
+            <Route path="/meet-the-team" component={MeetTheTeam} />
+            <Route path="/store" component={Store} />
             <Route path="/privacy-policy/tranzakt" component={PrivacyPolicy} />
             <Route component={PageNotFOund} />
           </Switch>
