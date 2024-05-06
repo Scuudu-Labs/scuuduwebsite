@@ -10,9 +10,10 @@ class NavBar extends React.Component {
     this.state = {
       logo: "/logo.svg",
       test: "",
-      barDisplay: "",
+      barDisplay: window.innerWidth <= 830 ? "block" : "none",
       timesDisplay: "none",
       mobileNavDisplay: "none",
+      barIsOpen: false,
     };
     console.log(this.state.logo);
   }
@@ -28,6 +29,7 @@ class NavBar extends React.Component {
       navbar: "none",
       timesDisplay: "block",
       mobileNavDisplay: "flex",
+      barIsOpen: true,
     });
   };
 
@@ -37,8 +39,31 @@ class NavBar extends React.Component {
       timesDisplay: "none",
       navbar: "flex",
       mobileNavDisplay: "none",
+      barIsOpen: false,
     });
   };
+
+  componentDidMount() {
+    window.addEventListener('resize', this.handleResize);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('resize', this.handleResize);
+  }
+
+  handleResize = () => {
+    if (window.innerWidth > 830){
+      this.closeMobileNav();
+    }
+    
+    if (!this.state.barIsOpen){
+      this.setState({
+        barDisplay: window.innerWidth <= 830 ? "block" : "none"
+      });
+    }
+
+  };
+
   render() {
     return (
       <Fragment>
