@@ -1,5 +1,6 @@
 import React from "react";
 import "./TopHeader.css";
+import { FacebookURL, InstagramURL, TwitterURL, YoutubeURL } from "../../utils/Constants";
 
 class TopHeader extends React.Component {
   render() {
@@ -7,8 +8,8 @@ class TopHeader extends React.Component {
       <div id="top-header-container">
         <div id="top-nav-inner-container">
           <div id="contact-container">
-            <a href="mailt:hello@scuudu.com" >
-            <div id="top-header-email">
+          <a href="mailto:hello@scuudu.com" rel="noopener noreferrer">
+              <div id="top-header-email">
               <i className="fas fa-envelope"></i>
               {"hello@scuudu.com"}
             </div>
@@ -21,10 +22,10 @@ class TopHeader extends React.Component {
             </a>
           </div>
           <div id="social-media-container">
-            <a href="https://www.facebook.com/scuudu"><i className="fab  fa-facebook-f"></i></a>
-            <a href="hhtps://www.twitter.com/scuudu1"><i className="fab fa-twitter"></i></a>
-            <a href="https://www.youtube.com/"><i className="fab fa-youtube"></i></a>
-            <a href="https://www.instagram.com/scuudu"><i className="fab fa-instagram"></i></a>
+            <a href={FacebookURL} target="_blank" rel="noopener noreferrer"><i className="fab  fa-facebook-f"></i></a>
+            <a href={TwitterURL} target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter"></i></a>
+            <a href={YoutubeURL} target="_blank" rel="noopener noreferrer"><i className="fab fa-youtube"></i></a>
+            <a href={InstagramURL} target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i></a>
           </div>
         </div>
       </div>
