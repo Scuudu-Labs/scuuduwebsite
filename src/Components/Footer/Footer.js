@@ -46,16 +46,16 @@ class Footer extends React.Component {
               <ul>
                 <li>Follow</li>
                 <li>
-                  <a href={FacebookURL}>FaceBook</a>{" "}
+                  <a href={FacebookURL} target="_blank" rel="noopener noreferrer">FaceBook</a>{" "}
                 </li>
                 <li>
-                  <a href={TwitterURL}>Twitter</a>{" "}
+                  <a href={TwitterURL} target="_blank" rel="noopener noreferrer">Twitter</a>{" "}
                 </li>
                 <li>
-                  <a href={YoutubeURL}>Youtube</a>{" "}
+                  <a href={YoutubeURL} target="_blank" rel="noopener noreferrer">Youtube</a>{" "}
                 </li>
                 <li>
-                  <a href={InstagramURL}>Instagram</a>
+                  <a href={InstagramURL} target="_blank" rel="noopener noreferrer">Instagram</a>
                 </li>
               </ul>
             </div>

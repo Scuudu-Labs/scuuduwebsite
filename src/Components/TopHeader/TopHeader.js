@@ -8,8 +8,8 @@ class TopHeader extends React.Component {
       <div id="top-header-container">
         <div id="top-nav-inner-container">
           <div id="contact-container">
-            <a href="mailt:hello@scuudu.com" >
-            <div id="top-header-email">
+          <a href="mailto:hello@scuudu.com" rel="noopener noreferrer">
+              <div id="top-header-email">
               <i className="fas fa-envelope"></i>
               {"hello@scuudu.com"}
             </div>
@@ -22,10 +22,10 @@ class TopHeader extends React.Component {
             </a>
           </div>
           <div id="social-media-container">
-            <a href={FacebookURL}><i className="fab  fa-facebook-f"></i></a>
-            <a href={TwitterURL}><i className="fab fa-twitter"></i></a>
-            <a href={YoutubeURL}><i className="fab fa-youtube"></i></a>
-            <a href={InstagramURL}><i className="fab fa-instagram"></i></a>
+            <a href={FacebookURL} target="_blank" rel="noopener noreferrer"><i className="fab  fa-facebook-f"></i></a>
+            <a href={TwitterURL} target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter"></i></a>
+            <a href={YoutubeURL} target="_blank" rel="noopener noreferrer"><i className="fab fa-youtube"></i></a>
+            <a href={InstagramURL} target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i></a>
           </div>
         </div>
       </div>
