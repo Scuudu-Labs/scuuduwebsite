@@ -1,7 +1,2 @@
-/*    /index.html    200 */
-[[redirects]]
-  from = "https://estatear.scuudu.com"
-  to = "https://www.google.com"
-  status = 301
-  force = true
-  headers = {X-From = "Netlify"}
+/* /index.html 200
+https://estatear.scuudu.com/* https://enyinmacitywebgl.onrender.com 301!
