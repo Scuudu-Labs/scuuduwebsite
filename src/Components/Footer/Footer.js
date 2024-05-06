@@ -1,6 +1,5 @@
 import React from "react";
 import "./Footer.css";
-import { FacebookURL, InstagramURL, TwitterURL, YoutubeURL } from "../../utils/Constants";
 
 class Footer extends React.Component {
   render() {
@@ -46,16 +45,16 @@ class Footer extends React.Component {
               <ul>
                 <li>Follow</li>
                 <li>
-                  <a href={FacebookURL} target="_blank" rel="noopener noreferrer">FaceBook</a>{" "}
+                  <a href="https://www.facebook.com/scuudu">FaceBook</a>{" "}
                 </li>
                 <li>
-                  <a href={TwitterURL} target="_blank" rel="noopener noreferrer">Twitter</a>{" "}
+                  <a href="hhtps://www.twitter.com/scuudu1">Twitter</a>{" "}
                 </li>
                 <li>
-                  <a href={YoutubeURL} target="_blank" rel="noopener noreferrer">Youtube</a>{" "}
+                  <a href="https://www.youtube.com/">Youtube</a>{" "}
                 </li>
                 <li>
-                  <a href={InstagramURL} target="_blank" rel="noopener noreferrer">Instagram</a>
+                  <a href="https://www.instagram.com/scuudu">Instagram</a>
                 </li>
               </ul>
             </div>
