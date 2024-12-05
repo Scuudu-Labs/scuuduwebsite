@@ -9,7 +9,7 @@ import MeetTheTeam from "./MeetTheTeam";
 import PageNotFOund from "./pageNotFound";
 import Store from "./Components/Store/Store";
 import PrivacyPolicy from "./PrivacyPolicy";
-import {OchembaEnuguTickets} from "./pages";
+import OchembaEnuguTickets from "./pages/OchembaTickets";
 
 // const DefaultRoutes = () => {
 //   return (

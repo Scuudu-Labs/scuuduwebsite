@@ -13,7 +13,6 @@ class OchembaEnuguTickets extends React.Component {
     return (
       <div>
         <TopHeader />
-        <NavBar />
         <Footer />
       </div>
     );
