@@ -1,0 +1,12 @@
+.copyright {
+    font-weight: 400;
+    font-family: Grandstander;
+  }
+
+  @media (max-width: 393px) {
+    .footer {
+      flex-direction: column;
+      gap: 12px;
+    }
+  }
+  

@@ -1,0 +1,52 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-image {
+    height: 40px;
+    margin-right: 10px;
+  }
+
+  .logo-text {
+    font-family: "Arial", sans-serif;
+    font-size: 1.2rem;
+    color: #000000;
+    font-weight: 600;
+  }
+
+  .header-buttons {
+    display: flex;
+    gap: 15px;
+  }
+
+  .contact-btn,
+  .buy-tickets-btn {
+    font-family: "Arial", sans-serif;
+    font-size: 0.9rem;
+    padding: 10px 20px;
+    border: 2px solid #00AF32;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .contact-btn {
+    background-color: #ffffff;
+    color: #00AF32;
+  }
+
+  .buy-tickets-btn {
+    background-color: #00AF32;
+    color: #ffffff;
+  }
+  

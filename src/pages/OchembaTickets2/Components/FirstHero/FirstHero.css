@@ -1,0 +1,86 @@
+.first-hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+  background-color: rgba(253, 209, 142, 0.5);
+}
+
+.first-hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: rgba(253, 209, 142, 0.5);
+}
+
+.first-hero-content {
+  max-width: 50%;
+}
+
+.first-hero h1 {
+  font-size: 2.5rem;
+  color: rgba(81, 64, 38, 1);
+  line-height: 57.6px;
+  font-weight: 400;
+  font-family: HanziPen TC;
+  font-size: 48px;
+}
+
+.first-hero p {
+  font-family: Avenir;
+  font-size: 1rem;
+  color: #000000;
+  line-height: 1.6;
+  margin: 20px 0;
+}
+
+.buy-tickets-btn, .virtual-reality-btn {
+  font-family: "Grandstander";
+  font-size: 20px;
+  font-weight: 800;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 25px;
+  line-height: 19.95px;
+  cursor: pointer;
+  border: 1px solid rgba(81, 64, 38, 1);
+  background-color: rgba(81, 64, 38, 1);
+  color:rgba(255, 189, 115, 1);
+  transition: all 0.3s ease-in-out;
+}
+
+.first-hero-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  .first-hero-text {
+    font-family: Avenir;
+    line-height: 20px;
+    font-weight: 800;
+    font-size: 16px;
+  }
+  
+  @media screen and (max-width: 393px) {
+    .first-hero-content {
+      flex-direction: column;
+      text-align: center;
+      max-width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .first-hero-content h1 {
+      font-size: 2rem;
+    }
+  
+    .first-hero-content p {
+      font-size: 0.9rem;
+    }
+  
+    .first-hero-image img {
+      width: 70%;
+      margin: 0 auto;
+    }
+  }

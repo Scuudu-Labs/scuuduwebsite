@@ -1,0 +1,83 @@
+.buy-ticket {
+    font-family: "Grandstander";
+    background-color: rgba(255, 255, 255, 0.75);
+}
+.ticket-info {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 600;
+}
+.ticket-note {
+    text-align: center;
+    font-family: 400;
+    font-size: 28px;
+}
+.tickets {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 16px; 
+    margin: 0 auto;
+  }
+  
+  .ticket {
+    flex: 1 1 30%;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    text-align: center;
+    justify-content: center;
+    border: 2px solid #cccccc;
+    border-radius: 8px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .ticket-time {
+    text-align: right;
+  }
+
+  .ticket-image {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #000;
+    border-radius: 8px;
+    margin-bottom: 8px;
+  }
+
+  /* .ticket-status {
+
+  }
+
+  .ticket-price {
+
+  } */
+  .buy-tickets-btn {
+    font-family: "Grandstander";
+    font-size: 20px;
+    font-weight: 800;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 25px;
+    line-height: 19.95px;
+    cursor: pointer;
+    border: 1px solid rgba(81, 64, 38, 1);
+    background-color: rgba(81, 64, 38, 1);
+    color:rgba(255, 189, 115, 1);
+    transition: all 0.3s ease-in-out;
+  }
+
+  
+  @media (max-width: 393px) {
+    .tickets {
+      flex-direction: column;
+      gap: 12px;
+    }
+    .ticket {
+      flex: 1 1 100%;
+    }
+  }
+  
+  
