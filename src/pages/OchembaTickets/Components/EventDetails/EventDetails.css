@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.event-details {
+  height: auto;
+    font-family: "Grandstander";
+    background-color: rgba(253, 209, 142, 0.5);
+  }
+  .event-details-info {
+    width: 80%;
+    margin:auto;
+    display: flex;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .event-info-item {
+    display: flex;
+    align-items: center;
+    padding: 8px 10px 0 10px;
+    font-size: 16px;
+    color: rgba(81, 64, 38, 1);
+  }
+
+  .event-info-item span {
+    font-weight: 800;
+  }
+
+  @media (max-width: 393px) {
+    .event-details-info {
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      padding-top: 25%;
+    }
+
+    .event-info-item {
+      font-size: 14px;
+      padding-top: 10px;
+      width: 60%;
+      padding-left: 0;
+      color: rgba(81, 64, 38, 1);
+    }
+
+    .event-info-item span {
+      padding-left: 10px;
+    }
+  }

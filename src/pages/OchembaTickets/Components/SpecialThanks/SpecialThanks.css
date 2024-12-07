@@ -1,0 +1,75 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.container-special-thanks {
+  font-family: "Grandstander";
+  background-color: rgba(253, 209, 142, 0.5);
+}
+
+.mini-container-special {
+  width: 85%;
+  margin:auto;
+}
+
+.special-thanks-note {
+    text-align: center;
+    font-family: 800;
+    font-size: 35px;
+    margin-top: 0;
+    padding-top: 50px;
+}
+.thanks {
+    display: flex; 
+    justify-content: space-between; 
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .thank {
+    flex: 1 1 30%;
+    text-align: center;
+    position: relative;
+  }
+
+  .thank img {
+    max-width: 100%;
+    height: auto;
+  }
+
+   .thank-status, .thank-designation{
+    letter-spacing: 0;
+    line-height: 1.2;
+  }
+
+  .thank-name {
+    font-weight: 800;
+    letter-spacing: 5px;
+    font-size: 14px;
+  } 
+
+
+  
+  @media (max-width: 393px) {
+    .thanks {
+      flex-direction: column;
+      gap: 12px;
+    }
+    .thank {
+      flex: 1 1 100%;
+    }
+
+    .fgn-logo, .enugu-tourism {
+      margin-top: 4px;
+      margin-left: -7px;
+    }
+    .thank-status {
+      padding-top: 30px;
+    }
+
+    .thank-designation {
+      padding-bottom: 90px;
+    }
+  }
+  
+  

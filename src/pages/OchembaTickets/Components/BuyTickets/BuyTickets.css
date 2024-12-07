@@ -1,0 +1,121 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.container-buy-ticket{
+  font-family: "Grandstander";
+  background-color: rgba(253, 209, 142, 0.5);
+}
+.buy-ticket {
+  width: 85%;
+  margin: auto;
+  border-radius: 12px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.75);
+}
+.ticket-info {
+  font-family: "TanziPen FC";
+    text-align: center;
+    font-size: 45px;
+    padding-top: 2%;
+    font-weight: 800;
+}
+.ticket-note {
+    text-align: center;
+    font-weight: 800;
+    font-size: 14px;
+}
+.tickets {
+    display: flex; 
+    justify-content: space-between; 
+    flex-wrap: wrap;
+    gap: 10px;
+    /* margin-top: 2%; */
+  }
+  
+  .ticket {
+    flex: 1 1 30%;
+    text-align: center;
+  }
+
+  .ticket img {
+    max-width: 100%;
+    height: auto;
+  }
+
+   .ticket-status {
+    font-weight: 800;
+  }
+
+  .ticket-price {
+    font-weight: 800;
+    font-size: 14px;
+  } 
+  .buy-tickets-btn {
+    font-family: "Grandstander";
+    font-size: 16px;
+    font-weight: 800;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 25px;
+    line-height: 19.95px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+    font-size: 14px;
+    border: 1px solid rgba(81, 64, 38, 1);
+    background-color: rgba(81, 64, 38, 1);
+    color: rgba(255, 255, 255, 1);
+  }
+/* .ticket-price {
+  margin-top: 8px;
+}
+.buy-tickets-btn {
+} */
+
+/* Responsive Styling */
+@media (max-width: 393px) {
+  .tickets {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .buy-ticket {
+    width: 95%;
+    padding: 15px;
+  }
+
+  .ticket-info {
+    font-size: 28px;
+  }
+
+  .ticket-note {
+    font-size: 12px;
+  }
+
+  .ticket {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .ticket img {
+    max-width: 70%;
+  }
+
+  .ticket-status {
+    font-size: 16px;
+  }
+
+  .ticket-price {
+    font-size: 14px;
+  }
+
+  .buy-tickets-btn {
+    font-size: 12px;
+    padding: 8px 16px;
+  }
+}
+  
+  
+  

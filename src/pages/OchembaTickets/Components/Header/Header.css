@@ -1,10 +1,17 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.container-header {
+  background-color: #FBF4EB;
+}
 .header {
+  width: 85%;
+  margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 40px;
-    background-color: #ffffff;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px 40px;
   }
   
   .logo {
@@ -17,11 +24,8 @@
     margin-right: 10px;
   }
 
-  .logo-text {
-    font-family: "Arial", sans-serif;
-    font-size: 1.2rem;
-    color: #000000;
-    font-weight: 600;
+  .logo-image2 {
+    display: none;
   }
 
   .header-buttons {
@@ -29,24 +33,66 @@
     gap: 15px;
   }
 
-  .contact-btn,
+  .direction-btn,
   .buy-tickets-btn {
-    font-family: "Arial", sans-serif;
-    font-size: 0.9rem;
+    font-family: "Grandstander";
+    font-weight: 800;
+    text-align: center;
     padding: 10px 20px;
-    border: 2px solid #00AF32;
     border-radius: 25px;
+    line-height: 19.95px;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
   }
   
-  .contact-btn {
-    background-color: #ffffff;
-    color: #00AF32;
+  .direction-btn {
+    border: none;
+    background-color: transparent;
+    text-decoration: underline;
+    color: rgba(81, 64, 38, 1);
+    font-size: 14px;
   }
 
   .buy-tickets-btn {
-    background-color: #00AF32;
-    color: #ffffff;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 14px;
+    color: rgba(255, 189, 115, 1);
+  }
+
+  .map {
+    display: none;
   }
   
+  @media (max-width: 393px) {
+    .logo-image { 
+      display: none;
+    }
+    .logo-image2 {
+      display: flex;
+      height: 40px;
+      margin-right: 10px;
+    }
+    .direction-btn {
+      display: none;
+    }
+    .map {
+      display: flex;
+      font-family: "Grandstander";
+      font-weight: 800;
+      text-align: center;
+      padding: 22px 5px 0 0;
+      cursor: pointer;
+      border: none;
+      background-color: transparent;
+      text-decoration: underline;
+      color: rgba(81, 64, 38, 1);
+      font-size: 14px;
+      }
+
+      .buy-tickets-btn {
+        padding: 10px;
+      }
+      
+    
+    }
