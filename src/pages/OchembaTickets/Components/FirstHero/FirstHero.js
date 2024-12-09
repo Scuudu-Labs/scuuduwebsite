@@ -6,7 +6,12 @@ function FirstHero() {
     <section id="intro" className="first-hero">
       <div className="first-hero-container">
         <div className="first-hero-content">
-        <button className="virtual-reality-btn">Virtual Reality</button>
+        <button className="virtual-reality-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
+  <circle cx="8.63843" cy="8.55054" r="7.73022" fill="white"/>
+</svg>
+          Virtual Reality
+          </button>
          <img src="/bead.png" alt="bead" className="bead"/>
             <h1 className="first-hero-head">
                 Unleash the warrior<br />within in Virtual Reality
@@ -19,13 +24,15 @@ function FirstHero() {
             Ochemba delivers non-stop excitement and unforgettable gameplay.<br />
             Are you ready to rewrite destiny?
             </p>
-              <button className="buy-tickets-btn"><b>GET TICKETS</b></button>
+            <div className="hero-buttons">
+              <a href="#Ticket" className="buy-tickets-btn">Get Tickets</a>
+            </div>
               <img src="/leaf.png" alt="leaf" className="leaf"/>
               
         </div>
         <div className="first-hero-image">
             <img src="/leaves.png" alt="leaves"  style={{ height: "auto", width: "50%", position: "absolute", right: "0"}} className="leaves"/>
-            <img src="/ochemba-shield.png" alt="Ochemba Enugu Logo" style={{ height: "auto", width: "70%", paddingLeft:"100px", paddingTop:"100px"}} className="ochemba-shield" />
+            <img src="/ochemba-shield.png" alt="Ochemba Enugu Logo" className="ochemba-shield" />
             <img src="/mask.png" alt="mask" style={{ height: "auto", position: "absolute", right: "0", top:"65%"}} className="mask"/>
             <p className="first-hero-text"><b>The Virtual Reality Experience</b></p>
   

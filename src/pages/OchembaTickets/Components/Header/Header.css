@@ -2,97 +2,98 @@
   padding: 0;
   margin: 0;
 }
-.container-header {
-  background-color: #FBF4EB;
+
+.header-container {
+  font-family: "Grandstander", sans-serif;
+  background-color: #fbf4eb;
 }
 .header {
-  width: 85%;
-  margin: auto;
-    display: flex;
+  display: flex;
+  width: 75%;
+  margin: 0 12.5% 0 12.5%;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 40px;
   }
   
-  .logo {
-    display: flex;
+.logo {
     align-items: center;
-  }
-  
-  .logo-image {
-    height: 40px;
-    margin-right: 10px;
+    width: 35%;
+    margin: 2% 0 2% 0;
   }
 
-  .logo-image2 {
+  .logo-image {
+    max-height: 50px;
+  }
+
+  .logo-image.mobile {
     display: none;
   }
 
   .header-buttons {
     display: flex;
-    gap: 15px;
+    align-items: center;
+    width: 65%;
+    gap: 30px;
+    justify-content: flex-end;
+
   }
 
-  .direction-btn,
-  .buy-tickets-btn {
-    font-family: "Grandstander";
-    font-weight: 800;
-    text-align: center;
-    padding: 10px 20px;
-    border-radius: 25px;
-    line-height: 19.95px;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
-  }
-  
-  .direction-btn {
-    border: none;
+  .button {
     background-color: transparent;
-    text-decoration: underline;
-    color: rgba(81, 64, 38, 1);
-    font-size: 14px;
-  }
-
-  .buy-tickets-btn {
-    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
     font-weight: 800;
-    font-size: 14px;
-    color: rgba(255, 189, 115, 1);
+    text-decoration: underline;
+    color: #514026;
   }
-
-  .map {
+ 
+  .button.map-btn {
     display: none;
   }
-  
-  @media (max-width: 393px) {
-    .logo-image { 
-      display: none;
-    }
-    .logo-image2 {
-      display: flex;
-      height: 40px;
-      margin-right: 10px;
-    }
-    .direction-btn {
-      display: none;
-    }
-    .map {
-      display: flex;
-      font-family: "Grandstander";
-      font-weight: 800;
-      text-align: center;
-      padding: 22px 5px 0 0;
-      cursor: pointer;
-      border: none;
-      background-color: transparent;
-      text-decoration: underline;
-      color: rgba(81, 64, 38, 1);
-      font-size: 14px;
-      }
+  .buy-tickets-btn {
+    background-color: #514026;
+    color: #fff;
+    padding: 15px 46.5px 15px 45.5px;
+    text-decoration: none;
+    border-radius: 50px;
+    text-shadow:  
+                1px 1px 0px #FFBD73, 
+                -1px -1px 0px #FFBD73,
+                -1px 1px 0px #FFBD73,
+                1px -1px 0px #FFBD73;
+  }
 
-      .buy-tickets-btn {
-        padding: 10px;
-      }
-      
-    
-    }
+@media (max-width: 768px) {
+  .header {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .header-buttons {
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+  .button.direction-btn {
+    display: none;
+  }
+  .button.map-btn {
+    display: flex;
+  }
+}
+
+@media (max-width: 480px) {
+  .buy-tickets-btn {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+
+  .logo-image.desktop {
+    display: none;
+  }
+
+  .logo-image.mobile {
+    display: flex;
+    max-height: 40px;
+  }
+}

@@ -9,7 +9,8 @@ import EventDetails from "./EventDetails/EventDetails";
 import Header from "./Header/Header";
 import FirstHero from "./FirstHero/FirstHero";
 import SpecialThanks from "./SpecialThanks/SpecialThanks";
-import Footer from "../../../Components/Footer/Footer";
+import Footer from "./Footer/Footer";
+// import Footer from "../../../Components/Footer/Footer";
 import ClientAndPatners from "../../../Components/ClientsAndPatners/ClientAndPatners";
 import TopHeader from "../../../Components/TopHeader/TopHeader";
 

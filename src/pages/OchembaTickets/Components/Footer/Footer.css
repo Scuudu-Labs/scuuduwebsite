@@ -1,12 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.footer {
+  background-color:rgba(253, 209, 142, 0.5);
+  position: relative;
+}
+.footer-container {
+  width: 85%;
+  margin: auto;
+}
 .copyright {
+    margin: 0;
     font-weight: 400;
-    font-family: Grandstander;
+    font-family: "Grandstander";
+    text-align: center;
+    font-size: 16px;
   }
-
-  @media (max-width: 393px) {
+.footer-frond {
+  position: absolute;
+  width: 415.81px;
+  height: 207.9px;
+  bottom: 0;
+  left: 0;
+  mix-blend-mode: multiply;
+}
+.footer-drum {
+  position: absolute;
+  width: 213.04px;
+  height: 161.99px;
+  bottom: 17.97px;
+  right: 96.6px;
+}
+  /* @media (max-width: 393px) {
     .footer {
       flex-direction: column;
       gap: 12px;
     }
-  }
+  } */
   

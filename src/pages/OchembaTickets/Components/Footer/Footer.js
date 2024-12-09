@@ -4,9 +4,11 @@ import "./Footer.css";
 function Footer() {
   return (
     <footer id="contact" className="footer">
-        <img src="" alt="" />
-        <p className="copyright"> 2024 &copy; Ochemba Landing PAGE - by Scuudu Labs - All rights reserved.</p>
-        <img src="" alt="" />
+      <div className="footer-container">
+        <img src="/footer-frond.png" alt="frond" className="footer-frond" />
+        <p className="copyright"> Developed by Scuudu Labs in partnership with Enugu State Tourism Board</p>
+        <img src="/footer-drum.png" alt="drum" className="footer-drum" />
+      </div> 
     </footer>
   );
 }
