@@ -7,7 +7,7 @@ function BuyTicket() {
       <div id="tickets" className="buy-ticket">
         <h2 className="ticket-info">Available Tickets</h2>
         <div className="ticket-container">
-        <p className="ticket-note">5 mins per session</p>
+        <p className="ticket-note">5mins per session</p>
         <img 
           src="/ticket-line.png" 
           alt="line" 
@@ -23,7 +23,7 @@ function BuyTicket() {
           </div>
           <div className="ticket">
             <img src="/ticket-couple.png" alt="Couples Ticket" className="ticket-image" />
-            <h3 className="ticket-status">Couples</h3>
+            <h3 className="ticket-status">Couple</h3>
             <p className="ticket-price">₦5,000</p>
             <button className="buy-tickets-button">Get Tickets</button>
           </div>

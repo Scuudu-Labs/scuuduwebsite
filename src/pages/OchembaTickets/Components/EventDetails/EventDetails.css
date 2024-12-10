@@ -1,3 +1,29 @@
+@font-face {
+  font-family: 'HanziPen TC Regular';
+  src: url('../../../../assets/fonts/hanzipen-tc-regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Avenir';
+  src: url('../../../../assets/fonts/Avenir-Book.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Avenir Roman';
+  src: url('../../../../assets/fonts/Avenir-Roman.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'Avenir Next Cyr';
+  src: url('../../../../assets/fonts/AvenirNextCyr-Demi.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Grandstander ExtraBold';
+  src: url('../../../../assets/fonts/Grandstander-ExtraBold.woff') format('woff');
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -12,30 +38,32 @@
     margin: 0 12.5% 0 12.5%;
     justify-content: space-between;
     flex-wrap: wrap;
+    color: #514026;
+    line-height: 150%; 
   } 
   .event-info-item {
     display: flex;
-    gap: 15px;
+    font-family: 'Grandstander ExtraBold';
+    justify-content: space-between;
     align-items: center;
-    font-size: 16px;
-    line-height: 1.5;
-    padding: 10px;
     margin: 70px 20px 25px 41px;
+    font-weight: 800;
     color: rgba(81, 64, 38, 1);
-    text-shadow: 1px 1px rgba(255, 255, 255, 0.2);
     width: calc(25% - 5px);
   }
 
   .event-info-item span {
-    margin-top: 10px;
+    color: #514026;
+    font-family: 'Grandstander ExtraBold';
+    font-size: 20px;
+    font-style: normal;
     font-weight: 800;
-    font-size: 14px;
+    line-height: 150%;
   }
 
   .event-icon {
-    width: 80px;
-    height: 80px;
-    margin-bottom: 8px;
+    width: 100px;
+    height: 100px;
   }
 
 

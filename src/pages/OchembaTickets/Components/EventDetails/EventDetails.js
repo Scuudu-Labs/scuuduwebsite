@@ -5,9 +5,9 @@ function EventDetails() {
   return (
     <div id="contact" className="event-details">
         <div className="event-details-info">
-          <div className="event-info-item" style={{marginTop:'100px'}}>
+          <div className="event-info-item first">
               <img src="/event-calendar.png" alt="calendar" className="event-icon" />
-              <span>7th Dec, 2024 -<br /> 5th Jan, 2025</span>
+              <span>7th Dec, 2024 -<br /> 26th Dec, 2024</span>
           </div>
 
           <div className="event-info-item">

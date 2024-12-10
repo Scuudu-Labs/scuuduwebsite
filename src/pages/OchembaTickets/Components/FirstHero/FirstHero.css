@@ -27,6 +27,7 @@
 }
 
 .first-hero-content {
+    position: relative;
     width: 60%;
     max-width: 800px;
 }
@@ -49,15 +50,15 @@
   margin: 5rem 0 3rem 0;
 }
 
-.bead {
+.bead { 
   position: absolute;
-  width: 12%;
+  width: 25%;
   max-width: 150px;
-  left: 40%;
-  top:27%;
+  right: 10%;
+  top: 14%;
 }
 
-.bead img { 
+.bead img {
   box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.25);
   filter: blur(0.25px);
 }
@@ -100,12 +101,12 @@
     text-decoration: none;
   }
 
-  .leaf {
+  .leaf { 
     position: absolute;
-    width: 9%;
+    width: 25%;
     max-width: 150px;
-    left: 46.5%;
-    top:88%;
+    bottom: 2%;
+    right: 0;
   }
   .leaf img {
     box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.25);
