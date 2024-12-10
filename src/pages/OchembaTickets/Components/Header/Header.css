@@ -64,7 +64,16 @@
                 -1px 1px 0px #FFBD73,
                 1px -1px 0px #FFBD73;
   }
-
+  @media (max-width: 962px) {
+    .button.direction-btn {
+      display: none;
+    }
+    .button.button.map-btn{
+      display: flex;
+      font-size: 20px;
+      font-weight: 800;
+    }
+  }
 @media (max-width: 768px) {
   .header {
     flex-direction: row;
@@ -75,26 +84,37 @@
     display: flex;
    justify-content: flex-end;
   }
-  .button.direction-btn {
+  .logo-image.desktop{
     display: none;
   }
-  .button.map-btn {
+  .logo-image.mobile {
     display: flex;
+  }
+  .buy-tickets-btn {
+    padding: 15px 20px;
+    font-size: 14px;
+    text-shadow:  
+    .5px .5px 0px #FFBD73, 
+    -.5px -.5px 0px #FFBD73,
+    -.5px .5px 0px #FFBD73,
+    .5px -.5px 0px #FFBD73;
   }
 }
 
-@media (max-width: 480px) {
-  .buy-tickets-btn {
-    padding: 8px 16px;
-    font-size: 14px;
+@media (max-width: 420px) {
+  .buy-tickets-btn{
+  padding: 10px 15px;
+  font-size: 12px;
+  text-shadow:  
+  .5px .5px 0px #FFBD73, 
+  -.5px -.5px 0px #FFBD73,
+  -.5px .5px 0px #FFBD73,
+  .5px -.5px 0px #FFBD73;
   }
+}
 
-  .logo-image.desktop {
-    display: none;
-  }
-
-  .logo-image.mobile {
-    display: flex;
-    max-height: 40px;
+@media (max-width:370px){
+  .header-buttons {
+    gap: 10px;
   }
 }
