@@ -31,9 +31,9 @@ function FirstHero() {
               
         </div>
         <div className="first-hero-image">
-            <img src="/leaves.png" alt="leaves"  style={{ height: "auto", width: "50%", position: "absolute", right: "0"}} className="leaves"/>
+            <img src="/leaves.png" alt="leaves" className="leaves"/>
             <img src="/ochemba-shield.png" alt="Ochemba Enugu Logo" className="ochemba-shield" />
-            <img src="/mask.png" alt="mask" style={{ height: "auto", position: "absolute", right: "0", top:"65%"}} className="mask"/>
+            <img src="/mask.png" alt="mask" className="mask"/>
             <p className="first-hero-text"><b>The Virtual Reality Experience</b></p>
   
         </div>

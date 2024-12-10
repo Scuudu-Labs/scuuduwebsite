@@ -1,122 +1,166 @@
+@font-face {
+  font-family: 'HanziPen';
+  src: url('../../../../assets/fonts/hanzipen-tc-regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
 
+@font-face {
+  font-family: 'Avenir';
+  src: url('../../../../assets/fonts/Avenir-Book.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 * {
   padding: 0;
   margin: 0;
 }
-.container-buy-ticket{
-  font-family: "Grandstander";
+.container-buy-ticket {
   background-color: rgba(253, 209, 142, 0.5);
 }
 .buy-ticket {
-  width: 85%;
-  margin: auto;
-  border-radius: 12px;
-  justify-content: space-between;
-  align-items: center;
+  width: 75%;
+  margin: 0 12.5% 0 12.5%;
+  border-radius: 25px;
   background-color: rgba(255, 255, 255, 0.75);
 }
 .ticket-info {
-  font-family: "TanziPen FC";
+  font-family: 'HanziPen', sans-serif;
     text-align: center;
     font-size: 45px;
-    padding-top: 2%;
     font-weight: 800;
+    padding-top: 2%;
+    margin-bottom: 0;
 }
 .ticket-note {
     text-align: center;
+    font-family: 'Avenir', sans-serif;
     font-weight: 800;
-    font-size: 14px;
+    margin-top: 0;
+    font-size: 12px;
+    line-height: 0.2;
+}
+
+.ticket-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  gap: 0;
+}
+
+.ticket-note, .line {
+  margin: 0;
+}
+.line {
+  max-width: 100%;
+  height: auto;
+  margin-top: 0;
+  margin-bottom: 30px;
 }
 .tickets {
     display: flex; 
     justify-content: space-between; 
     flex-wrap: wrap;
-    gap: 10px;
-    /* margin-top: 2%; */
+    gap: 20px;
   }
   
   .ticket {
-    flex: 1 1 30%;
+    flex: 1 1 25%;
     text-align: center;
   }
 
-  .ticket img {
+  .ticket image {
     max-width: 100%;
     height: auto;
+    margin-bottom: 20px;
   }
 
    .ticket-status {
     font-weight: 800;
+    font-size: 18px;
+    margin-bottom: 5px;
   }
 
   .ticket-price {
     font-weight: 800;
-    font-size: 14px;
+    font-family: 'Avenir', sans-serif;
+    font-size: 16px;
+    margin-top: 0;
   } 
-  .buy-tickets-btn {
-    font-family: "Grandstander";
+  .buy-tickets-button {
+    font-family: "Grandstander", sans-serif;
     font-size: 16px;
     font-weight: 800;
     text-align: center;
-    padding: 10px 20px;
-    border-radius: 25px;
-    line-height: 19.95px;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
     text-decoration: none;
-    font-size: 14px;
     border: 1px solid rgba(81, 64, 38, 1);
     background-color: rgba(81, 64, 38, 1);
-    color: rgba(255, 255, 255, 1);
-  }
-/* .ticket-price {
-  margin-top: 8px;
-}
-.buy-tickets-btn {
-} */
-
-/* Responsive Styling */
-@media (max-width: 393px) {
-  .tickets {
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-  }
-  .buy-ticket {
-    width: 95%;
-    padding: 15px;
+    margin-bottom: 60px;
+    margin-top: -7%;
+    color: #ffffff;
+    padding: 15px 44.5px 15px 43.5px;
+    border-radius: 50px;
+    text-shadow:  
+                1px 1px 0px #FFBD73, 
+                -1px -1px 0px #FFBD73,
+                -1px 1px 0px #FFBD73,
+                1px -1px 0px #FFBD73;
   }
 
-  .ticket-info {
-    font-size: 28px;
-  }
-
-  .ticket-note {
-    font-size: 12px;
-  }
-
-  .ticket {
-    width: 100%;
-    margin: 10px 0;
-  }
-
-  .ticket img {
-    max-width: 70%;
-  }
-
-  .ticket-status {
-    font-size: 16px;
-  }
-
-  .ticket-price {
-    font-size: 14px;
-  }
-
-  .buy-tickets-btn {
-    font-size: 12px;
-    padding: 8px 16px;
-  }
-}
+  @media (max-width: 768px) {
+    .tickets {
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+    }
   
+    .ticket {
+      width: 80%;
+      margin: auto;
+    }
   
+    .ticket-info {
+      font-size: 35px;
+    }
   
+    .ticket-note {
+      font-size: 13px;
+    }
+  }
+  
+  @media (max-width: 393px) {
+    .buy-ticket {
+      width: 70%;
+      flex-direction: column;
+      align-items: center;
+     
+    }
+  
+    .ticket-info {
+      font-size: 23px;
+    }
+  
+    .ticket-note {
+      font-size: 10px;
+    }
+  
+    .ticket {
+      width: 80%;
+    }
+  
+    .ticket-status {
+      font-size: 16px;
+    }
+  
+    .ticket-price {
+      font-size: 14px;
+    }
+  
+    .buy-tickets-button {
+      font-size: 12px;
+      padding: 10px 14px;
+
+    }
+  }
