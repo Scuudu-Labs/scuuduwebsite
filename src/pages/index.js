@@ -1,0 +1,1 @@
+export {OchembaEnuguTickets as default} from './OchembaTickets'

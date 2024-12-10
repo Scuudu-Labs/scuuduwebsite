@@ -1,0 +1,68 @@
+.other-hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: #ffffff;
+  }
+  
+  .other-hero-content {
+    max-width: 50%;
+    text-align: left;
+  }
+  
+  .other-hero h1 {
+    font-size: 2.5rem;
+    color: #000000;
+    margin-bottom: 20px;
+  }
+  
+  .other-hero p {
+    font-size: 1rem;
+    color: #000000;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .buy-tickets-btn {
+    padding: 10px 20px;
+    background-color: #00AF32;
+    color: #ffffff;
+    border: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .other-hero-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .other-hero {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .other-hero-content {
+      max-width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .other-hero h1 {
+      font-size: 2rem;
+    }
+  
+    .other-hero p {
+      font-size: 0.9rem;
+    }
+  
+    .other-hero-image img {
+      width: 70%;
+      margin: 0 auto;
+    }
+  }
+  

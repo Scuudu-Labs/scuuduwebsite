@@ -1,0 +1,194 @@
+@font-face {
+  font-family: 'HanziPen TC Regular';
+  src: url('../../../../assets/fonts/hanzipen-tc-regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Avenir';
+  src: url('../../../../assets/fonts/Avenir-Book.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Avenir Roman';
+  src: url('../../../../assets/fonts/Avenir-Roman.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'Avenir Next Cyr';
+  src: url('../../../../assets/fonts/AvenirNextCyr-Demi.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Grandstander ExtraBold';
+  src: url('../../../../assets/fonts/Grandstander-ExtraBold.woff') format('woff');
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+.container-buy-ticket {
+  background-color: rgba(253, 209, 142, 0.5);
+}
+.buy-ticket {
+  width: 75%;
+  margin: 0 12.5% 0 12.5%;
+  border-radius: 25px;
+  background-color: rgba(255, 255, 255, 0.75);
+}
+.ticket-info {
+  color: #514026;
+  font-family: 'HanziPen TC Regular', sans-serif;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 120%;
+    padding-top: 2%;
+    margin-bottom: 0;
+}
+
+.ticket-note {
+    text-align: center;
+    font-family: 'Avenir Roman', sans-serif;
+    margin-top: 0;
+    line-height: 0.2;
+    color: #514026;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; 
+    letter-spacing: 0.3px;
+}
+
+.ticket-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  gap: 0;
+}
+
+.ticket-note, .line {
+  margin: 0;
+}
+.line {
+  max-width: 100%;
+  height: auto;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+.tickets {
+    display: flex; 
+    justify-content: space-between; 
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .ticket {
+    flex: 1 1 25%;
+    text-align: center;
+  }
+
+  .ticket-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+   .ticket-status {
+    color: #514026;
+    font-weight: 800;
+    font-size: 32px;
+    font-family: "Grandstander ExtraBold";
+    text-align: center;
+    font-style: normal;
+    line-height: normal;
+    margin-bottom: 5px;
+  }
+
+  .ticket-price {
+    font-weight: 800;
+    color: #000;
+    font-family: 'Avenir Next Cyr', sans-serif;
+    font-size: 20px;
+    margin-top: 0;
+    letter-spacing: 1.2px;
+    
+  } 
+  .buy-tickets-button {
+    font-family: "Grandstander", sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+    border: 1px solid rgba(81, 64, 38, 1);
+    background-color: rgba(81, 64, 38, 1);
+    margin-bottom: 60px;
+    margin-top: -7%;
+    color: #ffffff;
+    padding: 15px 44.5px 15px 43.5px;
+    border-radius: 50px;
+    text-shadow:  
+                .5px .5px 0px #FFBD73, 
+                -.5px -.5px 0px #FFBD73,
+                -.5px .5px 0px #FFBD73,
+                .5px -.5px 0px #FFBD73;
+  }
+
+  @media (max-width: 768px) {
+    .tickets {
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+    }
+  
+    .ticket {
+      width: 80%;
+      margin: auto;
+    }
+  
+    .ticket-info {
+      font-size: 35px;
+    }
+  
+    .ticket-note {
+      font-size: 13px;
+    }
+  }
+  
+  @media (max-width: 393px) {
+    .buy-ticket {
+      width: 70%;
+      flex-direction: column;
+      align-items: center;
+     
+    }
+  
+    .ticket-info {
+      font-size: 23px;
+    }
+  
+    .ticket-note {
+      font-size: 10px;
+    }
+  
+    .ticket {
+      width: 80%;
+    }
+  
+    .ticket-status {
+      font-size: 16px;
+    }
+  
+    .ticket-price {
+      font-size: 14px;
+    }
+  
+    .buy-tickets-button {
+      font-size: 12px;
+      padding: 10px 14px;
+
+    }
+  }

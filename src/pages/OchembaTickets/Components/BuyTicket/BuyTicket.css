@@ -1,0 +1,80 @@
+.center-line { 
+    border: 4px solid #00AF32; 
+}
+.ticket-info {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 600;
+}
+.ticket-note {
+    text-align: center;
+    font-family: 400;
+    font-size: 28px;
+}
+.tickets {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 16px; 
+    margin: 0 auto;
+  }
+  
+  .ticket {
+    flex: 1 1 30%;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    text-align: center;
+    justify-content: center;
+    border: 2px solid #cccccc;
+    border-radius: 8px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .ticket-time {
+    text-align: right;
+  }
+
+  .ticket-image {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #000;
+    border-radius: 8px;
+    margin-bottom: 8px;
+  }
+
+  /* .ticket-status {
+
+  }
+
+  .ticket-price {
+
+  } */
+  .buy-tickets-btn {
+        font-family: "Arial", sans-serif;
+        background-color: #00AF32;
+        color: #ffffff;
+        font-size: 0.9rem;
+        padding: 10px 20px;
+        border: 2px solid #00AF32;
+        border-radius: 25px;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+      }
+
+  
+  @media (max-width: 768px) {
+    .ticket {
+      flex: 1 1 45%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .ticket {
+      flex: 1 1 100%;
+    }
+  }
+  
