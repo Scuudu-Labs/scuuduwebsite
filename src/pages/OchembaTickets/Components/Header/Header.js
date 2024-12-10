@@ -10,7 +10,7 @@ function Header() {
           <img src="/logo.svg" alt="Scuudu Labs Logo Mobile" className="logo-image mobile" />
         </div>
         <nav className="header-buttons">
-          <button href="#direction" className="button direction-btn">Direction to Unity Park</button>
+          <a href="https://maps.app.goo.gl/zc1G3xL3ZRc2b4pW7" className="button direction-btn">Direction to Unity Park</a>
           <button className="button map-btn">Map</button>
           <a href="#Ticket" className="button buy-tickets-btn">Get Tickets</a>
         </nav>

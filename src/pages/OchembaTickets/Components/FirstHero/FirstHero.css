@@ -39,8 +39,8 @@
   align-items: center;
   width: fit-content;
   border-radius: 24px;
-  background: rgba(81, 64, 38, 0.50);
-  border: 1px solid rgba(81, 64, 38, 0.5);
+  background: rgba(81, 64, 38, 0.60);
+  border: none;
   padding: 15px 23.35px 15px 18.84px;
   color: #FFF;
   font-family: 'Outfit';
@@ -103,7 +103,7 @@
 
   .leaf { 
     position: absolute;
-    width: 25%;
+    width: 22%;
     max-width: 150px;
     bottom: 2%;
     right: 0;
@@ -138,10 +138,11 @@
   }
 
   .mask {
-    width: 13%;
+    width: 12%;
+    background: transparent;
     position: absolute;
-    right: 8%;
-    top: 68%;
+    right: 40px;
+    bottom: 23%;
   }
 
 .first-hero-text {
