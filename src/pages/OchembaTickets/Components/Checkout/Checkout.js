@@ -197,8 +197,30 @@ const Checkout = () => {
               </p>
               <p>{"Your email address will help us support your shopping experience throughout the site. \n"}
                 {"Please check our Privacy Policy to see how we use your personal data. \n"}</p>
+                <div className="woocommerce-additional-fields">
+                      <h3>Additional information</h3>
+                      <div className="woocommerce-additional-fields__field-wrapper">
+                        <p className="form-row notes">
+                          <label>Order notes (optional)</label>
+                          <textarea
+                            name="order_comments"
+                            className="input-text"
+                            placeholder="Notes about your order..."
+                            value={notes}
+                            onChange={(e) => setNotes(e.target.value)}
+                          ></textarea>
+                        </p>
+                      </div>
+                    </div>
+                 
             </div>
+
+        
+                  
           </form>
+
+         
+             
         </div>
         <div className="bill-page-wrapper">
           <h2>Product details</h2>
