@@ -96,7 +96,7 @@ const Checkout = () => {
 
     try {
       const res = await axios.post(
-        "http://localhost:5000/api/payment/initialize",
+        "http://localhost:10000/api/payment/initialize",
         data
       );
       if (res.data.status) {
