@@ -36,11 +36,10 @@
   display: flex;
   width: 75%;
   margin: 0 12.5% 0 12.5%;
-    justify-content: space-between;
+  justify-content: space-between;
 }
 
 .first-hero-content { 
-  border: 1px solid red;
     position: relative;
     width: 60%;
     max-width: 800px;
@@ -130,7 +129,7 @@
     filter: blur(0.25px);
   }
 
-  .first-hero-image { border: 1px solid blue;
+  .first-hero-image {
     position: relative;
     max-width: 400px;
     flex-direction: column;
@@ -167,7 +166,7 @@
 
 .first-hero-text {
   font-family: 'Avenir Roman';
-  font-size: 0.8rem;
+  font-size: 0.89rem;
   font-weight: 800;
   text-align: center;
 }
@@ -199,75 +198,113 @@
 @media (max-width: 768px) {
   .first-hero-container {
     flex-direction: column; 
-    width: 100%;
-    margin: 0;
-      
+    width: 75%;
+    margin: 0 12.5% 0 12.5%;
   }
   
-  .first-hero-head,.first-hero-image {
+  .first-hero-content,.first-hero-image {
     width: 100%;
+    max-width: 100% ;
   }
   
   .first-hero-image {
     order: -1; 
+
+  }
+  .leaves {
+    width: 30%;
+    right: 27%;
+    top: 0;
   }
   .ochemba-shield{
-    width: 100%;
+    margin: 3rem auto auto auto;
+    max-width: 300px;
   }
-}
-/* 
+  .mask {
+    width: 8.5%;
+    right: 25%;
+  }
+
+  .first-hero-text {
+    font-size: 1rem;
+  }
+
+  .virtual-reality-btn {
+    margin: 3rem 0 1.5rem 0;;
+  }
+
   .first-hero-head {
-    font-size: 2rem;
+    margin-top: 2rem;
+    font-size: 2.8rem;
+  }
+
+  .bead {
+    right: 11%;
+    top:7% ;
   }
 
   .first-hero-paragraph {
-    font-size: 0.75rem;
+    font-size: .8rem;
+  }
+  .hero-buttons a {
+    padding: 15px 42px 15px 42px;
   }
 
-  .hero-buttons a {
-    font-size: 0.9rem;
-    padding: 0.5rem 1rem;
+  .leaf {
+    bottom: 3%;
+    right: 10.5%;
   }
-  .leaf{
-    top:96%;
+
+}
+
+@media (max-width: 600px) {
+  .bead {
+    top: 13%;
+    right: 2%;
   }
- 
-} */
+  .first-hero-head {
+    font-size: 2.4rem;
+  }
+  .first-hero-paragraph {
+    font-size: .69rem;
+  }
+  .leaf {
+    bottom: 3%;
+    right: 5%;
+  }
+  .mask {
+    top: 76%;
+  }
+}
+
 
 @media (max-width: 480px) {
   .first-hero-head {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
   }
-
   .first-hero-paragraph {
-    font-size: 0.8rem;
-    line-height: 1.4;
+    font-size: 0.58rem;
+    font-weight: 400;
   }
   .virtual-reality-btn{
-    padding: 8px 14.35px 8px 10.84px;
+    padding: 8px 12px;
     font-size: 0.7rem;
   }
-  .bead {
-    top: 24%;
-    left: 50%;
-  }
-
   .hero-buttons a {
-    font-size: 0.8rem;
-    padding: 0.5rem 0.8rem;
+    padding: 14px 25px;
+    font-size: 16px;
+  }
+  .leaves {
+    width: 45%;
+  }
+  .mask {   
+    width: 12%;
+    right: 15%;
   }
 
-  .ochemba-shield {
-    width: 100%;
-    height: auto;
-  }
-.leaf {
-  top:96%;
 }
 
-}
-
-@media (max-width: 393px) {
+@media (max-width: 392px) {
 .first-hero-container {
   flex-direction: column; 
 }
@@ -283,49 +320,38 @@
   width: 100%;
 }
 .mask {
+  width: 14%;
   top:75%;
-  right: 2%;
+  right: 8%;
+}
+.leaves {
+  width: 50%;
+  right: 12%;
 }
 .first-hero-content{
   width: 100%;
-  
-}
-.bead {
-  position: absolute;
-  width: 20%;
-  max-width: 150px;
-  left: 55%;
-  top:100%;
 }
 
-.bead img { 
-  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.25);
-  filter: blur(0.25px);
-}
-
-
-.leaf {
-  position: absolute;
-  width: 20%;
-  max-width: 150px;
-  left: 57%;
-  top:183%;
-}
-.leaf img {
-  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.25);
-  filter: blur(0.25px);
-}
 .first-hero-head {
-  color: #514026;
-  text-shadow: 
-  1px 1px 0px #514026, 
-  -1px -1px 0px #514026,
-  -1px 1px 0px #514026,
-  1px -1px 0px #514026;
-  margin-top: 1rem;
-  font-family: 'HanziPen', sans-serif;
-  font-size: 2rem;
-  font-weight: 400;
-  line-height: 1.2;
+ font-size: 1.45rem;
   }
+.first-hero-paragraph {
+  font-size: 0.47rem;
+  line-height: 2;
+}
+.virtual-reality-btn{
+  padding: 8px 10px;
+  font-size: 0.6rem;
+}
+.hero-buttons a {
+  padding: 12px 20px;
+  font-size: 14px;
+}
+.leaf {
+  bottom: 8%;
+  right: 2%;
+}
+.first-hero-text {
+  font-size: 0.8rem;
+}
 }
