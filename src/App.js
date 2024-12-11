@@ -11,6 +11,7 @@ import Store from "./Components/Store/Store";
 import PrivacyPolicy from "./PrivacyPolicy";
 // import OchembaEnuguTickets from "./pages/OchembaTickets";
 import OchembaEnuguTickets from "./pages/OchembaTickets/Components/OchembaTickets";
+import OchembaCheckoutPage from "./pages/OchembaTickets/Pages/OchembaCheckout";
 
 // const DefaultRoutes = () => {
 //   return (
@@ -49,7 +50,9 @@ class App extends React.Component {
             <Route path="/meet-the-team" component={MeetTheTeam} />
             <Route path="/store" component={Store} />
             <Route path="/privacy-policy/tranzakt" component={PrivacyPolicy} />
+            <Route path="/ochemba/tickets/checkout" component={OchembaCheckoutPage} />
             <Route path="/ochemba/tickets" component={OchembaEnuguTickets} />
+         
             <Route component={PageNotFOund} />
           </Switch>
         </BrowserRouter>
