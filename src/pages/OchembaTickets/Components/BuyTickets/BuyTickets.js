@@ -1,43 +1,16 @@
-import React, { useState } from "react";
+import React from "react";
 import "./BuyTickets.css";
-import axios from "axios";
+import { useHistory } from 'react-router-dom';
+
 
 function BuyTicket() {
-  const [email, setEmail] = useState("");
 
-  const handleGetTickets = async (ticket) => {
-    const { type, price } = ticket;
-    const ticketType = type;
-    const amount = price;
+  const history = useHistory();
 
-    if (!email) {
-      alert("Please enter your email to proceed with the purchase.");
-      return;
-    }
-
-    const data = {
-      email,
-      amount,
-      metadata: {
-        ticketType,
-      },
-    };
-
-    try {
-      const res = await axios.post(
-        "http://localhost:5000/api/payment/initialize",
-        data
-      );
-      if (res.data.status) {
-        window.location.href = res.data.data.authorization_url;
-      } else {
-        alert("Failed to initialize payment");
-      }
-    } catch (error) {
-      console.error(error);
-      alert("An error occurred while initializing payment");
-    }
+  const handleGetTickets = (ticket) => {
+    history.push('/ochemba/tickets/checkout', { ticket });
   };
+
 
   return (
     <div className="container-buy-ticket">
@@ -56,13 +29,13 @@ function BuyTicket() {
             />
             <h3 className="ticket-status">Singles</h3>
             <p className="ticket-price">₦3,000</p>
-            <button className="buy-tickets-button">Get Tickets</button>
+            <button className="buy-tickets-button" onClick={()=>handleGetTickets({ type: "single", price: 3000 })}>Get Tickets</button>
           </div>
           <div className="ticket">
             <img src="/ticket-couple.png" alt="Couples Ticket" className="ticket-image" />
             <h3 className="ticket-status">Couple</h3>
             <p className="ticket-price">₦5,000</p>
-            <button className="buy-tickets-button">Get Tickets</button>
+            <button className="buy-tickets-button" onClick={()=>handleGetTickets({ type: "couple", price: 5000 })}>Get Tickets</button>
           </div>
           <div className="ticket">
             <img
@@ -75,7 +48,7 @@ function BuyTicket() {
             <p className="ticket-price">₦10,000</p>
             <button
               className="buy-tickets-button"
-              onClick={() => handleGetTickets({ type: "Clan", price: 10000 })}
+              onClick={() => handleGetTickets({ type: "clan", price: 10000 })}
             >
               Get Tickets
             </button>

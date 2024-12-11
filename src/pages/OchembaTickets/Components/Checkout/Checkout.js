@@ -1,23 +1,70 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./Checkout.css";
 import axios from "axios";
+import { useHistory, useLocation } from 'react-router-dom';
 
-const Checkout = ({ type = "", amount = 0 }) => {
+const Checkout = () => {
+    const history = useHistory();
+  const location = useLocation();
+
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
   const [address, setAddress] = useState("");
   const [phoneNumber, setPhoneNumber] = useState("");
   const [notes, setNotes] = useState("");
   const [email, setEmail] = useState("");
+  const [ticket, setTicket] = useState({ type: "", price: 0 });
 
-  const handlePlaceOrder = (e) => {
+  useEffect(() => {
+    if (location.state && location.state.ticket) {
+      setTicket(location.state.ticket);
+    } else {
+      // Redirect back if no ticket data
+      alert("No ticket selected. Redirecting to Buy Tickets page.");
+      history.push('/ochemba/tickets');
+    }
+  }, [location, history]);
+
+  const handlePlaceOrder = async (e) => {
     e.preventDefault();
-    // Implement the logic to handle checkout form submission
-    alert("Order placed successfully!");
+
+    if (!email) {
+      alert("Please enter your email to proceed with the purchase.");
+      return;
+    }
+
+    const data = {
+      email,
+      amount: ticket.price,
+      metadata: {
+        ticketType: ticket.type,
+        firstName,
+        lastName,
+        address,
+        phoneNumber,
+        notes,
+      },
+    };
+
+    try {
+      const res = await axios.post(
+        "http://localhost:5000/api/payment/initialize",
+        data
+      );
+      if (res.data.status) {
+        window.location.href = res.data.data.authorization_url;
+      } else {
+        alert("Failed to initialize payment");
+      }
+    } catch (error) {
+      console.error(error);
+      alert("An error occurred while initializing payment");
+    }
   };
 
-  const getTypeImage = (type)=>{
-    switch(type){
+
+  const getTypeImage = (ticket)=>{
+    switch(ticket.type.toLowerCase()){
         case "clan":
             return "/ticket-clan.png"
         case "couple":
@@ -157,13 +204,13 @@ const Checkout = ({ type = "", amount = 0 }) => {
           <h2>Product details</h2>
           <div className="ticket">
             <img
-              src={getTypeImage()}
+              src={getTypeImage(ticket)}
               // style={{width: "37%", height: "auto"}}
               alt="Clan Ticket"
               className="ticket-image"
             />
             <h3 className="ticket-status">Clan</h3>
-            <p className="ticket-price">₦10,000</p>
+            <p className="ticket-price">₦{ticket.price.toLocaleString()}</p>
 
           </div>
           <p>Your personal data will be used to process your order, support your experience throughout this website, and for other purposes described in our privacy policy.</p>
