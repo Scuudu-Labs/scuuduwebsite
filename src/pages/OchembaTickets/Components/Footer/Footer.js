@@ -1,9 +1,9 @@
 import React from "react";
 import "./Footer.css";
 
-function Footer() {
+function Footer({useAbsolute=false}) {
   return (
-    <footer id="contact" className="footer">
+    <footer id="contact" className={useAbsolute === true ? "footer-absolute" : "footer"}>
       <img src="/footer-frond.png" alt="frond" className="footer-frond" />
       <img src="/footer-drum.png" alt="drum" className="footer-drum" />
       <div className="footer-container">

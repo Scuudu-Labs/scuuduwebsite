@@ -1,39 +1,88 @@
-import React from "react";
+import React, { useState } from "react";
 import "./BuyTickets.css";
+import axios from "axios";
 
 function BuyTicket() {
+  const [email, setEmail] = useState("");
+
+  const handleGetTickets = async (ticket) => {
+    const { type, price } = ticket;
+    const ticketType = type;
+    const amount = price;
+
+    if (!email) {
+      alert("Please enter your email to proceed with the purchase.");
+      return;
+    }
+
+    const data = {
+      email,
+      amount,
+      metadata: {
+        ticketType,
+      },
+    };
+
+    try {
+      const res = await axios.post(
+        "http://localhost:5000/api/payment/initialize",
+        data
+      );
+      if (res.data.status) {
+        window.location.href = res.data.data.authorization_url;
+      } else {
+        alert("Failed to initialize payment");
+      }
+    } catch (error) {
+      console.error(error);
+      alert("An error occurred while initializing payment");
+    }
+  };
+
   return (
     <div className="container-buy-ticket">
       <div id="tickets" className="buy-ticket">
         <h2 className="ticket-info">Available Tickets</h2>
         <div className="ticket-container">
-        <p className="ticket-note">5mins per session</p>
-        <img 
-          src="/ticket-line.png" 
-          alt="line" 
-          className="line" 
-        />
-      </div>
+          <p className="ticket-note">5mins per session</p>
+          <img src="/ticket-line.png" alt="line" className="line" />
+        </div>
         <div className="tickets">
           <div className="ticket">
-            <img src="/ticket-single.png" alt="Single Ticket" className="ticket-image" />
+            <img
+              src="/ticket-single.png"
+              alt="Single Ticket"
+              className="ticket-image"
+            />
             <h3 className="ticket-status">Singles</h3>
             <p className="ticket-price">₦3,000</p>
             <button className="buy-tickets-button">Get Tickets</button>
           </div>
           <div className="ticket">
-            <img src="/ticket-couple.png" alt="Couples Ticket" className="ticket-image" />
+            <img
+              src="/ticket-couple.png"
+              alt="Couples Ticket"
+              className="ticket-image"
+            />
             <h3 className="ticket-status">Couple</h3>
             <p className="ticket-price">₦5,000</p>
             <button className="buy-tickets-button">Get Tickets</button>
           </div>
           <div className="ticket">
-              <img src="/ticket-clan.png" 
-              // style={{width: "37%", height: "auto"}} 
-              alt="Clan Ticket" className="ticket-image" />
+            <img
+              src="/ticket-clan.png"
+              // style={{width: "37%", height: "auto"}}
+              alt="Clan Ticket"
+              className="ticket-image"
+            />
             <h3 className="ticket-status">Clan</h3>
             <p className="ticket-price">₦10,000</p>
-            <button className="buy-tickets-button">Get Tickets</button>
+            <button
+              className="buy-tickets-button"
+              onClick={() => handleGetTickets({ type: "Clan", price: 10000 })}
+            >
+              Get Tickets
+            </button>
           </div>
         </div>
       </div>

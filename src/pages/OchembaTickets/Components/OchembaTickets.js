@@ -15,7 +15,7 @@ class OchembaEnuguTickets extends React.Component {
         <EventDetails />
         <BuyTickets />
         <SpecialThanks />
-        <Footer />
+        <Footer useAbsolute={false} />
       </div>
     );
   }
