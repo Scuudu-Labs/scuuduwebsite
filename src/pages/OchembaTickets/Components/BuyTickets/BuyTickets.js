@@ -22,7 +22,7 @@ function BuyTicket() {
             <button className="buy-tickets-button">Get Tickets</button>
           </div>
           <div className="ticket">
-            <img src="/ticket-couple.png" alt="Couples Ticket" className="ticket-image" />
+            <img src="/ticket-couple.png" style={{width: "111px"}} alt="Couples Ticket" className="ticket-image" />
             <h3 className="ticket-status">Couple</h3>
             <p className="ticket-price">₦5,000</p>
             <button className="buy-tickets-button">Get Tickets</button>

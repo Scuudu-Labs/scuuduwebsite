@@ -46,7 +46,7 @@
     font-family: 'Grandstander ExtraBold';
     justify-content: space-evenly;
     align-items: center;
-    margin: 41px 30px 30px 41px;
+    margin: 47px 20px 30px 41px;
     font-weight: 800;
     color: rgba(81, 64, 38, 1);
     width: 100%;
@@ -62,8 +62,8 @@
   }
 
   .event-icon {
-    width: 90px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
   }
 
 @media (max-width: 962px) {
