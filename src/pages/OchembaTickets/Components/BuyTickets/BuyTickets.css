@@ -165,6 +165,10 @@
     width: 90%;
     margin: 0 5% 0 5%;
     }
+    .ticket-info {
+      padding-top: 30.83px;
+      font-weight:800;
+    }
     .ticket-status {
       margin-bottom: 1.5%;
     }

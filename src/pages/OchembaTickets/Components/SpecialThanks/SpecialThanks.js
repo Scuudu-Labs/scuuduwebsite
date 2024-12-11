@@ -22,7 +22,7 @@ function SpecialThanks() {
                 <p className="thank-designation">Governor of Enugu State</p>
               </div>
           </div>
-          <div className="thank" style={{marginTop: "28%"}}>
+          <div className="thank">
               <img 
               src="/rita-mbah.png" 
               alt="Rita Mbah" 

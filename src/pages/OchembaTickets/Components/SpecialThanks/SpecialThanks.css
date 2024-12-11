@@ -34,7 +34,7 @@
     color: #514026;
     font-weight: 800;
     font-size: 35px;
-    margin-top: 126px;
+    margin-top: 72.3px;
 }
 .thanks {
     display: flex; 
@@ -100,26 +100,22 @@
   }
 
   @media (max-width: 600px) {
+
     .mini-container-special {
       width: 90%;
       margin: 0 5% 0 5%;
     }
     .special-thanks-note {
       margin-top: 72.3px;
-      /* margin-bottom: 73.59px; */
-    }
-    .thank { position: relative;
-      width: 200px;
-      height: 200px;
-      margin-top: 73.59px;
+      margin-bottom: 73.59px;
     }
     .fgn-logo, .enugu-tourism { position: absolute;
-      top: 97.7%;
+      top: 57.9%;
       left: 51.3%;
       transform: translate(-50%, -50%);
     }
     .special-details {
-     margin-top:3%;
+     margin-top:2%;
     }
     .thank-status, .thank-designation {
       color: #514026;
