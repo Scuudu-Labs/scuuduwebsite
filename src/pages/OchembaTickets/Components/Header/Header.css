@@ -11,6 +11,7 @@
   font-family: "Grandstander ExtraBold", sans-serif;
   /* background: radial-gradient(93.83% 65.23% at 50% 50%, rgba(253, 209, 142, 0.50) 59.9%, rgba(163, 98, 24, 0.50) 100%), #FFF; */
   background-color: #fbf4eb;
+  position: sticky;
 }
 .header {
   display: flex;

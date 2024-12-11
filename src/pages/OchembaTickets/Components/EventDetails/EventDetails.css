@@ -51,6 +51,7 @@
     color: rgba(81, 64, 38, 1);
     width: 100%;
     max-width: calc(33% - 0px);
+    border: 1px solid red;
   }
 
   .event-info-item span {
