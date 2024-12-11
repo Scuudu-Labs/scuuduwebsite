@@ -10,7 +10,7 @@ const OchembaCheckoutPage =  ()=> {
         <div className="main">
                <Header showLink={false}/>
                <Checkout />
-               <Footer useAbsolute={true}/>
+               <Footer />
         </div>
     );
 

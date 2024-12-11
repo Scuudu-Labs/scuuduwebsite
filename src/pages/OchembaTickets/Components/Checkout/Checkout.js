@@ -100,6 +100,14 @@ const Checkout = ({ type = "", amount = 0 }) => {
                   required
                 />
               </p>
+              <p>{"Your email address will help us support your shopping experience throughout the site. \n"}
+                {"Please check our Privacy Policy to see how we use your personal data. \n"}</p>
+                <p>{"Your email address will help us support your shopping experience throughout the site. \n"}
+                {"Please check our Privacy Policy to see how we use your personal data. \n"}</p>
+                <p>{"Your email address will help us support your shopping experience throughout the site. \n"}
+                {"Please check our Privacy Policy to see how we use your personal data. \n"}</p>
+                <p>{"Your email address will help us support your shopping experience throughout the site. \n"}
+                {"Please check our Privacy Policy to see how we use your personal data. \n"}</p>
             </div>
           </form>
         </div>

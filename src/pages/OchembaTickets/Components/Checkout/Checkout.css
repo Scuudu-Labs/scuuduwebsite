@@ -40,14 +40,14 @@ html {
     display: block;
     color: #514026;
     font-weight: 700;
-    margin-bottom: 5px;
+    margin-bottom: 5px; 
   }
   
   .input-text {
     width: 90%;
     padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    border: 1px solid #513006;
+    border-radius: 10px;
   }
   
   .main-page-wrapper {
