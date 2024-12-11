@@ -12,6 +12,13 @@
   background-color:rgba(253, 209, 142, 0.5);
   position: relative;
 }
+
+.footer-absolute{
+  background-color:rgba(253, 209, 142, 0.5);
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+}
 .footer-container {
     display: flex;
     width: 50%;
@@ -25,6 +32,7 @@
     text-align: center;
     font-size: 14px;
     margin-bottom: 2.5%;
+    padding-top: 20px;
   }
 .footer-frond {
   position: absolute;

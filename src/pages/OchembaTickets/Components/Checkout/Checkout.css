@@ -1,0 +1,94 @@
+html {
+    margin: 0;
+    padding: 0;
+    font-family: "Avenir", sans-serif;
+    background-color: #fbf4eb;
+  }
+  
+  .page-main {
+    height: 100%;
+    padding: 24px;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .title {
+    text-align: center;
+    margin-bottom: 24px;
+    font-weight: bold;
+    font-size: 34px;
+  }
+  
+  .woocommerce-billing-fields h3,
+  .woocommerce-additional-fields h3 {
+    font-size: 24px;
+    color: #514026;
+    font-weight: 800;
+    margin-bottom: 15px;
+  }
+  
+  .form-row {
+    margin-bottom: 20px;
+  }
+  
+  .form-row label {
+    display: block;
+    color: #514026;
+    font-weight: 700;
+    margin-bottom: 5px; 
+  }
+  
+  .input-text {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #513006;
+    border-radius: 10px;
+  }
+  
+  .main-page-wrapper {
+    width: 50%;
+    background-color: rgba(253, 209, 142, 0.5);
+    padding: 30px 20px;
+    margin: 10px 0px;
+    height: 100%;
+  }
+  
+  .bill-page-wrapper {
+    width: 50%;
+    /* background-color: rgba(255, 242, 222, 0.5); */
+    padding: 40px 20px;
+    margin: 0px 40px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .buy-tickets-button {
+    font-size: 24px;
+    padding: 10px 34px;
+    width: 70%;
+    margin-top: 0.5%;
+    align-self: center;
+
+  }
+  .ticket{
+    margin-top: 24px;
+  }
+
+  @media (max-width: 800px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+      }
+
+  }

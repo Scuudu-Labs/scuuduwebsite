@@ -11,6 +11,11 @@
   font-family: "Grandstander ExtraBold", sans-serif;
   /* background: radial-gradient(93.83% 65.23% at 50% 50%, rgba(253, 209, 142, 0.50) 59.9%, rgba(163, 98, 24, 0.50) 100%), #FFF; */
   background-color: #fbf4eb;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
 }
 .header {
   display: flex;
@@ -61,7 +66,7 @@
     font-family: "Grandstander ExtraBold", sans-serif;
     background-color: #514026;
     color: #fff;
-    padding: 15px 42.5px 15px 41.5px;
+    padding: 15px 42.5px 15px 42.5px;
     text-decoration: none;
     border-radius: 50px;
     text-shadow:  
@@ -70,6 +75,11 @@
                 -.5px .5px 0px #FFBD73,
                 .5px -.5px 0px #FFBD73;
   }
+
+  /* .button.map-btn:hover {
+    
+  } */
+
   @media (max-width: 962px) {
     .button.direction-btn {
       display: none;
@@ -91,11 +101,11 @@
    justify-content: flex-end;
   }
   .logo-image.desktop{
-    display: none;
+    max-width: 200px;
   }
-  .logo-image.mobile {
+  /* .logo-image.mobile {
     display: flex;
-  }
+  } */
   .buy-tickets-btn {
     padding: 15px 20px;
     font-size: 14px;
@@ -104,6 +114,15 @@
     -.5px -.5px 0px #FFBD73,
     -.5px .5px 0px #FFBD73,
     .5px -.5px 0px #FFBD73;
+  }
+}
+
+@media (max-width: 600px) {
+  .logo-image.desktop {
+    display: none;
+  }
+  .logo-image.mobile {
+    display: flex;
   }
 }
 
