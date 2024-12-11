@@ -1,10 +1,14 @@
+@font-face {
+  font-family: 'Grandstander ExtraBold';
+  src: url('../../../../assets/fonts/Grandstander-ExtraBold.woff') format('woff');
+}
 * {
   padding: 0;
   margin: 0;
 }
 
 .header-container {
-  font-family: "Grandstander", sans-serif;
+  font-family: "Grandstander ExtraBold", sans-serif;
   /* background: radial-gradient(93.83% 65.23% at 50% 50%, rgba(253, 209, 142, 0.50) 59.9%, rgba(163, 98, 24, 0.50) 100%), #FFF; */
   background-color: #fbf4eb;
 }
@@ -46,6 +50,7 @@
     font-size: 16px;
     font-weight: 800;
     text-decoration: underline;
+    font-family: "Grandstander ExtraBold", sans-serif;
     color: #514026;
   }
  
@@ -53,16 +58,17 @@
     display: none;
   }
   .buy-tickets-btn {
+    font-family: "Grandstander ExtraBold", sans-serif;
     background-color: #514026;
     color: #fff;
     padding: 15px 42.5px 15px 41.5px;
     text-decoration: none;
     border-radius: 50px;
     text-shadow:  
-                1px 1px 0px #FFBD73, 
-                -1px -1px 0px #FFBD73,
-                -1px 1px 0px #FFBD73,
-                1px -1px 0px #FFBD73;
+                .5px .5px 0px #FFBD73, 
+                -.5px -.5px 0px #FFBD73,
+                -.5px .5px 0px #FFBD73,
+                .5px -.5px 0px #FFBD73;
   }
   @media (max-width: 962px) {
     .button.direction-btn {

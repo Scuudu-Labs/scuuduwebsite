@@ -1,8 +1,13 @@
 @font-face {
-  font-family: 'HanziPen';
+  font-family: 'HanziPen TC Regular';
   src: url('../../../../assets/fonts/hanzipen-tc-regular.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
+}
+
+@font-face {
+  font-family: 'Grandstander ExtraBold';
+  src: url('../../../../assets/fonts/Grandstander-ExtraBold.woff') format('woff');
 }
 
 @font-face {
@@ -10,6 +15,14 @@
   src: url('../../../../assets/fonts/Avenir-Book.woff') format('woff');
   font-weight: normal;
   font-style: normal;
+}
+@font-face {
+  font-family: 'Avenir Next Cyr';
+  src: url('../../../../assets/fonts/AvenirNextCyr-Demi.woff') format('woff');
+}
+@font-face {
+  font-family: 'Avenir Roman';
+  src: url('../../../../assets/fonts/Avenir-Roman.woff') format('woff');
 }
 * {
   padding: 0;
@@ -26,7 +39,8 @@
     justify-content: space-between;
 }
 
-.first-hero-content {
+.first-hero-content { 
+  border: 1px solid red;
     position: relative;
     width: 60%;
     max-width: 800px;
@@ -54,7 +68,7 @@
   position: absolute;
   width: 25%;
   max-width: 150px;
-  right: 10%;
+  right: 8%;
   top: 14%;
 }
 
@@ -66,36 +80,39 @@
 .first-hero-head {
   color: #514026;
   text-shadow: 
-  1px 1px 0px #514026, 
-  -1px -1px 0px #514026,
-  -1px 1px 0px #514026,
-  1px -1px 0px #514026;
+  .5px .5px 0px #514026, 
+  -.5px -.5px 0px #514026,
+  -.5px .5px 0px #514026,
+  .5px -.5px 0px #514026;
   margin-top: 1rem;
-  font-family: 'HanziPen', sans-serif;
+  font-family: 'HanziPen TC Regular', sans-serif;
   font-size: 3rem;
-  font-weight: 400;
-  line-height: 1.2;
+  -webkit-text-stroke-width: 2;
+  font-weight: 800;
+  letter-spacing: 2px;
+  line-height: 120%;
   }
 
 .first-hero-paragraph {
   color: #000000;
-  font-family: 'Avenir', sans-serif;
-  font-size: .8rem;
-  font-weight: 800;
-  line-height: 2;
-  margin: 3rem 0;
+  font-family: 'Avenir Roman', sans-serif;
+  font-size: .85rem;
+  font-weight: normal;
+  line-height: 2.2;
+  margin: 1rem 0 2rem 0;
 }
 
 .hero-buttons a {
+  font-family: "Grandstander ExtraBold", sans-serif;
     display: inline-block;
     background: rgba(81, 64, 38);
     color: #FFFFFF;
     padding: 15px 44.5px 15px 43.5px;
     text-shadow: 
-    1px 1px 0px #FFBD73, 
-    -1px -1px 0px #FFBD73,
-    -1px 1px 0px #FFBD73,
-    1px -1px 0px #FFBD73;
+    .5px .5px 0px #FFBD73, 
+    -.5px -.5px 0px #FFBD73,
+    -.5px .5px 0px #FFBD73,
+    .5px -.5px 0px #FFBD73;
     font-size: 1rem;
     font-weight: 800;
     text-decoration: none;
@@ -103,20 +120,22 @@
 
   .leaf { 
     position: absolute;
-    width: 22%;
+    width: 15%;
     max-width: 150px;
-    bottom: 2%;
-    right: 0;
+    bottom: 6%;
+    right: 5.5%;
   }
   .leaf img {
     box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.25);
     filter: blur(0.25px);
   }
 
-  .first-hero-image {
+  .first-hero-image { border: 1px solid blue;
     position: relative;
     max-width: 400px;
+    flex-direction: column;
     text-align: center;
+    right: 0;
     width: 40%;
   }
   
@@ -130,9 +149,10 @@
 
 
   .ochemba-shield {
-    width: 90%;
-    max-width: 300px;
-    margin: 6rem auto auto auto;
+    width: 100%;
+    max-width: 235.268px;
+    height: 343.684px;
+    margin: 9rem auto auto auto;
     display: block;
     filter: drop-shadow(0px 5px 12px rgba(0, 0, 0, 0.25));
   }
@@ -141,24 +161,61 @@
     width: 12%;
     background: transparent;
     position: absolute;
-    right: 40px;
-    bottom: 23%;
+    right: 19%;
+    top: 67%;
   }
 
 .first-hero-text {
-  font-family: 'Avenir';
-  font-size: .9rem;
+  font-family: 'Avenir Roman';
+  font-size: 0.8rem;
   font-weight: 800;
   text-align: center;
 }
-
-/* Media Queries for Responsiveness */
+@media (max-width: 962px) {
+  .virtual-reality-btn {
+    margin: 3.2rem 0 1.5rem 0;
+  }
+  .first-hero-head{
+    font-size: 2.15rem;
+  }
+  .first-hero-paragraph{
+    font-size: 0.68rem;
+    line-height: 1.8;
+  }
+  .bead {
+    right: 4.5%;
+    top: 13%;
+  }
+  .leaf {
+    right: 1.5%;
+    bottom: 15%;
+  }
+  .ochemba-shield{
+    max-width: 200px;
+    height: auto;
+    margin: 5.8rem auto auto auto;
+  }
+}
 @media (max-width: 768px) {
   .first-hero-container {
-   display: flex;
-    align-items: center;
+    flex-direction: column; 
+    width: 100%;
+    margin: 0;
+      
   }
-
+  
+  .first-hero-head,.first-hero-image {
+    width: 100%;
+  }
+  
+  .first-hero-image {
+    order: -1; 
+  }
+  .ochemba-shield{
+    width: 100%;
+  }
+}
+/* 
   .first-hero-head {
     font-size: 2rem;
   }
@@ -175,7 +232,7 @@
     top:96%;
   }
  
-}
+} */
 
 @media (max-width: 480px) {
   .first-hero-head {
