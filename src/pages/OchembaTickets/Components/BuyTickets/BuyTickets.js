@@ -40,7 +40,6 @@ function BuyTicket() {
           <div className="ticket">
             <img
               src="/ticket-clan.png"
-              // style={{width: "37%", height: "auto"}}
               alt="Clan Ticket"
               className="ticket-image"
             />

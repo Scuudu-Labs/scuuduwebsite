@@ -258,19 +258,26 @@
 }
 
 @media (max-width: 600px) {
+  .first-hero-container {
+    width: 90%;
+    margin: 0 5% 0 5%;
+  }
+  .ochemba-shield {
+    width: 100%;
+  }
   .bead {
     top: 13%;
-    right: 2%;
+    right: 10%;
   }
   .first-hero-head {
-    font-size: 2.4rem;
+    font-size: 2.6rem;
   }
   .first-hero-paragraph {
-    font-size: .69rem;
+    font-size: .75rem;
   }
   .leaf {
-    bottom: 3%;
-    right: 5%;
+    bottom: -15%;
+    right: 11%;
   }
   .mask {
     top: 76%;

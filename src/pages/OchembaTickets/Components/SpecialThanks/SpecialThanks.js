@@ -16,11 +16,13 @@ function SpecialThanks() {
               src="/fgn-logo.png" 
               alt="fgn" 
               className="fgn-logo" />
-              <p className="thank-status">His Excellency</p>
-              <p className="thank-name">Dr. Peter Ndubuisi Mbah</p>
-              <p className="thank-designation">Governor of Enugu State</p>
+              <div className="special-details">
+                <p className="thank-status">His Excellency</p>
+                <p className="thank-name">Dr. Peter Ndubuisi Mbah</p>
+                <p className="thank-designation">Governor of Enugu State</p>
+              </div>
           </div>
-          <div className="thank">
+          <div className="thank" style={{marginTop: "28%"}}>
               <img 
               src="/rita-mbah.png" 
               alt="Rita Mbah" 
@@ -29,9 +31,11 @@ function SpecialThanks() {
               src="/enugu-tourism-logo.png" 
               alt="enugu-tourism" 
               className="enugu-tourism" />
-              <p className="thank-status">Her Honourable</p>
-              <p className="thank-name">Lady Rita Mbah</p>
-              <p className="thank-designation">Chairman, Enugu State Tourism Board</p>
+              <div className="special-details">
+                <p className="thank-status">Her Honourable</p>
+                <p className="thank-name">Lady Rita Mbah</p>
+                <p className="thank-designation">Chairman, Enugu State Tourism Board</p>
+              </div>
           </div>
         </div>
       </div>

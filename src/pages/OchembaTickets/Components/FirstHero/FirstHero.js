@@ -25,7 +25,7 @@ function FirstHero() {
             Are you ready to rewrite destiny?
           </p>
           <div className="hero-buttons">
-            <a href="#Ticket" className="buy-tickets-btn">Get Tickets</a>
+            <a href="#tickets" className="buy-tickets-btn">Get Tickets</a>
           </div>
           <img src="/leaf.png" alt="leaf" className="leaf" />
 

@@ -137,6 +137,8 @@
                 .5px -.5px 0px #FFBD73;
   }
 
+  @media (max-width: 962px) {}
+
   @media (max-width: 768px) {
     .tickets {
       flex-direction: column;
@@ -155,6 +157,22 @@
   
     .ticket-note {
       font-size: 13px;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .buy-ticket {
+    width: 90%;
+    margin: 0 5% 0 5%;
+    }
+    .ticket-status {
+      margin-bottom: 1.5%;
+    }
+    .ticket-price {
+      margin-bottom: 5%;
+    }
+    .buy-tickets-button{
+      max-width: 200px;
     }
   }
   
