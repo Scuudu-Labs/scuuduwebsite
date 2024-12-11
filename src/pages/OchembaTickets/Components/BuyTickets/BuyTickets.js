@@ -84,6 +84,7 @@ function BuyTicket() {
               Get Tickets
             </button>
           </div>
+          
         </div>
       </div>
     </div>
