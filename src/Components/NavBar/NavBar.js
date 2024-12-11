@@ -110,6 +110,9 @@ class NavBar extends React.Component {
               >
                 Meet The Team
               </Link>
+              <Link to="/ochemba/tickets" onClick={() => this.changeLogo("/logo.svg")}>
+                Ochemba
+              </Link>
               <Link to="/store" onClick={() => this.changeLogo("/logo.svg")}>
                 Store
               </Link>
