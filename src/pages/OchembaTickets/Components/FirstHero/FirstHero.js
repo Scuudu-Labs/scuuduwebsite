@@ -32,7 +32,7 @@ function FirstHero() {
         </div>
         <div className="first-hero-image">
           <img src="/leaves.svg" alt="leaves" className="leaves" />
-          <img src="/ochemba-shield.svg" alt="Ochemba Enugu Logo" className="ochemba-shield" />
+          <img src="/ochemba-shield.png" alt="Ochemba Enugu Logo" className="ochemba-shield" />
           <img src="/mask.svg" alt="mask" className="mask" />
           <p className="first-hero-text"><b>The Virtual Reality Experience</b></p>
 
