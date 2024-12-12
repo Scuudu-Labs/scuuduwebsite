@@ -31,9 +31,10 @@
 .special-thanks-note {
   font-family: 'HanziPen', cursive;
     text-align: center;
+    color: #514026;
     font-weight: 800;
     font-size: 35px;
-    margin-top: 126px;
+    margin-top: 72.3px;
 }
 .thanks {
     display: flex; 
@@ -61,7 +62,7 @@
   .fgn-logo, .enugu-tourism {
     position: absolute;
     top: 63%;
-    left: 50%;
+    left: 51.2%;
     transform: translate(-50%, -50%);
     width: 40px;
     height: auto;
@@ -95,6 +96,40 @@
   
     .thank {
       flex: 1 1 80%;
+    }
+  }
+
+  @media (max-width: 600px) {
+
+    .mini-container-special {
+      width: 90%;
+      margin: 0 5% 0 5%;
+    }
+    .special-thanks-note {
+      margin-top: 72.3px;
+      margin-bottom: 73.59px;
+    }
+    .fgn-logo, .enugu-tourism { position: absolute;
+      top: 57.9%;
+      left: 51.3%;
+      transform: translate(-50%, -50%);
+    }
+    .special-details {
+     margin-top:2%;
+    }
+    .thank-status, .thank-designation {
+      color: #514026;
+      font-family: Avenir;
+      font-size: 18px;
+    }
+    .thank-status {
+      margin-bottom: .4%;
+    }
+    .thank-name {
+      font-weight: 800;
+      color: #514026;
+      font-size: 25px;
+      margin-bottom: .8%;
     }
   }
   

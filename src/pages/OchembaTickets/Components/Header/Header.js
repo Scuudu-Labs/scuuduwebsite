@@ -13,7 +13,7 @@ function Header({showLink = true}) {
           showLink && (        <nav className="header-buttons">
             <a href="https://maps.app.goo.gl/zc1G3xL3ZRc2b4pW7" className="button direction-btn">Direction to Unity Park</a>
             <a href="https://maps.app.goo.gl/zc1G3xL3ZRc2b4pW7" className="button map-btn">Map</a>
-            <a href="#Ticket" className="button buy-tickets-btn">Get Tickets</a>
+            <a href="#tickets" className="button buy-tickets-btn">Get Tickets</a>
           </nav>)
         }
 
