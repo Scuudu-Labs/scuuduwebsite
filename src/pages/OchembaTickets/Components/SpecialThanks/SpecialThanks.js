@@ -9,11 +9,11 @@ function SpecialThanks() {
         <div className="thanks">
           <div className="thank">
               <img 
-              src="/peter-mbah.png" 
+              src="/peter-mbah.webp" 
               alt="Peter Mbah" 
               className="ticket-image" />
               <img 
-              src="/fgn-logo.png" 
+              src="/fgn-logo.webp" 
               alt="fgn" 
               className="fgn-logo" />
               <div className="special-details">
@@ -24,11 +24,11 @@ function SpecialThanks() {
           </div>
           <div className="thank">
               <img 
-              src="/rita-mbah.png" 
+              src="/rita-mbah.webp" 
               alt="Rita Mbah" 
               className="ticket-image" />
               <img 
-              src="/enugu-tourism-logo.png" 
+              src="/enugu-tourism-logo.webp" 
               alt="enugu-tourism" 
               className="enugu-tourism" />
               <div className="special-details">

@@ -18,12 +18,12 @@ function BuyTicket() {
         <h2 className="ticket-info">Available Tickets</h2>
         <div className="ticket-container">
           <p className="ticket-note">5mins per session</p>
-          <img src="/ticket-line.png" alt="line" className="line" />
+          <img src="/ticket-line.webp" alt="line" className="line" />
         </div>
         <div className="tickets">
           <div className="ticket">
             <img
-              src="/ticket-single.png"
+              src="/ticket-single.webp"
               alt="Single Ticket"
               className="ticket-image"
             />
@@ -32,14 +32,14 @@ function BuyTicket() {
             <button className="buy-tickets-button" onClick={()=>handleGetTickets({ type: "single", price: 3000 })}>Get Tickets</button>
           </div>
           <div className="ticket">
-            <img src="/ticket-couple.png" alt="Couples Ticket" className="ticket-image" />
+            <img src="/ticket-couple.webp" alt="Couples Ticket" className="ticket-image" />
             <h3 className="ticket-status">Couple</h3>
             <p className="ticket-price">₦5,000</p>
             <button className="buy-tickets-button" onClick={()=>handleGetTickets({ type: "couple", price: 5000 })}>Get Tickets</button>
           </div>
           <div className="ticket">
             <img
-              src="/ticket-clan.png"
+              src="/ticket-clan.webp"
               alt="Clan Ticket"
               className="ticket-image"
             />

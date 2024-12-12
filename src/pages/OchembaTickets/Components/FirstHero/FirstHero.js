@@ -12,7 +12,7 @@ function FirstHero() {
             </svg>
             Virtual Reality
           </button>
-          <img src="/bead.svg" alt="bead" className="bead" />
+          <img src="/bead.webp" alt="bead" className="bead" />
           <h1 className="first-hero-head">
             Unleash the warrior<br />within in Virtual Reality
           </h1>
@@ -27,13 +27,13 @@ function FirstHero() {
           <div className="hero-buttons">
             <a href="#tickets" className="buy-tickets-btn">Get Tickets</a>
           </div>
-          <img src="/leaf.svg" alt="leaf" className="leaf" />
+          <img src="/leaf.webp" alt="leaf" className="leaf" />
 
         </div>
         <div className="first-hero-image">
-          <img src="/leaves.svg" alt="leaves" className="leaves" />
-          <img src="/ochemba-shield.png" alt="Ochemba Enugu Logo" className="ochemba-shield" />
-          <img src="/mask.svg" alt="mask" className="mask" />
+          <img src="/leaves.webp" alt="leaves" className="leaves" />
+          <img src="/ochemba-shield.webp" alt="Ochemba Enugu Logo" className="ochemba-shield" />
+          <img src="/mask.svg" alt="webp" className="mask" />
           <p className="first-hero-text"><b>The Virtual Reality Experience</b></p>
 
         </div>
