@@ -4,13 +4,13 @@ import "./Footer.css";
 function Footer() {
   return (
 <footer id="contact" className="footer">
-  <img src="/footer-drum.png" alt="drum" className="footer-drum" />
+  <img src="/footer-drum.svg" alt="drum" className="footer-drum" />
   <div className="footer-container">
     <p className="copyright">
       Developed by Scuudu Labs in partnership with Enugu State Tourism Board
     </p>
   </div>
-  <img src="/footer-frond.png" alt="frond" className="footer-frond"  style={{width: "100%", height: "auto"}}/>
+  <img src="/footer-frond.svg" alt="frond" className="footer-frond" />
 </footer>
   );
 }

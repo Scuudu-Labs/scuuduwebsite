@@ -94,6 +94,11 @@
     right: 0;
   }
 
+  .footer-frond img {
+    width: 100%; 
+    height: auto;
+  }
+
 }
   @media (max-width: 393px) {
    .copyright {

@@ -117,6 +117,9 @@
     margin-left: 10%;
     max-width: 80%;
   }
+  .event-info-item.first, .event-info-item.third {
+    margin-top:10%;
+  }
   .event-info-item span {
     width: 50%;
     font-size: 1.2rem;
