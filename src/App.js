@@ -12,6 +12,7 @@ import PrivacyPolicy from "./PrivacyPolicy";
 import OchembaEnuguTickets from "./pages/OchembaTickets/Components/OchembaTickets";
 import OchembaCheckoutPage from "./pages/OchembaTickets/Pages/Checkout/OchembaCheckout";
 import OchembaVerification from "./pages/OchembaTickets/VerificationPages/Login/Login";
+import OchembaReceipt from "./pages/OchembaTickets/TicketingPage/ReceiptPage/Receipt";
 
 // const DefaultRoutes = () => {
 //   return (
@@ -52,6 +53,7 @@ class App extends React.Component {
             <Route path="/privacy-policy/tranzakt" component={PrivacyPolicy} />
             <Route path="/ochemba/tickets/checkout" component={OchembaCheckoutPage} />
             <Route path="/ochemba/tickets/verification" component={OchembaVerification} />
+            <Route path="/ochemba/tickets/receipt" component={OchembaReceipt} />
             <Route path="/ochemba/tickets" component={OchembaEnuguTickets} />
          
             <Route component={PageNotFOund} />

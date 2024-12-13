@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.ticket-container {
+    background-color: #F2D9B7;
+    border: 1px solid red;
+}
+
+.ticket-left {
+    width: 40%;
+    display: flex;
+    
+}
+
+.ticket-right {
+    width: 60%;
+    display: flex;
+}
