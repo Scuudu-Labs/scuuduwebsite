@@ -11,7 +11,7 @@ import Store from "./Components/Store/Store";
 import PrivacyPolicy from "./PrivacyPolicy";
 // import OchembaEnuguTickets from "./pages/OchembaTickets";
 import OchembaEnuguTickets from "./pages/OchembaTickets/Components/OchembaTickets";
-import OchembaCheckoutPage from "./pages/OchembaTickets/Pages/OchembaCheckout";
+import OchembaCheckoutPage from "./pages/OchembaTickets/Pages/Checkout/OchembaCheckout";
 
 // const DefaultRoutes = () => {
 //   return (
