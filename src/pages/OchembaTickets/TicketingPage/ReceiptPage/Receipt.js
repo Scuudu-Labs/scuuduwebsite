@@ -1,5 +1,5 @@
 import React from 'react';
-import './Ticketing.css';
+import './Receipt.css';
 
 const TicketPage = () => {
   return (
