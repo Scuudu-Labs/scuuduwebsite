@@ -9,7 +9,6 @@ import MeetTheTeam from "./MeetTheTeam";
 import PageNotFOund from "./pageNotFound";
 import Store from "./Components/Store/Store";
 import PrivacyPolicy from "./PrivacyPolicy";
-// import OchembaEnuguTickets from "./pages/OchembaTickets";
 import OchembaEnuguTickets from "./pages/OchembaTickets/Components/OchembaTickets";
 import OchembaCheckoutPage from "./pages/OchembaTickets/Pages/Checkout/OchembaCheckout";
 
