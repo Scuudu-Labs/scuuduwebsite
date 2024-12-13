@@ -26,6 +26,7 @@ const Checkout = () => {
   }, [location, history]);
 
   const handlePlaceOrder = async (e) => {
+    if (e != null)
     e.preventDefault();
 
     if (!email) {
@@ -33,9 +34,11 @@ const Checkout = () => {
       return;
     }
 
+
+
     const data = {
       email,
-      amount: ticket.price,
+      amount: ticket.price * 100,
       metadata: {
         ticketType: ticket.type,
         firstName,
@@ -46,13 +49,16 @@ const Checkout = () => {
       },
     };
 
+    console.log({data})
+
     try {
       const res = await axios.post(
         "http://localhost:10000/api/ochembaPayment/initialize",
         data
       );
       if (res.data.status) {
-        window.location.href = res.data.data.authorization_url;
+        console.log(res.data)
+        //window.location.href = res.data.data.authorization_url;
       } else {
         alert("Failed to initialize payment");
       }
@@ -76,39 +82,39 @@ const Checkout = () => {
     }
   }
 
-  const handleGetTickets = async (ticket) => {
-    const { type, price } = ticket;
-    const ticketType = type;
-    const amount = price;
+  // const handleGetTickets = async () => {
+  //   const { type, price } = ticket;
+  //   const ticketType = type;
+  //   const amount = price;
 
-    if (!email) {
-      alert("Please enter your email to proceed with the purchase.");
-      return;
-    }
+  //   if (!email) {
+  //     alert("Please enter your email to proceed with the purchase.");
+  //     return;
+  //   }
 
-    const data = {
-      email,
-      amount,
-      metadata: {
-        ticketType,
-      },
-    };
+  //   const data = {
+  //     email,
+  //     amount,
+  //     metadata: {
+  //       ticketType,
+  //     },
+  //   };
 
-    try {
-      const res = await axios.post(
-        "http://localhost:10000/api/ochembaPayment/initialize",
-        data
-      );
-      if (res.data.status) {
-        window.location.href = res.data.data.authorization_url;
-      } else {
-        alert("Failed to initialize payment");
-      }
-    } catch (error) {
-      console.error(error);
-      alert("An error occurred while initializing payment");
-    }
-  };
+  //   try {
+  //     const res = await axios.post(
+  //       "http://localhost:10000/api/ochembaPayment/initialize",
+  //       data
+  //     );
+  //     if (res.data.status) {
+  //       window.location.href = res.data.data.authorization_url;
+  //     } else {
+  //       alert("Failed to initialize payment");
+  //     }
+  //   } catch (error) {
+  //     console.error(error);
+  //     alert("An error occurred while initializing payment");
+  //   }
+  // };
 
   return (
     <div className="page-main">
@@ -231,14 +237,14 @@ const Checkout = () => {
               alt="Clan Ticket"
               className="ticket-image"
             />
-            <h3 className="ticket-status">Clan</h3>
+            <h3 className="ticket-status">{ticket.type}</h3>
             <p className="ticket-price">₦{ticket.price.toLocaleString()}</p>
 
           </div>
           <p>Your personal data will be used to process your order, support your experience throughout this website, and for other purposes described in our privacy policy.</p>
           <button
               className="buy-tickets-button"
-              onClick={() => handleGetTickets({ type: "Clan", price: 10000 })}
+              onClick={() => handlePlaceOrder()}
             >
               Place order
             </button>
