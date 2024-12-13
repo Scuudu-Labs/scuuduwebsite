@@ -179,38 +179,24 @@
       max-width: 200px;
     }
   }
-  
+
   @media (max-width: 393px) {
     .buy-ticket {
-      width: 70%;
-      flex-direction: column;
-      align-items: center;
-     
+    width: 90%;
+    margin: 0 5% 0 5%;
     }
-  
-    .ticket-info {
-      font-size: 23px;
-    }
-  
-    .ticket-note {
-      font-size: 10px;
-    }
-  
-    .ticket {
-      width: 80%;
-    }
-  
+
     .ticket-status {
+      font-size: 28px;
+    }
+
+    .ticket-price {
       font-size: 16px;
     }
-  
-    .ticket-price {
-      font-size: 14px;
-    }
-  
+
     .buy-tickets-button {
       font-size: 12px;
-      padding: 10px 14px;
-
     }
+
   }
+  
