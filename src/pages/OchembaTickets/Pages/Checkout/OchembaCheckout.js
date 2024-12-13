@@ -1,9 +1,8 @@
 import React from "react";
 import "./CheckoutPage.css";
-import Header from "../Components/Header/Header";
-import Footer from "../Components/Footer/Footer";
-import Checkout from "../Components/Checkout/Checkout";
-import "./CheckoutPage.css"
+import Header from "../../Components/Header/Header";
+import Footer from "../../Components/Footer/Footer";
+import Checkout from "../../Components/Checkout/Checkout";
 
 const OchembaCheckoutPage =  ()=> {
     return (
